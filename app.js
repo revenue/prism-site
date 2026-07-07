@@ -828,6 +828,47 @@ async function loadBuilderAssets() {
   builder.assetIcons = out;
   if ($("#builderFrame") && currentView === "builder") renderBuilder();
 }
+/* 내가 준비한 폴더(사이트 패키지) 업로드 → 상대경로 에셋을 blob URL로 연결해 미리보기.
+   내 콘텐츠를 로컬에서 렌더할 뿐, 외부 사이트를 가져오지 않음. */
+async function previewUploadedFolder(files) {
+  const paths = files.map((f) => f.webkitRelativePath || f.name);
+  const root = (paths[0] || "").includes("/") ? paths[0].split("/")[0] + "/" : "";
+  const map = new Map(); // relPath(lowercase) -> File
+  for (const f of files) { let rel = f.webkitRelativePath || f.name; if (root && rel.startsWith(root)) rel = rel.slice(root.length); map.set(rel.toLowerCase(), f); }
+  let indexKey = [...map.keys()].find((k) => k === "index.html") || [...map.keys()].find((k) => k.endsWith("/index.html")) || [...map.keys()].find((k) => k.endsWith(".html"));
+  if (!indexKey) return toast("index.html을 찾을 수 없습니다");
+  const indexDir = indexKey.includes("/") ? indexKey.slice(0, indexKey.lastIndexOf("/") + 1) : "";
+  const blobUrls = new Map();
+  const urlFor = (key) => { if (blobUrls.has(key)) return blobUrls.get(key); const f = map.get(key); if (!f) return null; const u = URL.createObjectURL(f); blobUrls.set(key, u); return u; };
+  const resolve = (baseDir, ref) => {
+    if (!ref || /^(https?:|data:|blob:|#|mailto:|tel:|\/\/|javascript:)/i.test(ref)) return null;
+    let p = ref.split("#")[0].split("?")[0];
+    p = p.startsWith("/") ? p.slice(1) : baseDir + p;
+    const parts = []; for (const seg of p.split("/")) { if (seg === "..") parts.pop(); else if (seg === "." || seg === "") continue; else parts.push(seg); }
+    return parts.join("/").toLowerCase();
+  };
+  const rewriteCss = async (css, baseDir) => {
+    const refs = [...css.matchAll(/url\(\s*['"]?([^'")]+)['"]?\s*\)/g)];
+    for (const m of refs) { const key = resolve(baseDir, m[1]); const u = key && urlFor(key); if (u) css = css.split(m[0]).join(`url(${u})`); }
+    return css;
+  };
+  const cssBlob = async (key) => { const f = map.get(key); if (!f) return null; const dir = key.includes("/") ? key.slice(0, key.lastIndexOf("/") + 1) : ""; return URL.createObjectURL(new Blob([await rewriteCss(await f.text(), dir)], { type: "text/css" })); };
+  const doc = new DOMParser().parseFromString(await map.get(indexKey).text(), "text/html");
+  for (const el of doc.querySelectorAll("[src],[href],[poster],[data-src]")) {
+    for (const attr of ["src", "href", "poster", "data-src"]) {
+      const v = el.getAttribute(attr); if (!v) continue;
+      const key = resolve(indexDir, v); if (!key || !map.has(key)) continue;
+      if (el.tagName === "LINK" && /stylesheet/i.test(el.getAttribute("rel") || "")) { const u = await cssBlob(key); if (u) el.setAttribute(attr, u); }
+      else { const u = urlFor(key); if (u) el.setAttribute(attr, u); }
+    }
+  }
+  for (const st of doc.querySelectorAll("style")) st.textContent = await rewriteCss(st.textContent, indexDir);
+  const out = "<!DOCTYPE html>" + doc.documentElement.outerHTML;
+  builder.uploadedHtml = out; builder.uploadedName = indexKey;
+  $("#builderFrame").srcdoc = out;
+  $("#bHint").style.display = "none"; $("#bUploadHint").style.display = "";
+  toast(`폴더 미리보기 · ${map.size}개 파일 · ${indexKey}`);
+}
 function initBuilder() {
   $("#industryList").innerHTML = Object.keys(INDUSTRIES).map(k => `<option value="${esc(k)}">`).join("");
   $("#productList").innerHTML = PRODUCT_HINTS.map(k => `<option value="${esc(k)}">`).join("");
@@ -857,6 +898,9 @@ function initBuilder() {
     r.readAsText(f); e.target.value = "";
   };
   $("#bBackToGen").onclick = () => { builder.uploadedHtml = null; $("#bUploadHint").style.display = "none"; $("#bHint").style.display = ""; renderBuilder(); toast("빌더로 돌아왔습니다"); };
+  // 내 폴더(사이트 패키지) 업로드 → 상대경로를 blob으로 연결해 미리보기
+  $("#bUploadFolder").onclick = () => $("#bFolderFile").click();
+  $("#bFolderFile").onchange = async (e) => { const files = [...e.target.files]; e.target.value = ""; if (files.length) await previewUploadedFolder(files); };
   renderFeatRows(); renderStatRows(); renderMoodSwatch();
   // 초기 화면 = 완성형 사이트: 기본 브리프 + 어워드 수상 레퍼런스를 실제 적용해 출력
   $("#bIndustry").value = "SaaS/소프트웨어"; $("#bProduct").value = "Nova"; $("#bGoal").value = "무료체험 가입을 늘리고 싶어요";
