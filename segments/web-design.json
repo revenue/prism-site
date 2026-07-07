@@ -1,0 +1,137 @@
+{
+  "category": "web-design",
+  "count": 7,
+  "items": [
+    {
+      "id": "behance:behance-presentation-design",
+      "source": "behance",
+      "sourceName": "Behance — Presentation Design",
+      "category": "web-design",
+      "type": "inspiration",
+      "title": "Behance — Presentation Design 검색",
+      "url": "https://www.behance.net/search/projects/presentation%20design",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "deck",
+        "art-direction"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-03T07:29:43.795Z"
+    },
+    {
+      "id": "behance:behance-infographic",
+      "source": "behance",
+      "sourceName": "Behance — Presentation Design",
+      "category": "web-design",
+      "type": "inspiration",
+      "title": "Behance — Infographic 검색",
+      "url": "https://www.behance.net/search/projects/infographic",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "infographic"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-03T07:29:43.795Z"
+    },
+    {
+      "id": "dribbble:dribbble-infographic",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "web-design",
+      "type": "inspiration",
+      "title": "Dribbble — Infographic 태그",
+      "url": "https://dribbble.com/tags/infographic",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "infographic",
+        "ui"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-03T07:29:43.795Z"
+    },
+    {
+      "id": "dribbble:dribbble-data-visualization",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "web-design",
+      "type": "inspiration",
+      "title": "Dribbble — Data Visualization",
+      "url": "https://dribbble.com/tags/data-visualization",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "dataviz",
+        "dashboard"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-03T07:29:43.795Z"
+    },
+    {
+      "id": "dribbble:dribbble-presentation",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "web-design",
+      "type": "inspiration",
+      "title": "Dribbble — Presentation 태그",
+      "url": "https://dribbble.com/tags/presentation",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "presentation"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-03T07:29:43.795Z"
+    },
+    {
+      "id": "awwwards:awwwards",
+      "source": "awwwards",
+      "sourceName": "Awwwards",
+      "category": "web-design",
+      "type": "inspiration",
+      "title": "Awwwards — 수상 사이트 갤러리",
+      "url": "https://www.awwwards.com/websites/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "web",
+        "award"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-03T07:29:43.795Z"
+    },
+    {
+      "id": "awwwards:awwwards-data-visualization",
+      "source": "awwwards",
+      "sourceName": "Awwwards",
+      "category": "web-design",
+      "type": "inspiration",
+      "title": "Awwwards — Data Visualization 컬렉션",
+      "url": "https://www.awwwards.com/websites/data-visualization/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "dataviz",
+        "interactive"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-03T07:29:43.795Z"
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "category": "illustration",
+  "count": 6,
+  "items": [
+    {
+      "id": "undraw:undraw",
+      "source": "undraw",
+      "sourceName": "unDraw",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "unDraw — 전체 일러스트 검색",
+      "url": "https://undraw.co/illustrations",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "open-source",
+        "recolor"
+      ],
+      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-07T02:15:49.426Z"
+    },
+    {
+      "id": "undraw:undraw-presentation",
+      "source": "undraw",
+      "sourceName": "unDraw",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "unDraw — Presentation 관련",
+      "url": "https://undraw.co/search/presentation",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "presentation"
+      ],
+      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-07T02:15:49.426Z"
+    },
+    {
+      "id": "undraw:undraw-data-analytics",
+      "source": "undraw",
+      "sourceName": "unDraw",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "unDraw — Data/Analytics",
+      "url": "https://undraw.co/search/data",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "data",
+        "analytics"
+      ],
+      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-07T02:15:49.426Z"
+    },
+    {
+      "id": "storyset:storyset-business",
+      "source": "storyset",
+      "sourceName": "Storyset (Freepik)",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "Storyset — Business 일러스트",
+      "url": "https://storyset.com/business",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "business",
+        "animated"
+      ],
+      "license": "무료(출처표기) / Freepik 프리미엄",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-07T02:15:49.426Z"
+    },
+    {
+      "id": "storyset:storyset-data",
+      "source": "storyset",
+      "sourceName": "Storyset (Freepik)",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "Storyset — Data 일러스트",
+      "url": "https://storyset.com/data",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "data",
+        "analytics"
+      ],
+      "license": "무료(출처표기) / Freepik 프리미엄",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-07T02:15:49.426Z"
+    },
+    {
+      "id": "blush:blush",
+      "source": "blush",
+      "sourceName": "Blush",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "Blush — 일러스트 컬렉션",
+      "url": "https://blush.design/collections",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "mix-match",
+        "custom"
+      ],
+      "license": "무료/유료 혼합(항목별)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-07T02:15:49.426Z"
+    }
+  ]
+}

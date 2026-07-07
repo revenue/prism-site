@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Prism — 발표자료 그래픽 스튜디오</title>
+<meta name="description" content="세계 최고 소스의 영감을 넣으면 수려한 발표용 그래픽으로 분광된다. 차트·인포그래픽·아이콘·일러스트·UI 레퍼런스를 모아 호출하고, 값만 넣으면 결과물을 즉시 출력." />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" />
+<meta name="theme-color" content="#0e1116" />
+<link rel="preconnect" href="https://cdn.jsdelivr.net" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --accent: #4f8cff; --accent-soft: rgba(79,140,255,.14); --accent-line: rgba(79,140,255,.42);
+    --good: #34d399; --warn: #fbbf24; --bad: #f87171;
+    --radius: 14px; --radius-sm: 9px;
+    --display: 'Outfit', 'Pretendard', sans-serif;
+    --serif: 'Fraunces', 'Pretendard', serif;
+    --sans: 'Pretendard', system-ui, sans-serif;
+  }
+  /* ---- Dark (default) ---- */
+  [data-theme="dark"] {
+    --bg: #0e1116; --bg-2: #12161d; --surface: #161b22; --surface-2: #1b212b;
+    --border: rgba(255,255,255,.09); --border-strong: rgba(255,255,255,.17);
+    --text: #e8edf4; --muted: #9aa4b2; --faint: #6a7482;
+    --shadow: 0 12px 40px -12px rgba(0,0,0,.6);
+    --chip-invert: .85;
+  }
+  /* ---- Light ---- */
+  [data-theme="light"] {
+    --bg: #f5f7fb; --bg-2: #eef1f6; --surface: #ffffff; --surface-2: #f3f5f9;
+    --border: rgba(15,23,42,.1); --border-strong: rgba(15,23,42,.2);
+    --text: #131822; --muted: #566072; --faint: #8b95a5;
+    --shadow: 0 12px 34px -14px rgba(20,30,60,.22);
+    --chip-invert: 0;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--bg); color: var(--text); font-family: var(--sans);
+    -webkit-font-smoothing: antialiased; word-break: keep-all; line-height: 1.5; transition: background .3s, color .3s; }
+  body { min-height: 100dvh; }
+  a { color: inherit; text-decoration: none; }
+  button { font-family: inherit; cursor: pointer; border: none; background: none; color: inherit; }
+  input, select, textarea { font-family: inherit; }
+  ::selection { background: var(--accent-soft); }
+
+  header.top { position: sticky; top: 0; z-index: 40; backdrop-filter: blur(14px);
+    background: color-mix(in srgb, var(--bg) 82%, transparent); border-bottom: 1px solid var(--border); }
+  .top-inner { max-width: 1360px; margin: 0 auto; padding: 13px 24px; display: flex; align-items: center; gap: 18px; }
+  .brand { display: flex; align-items: center; gap: 11px; font-weight: 700; }
+  .brand .mark { width: 32px; height: 32px; flex: none; display: block; color: var(--text); }
+  .brand b { font-family: var(--display); font-size: 15px; letter-spacing: -.2px; }
+  .brand span { color: var(--faint); font-size: 12px; font-weight: 500; }
+  .tabs { display: flex; gap: 3px; margin-left: 6px; background: var(--surface); padding: 4px; border-radius: 11px; border: 1px solid var(--border); }
+  .tabs button { padding: 7px 13px; border-radius: 8px; font-size: 13px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+  .tabs button.on { background: var(--surface-2); color: var(--text); }
+  .tabs button .n { font-family: var(--display); font-size: 10px; margin-left: 4px; color: var(--accent); }
+  .top-spacer { flex: 1; }
+  .icon-btn { width: 38px; height: 38px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface);
+    display: flex; align-items: center; justify-content: center; color: var(--muted); }
+  .icon-btn:hover { color: var(--text); border-color: var(--border-strong); }
+  .icon-btn svg { width: 18px; height: 18px; }
+  .stat-pill { font-size: 12px; color: var(--muted); background: var(--surface); border: 1px solid var(--border); padding: 7px 12px; border-radius: 20px; white-space: nowrap; }
+  .stat-pill b { color: var(--accent); font-family: var(--display); }
+
+  main { max-width: 1360px; margin: 0 auto; padding: 30px 24px 90px; }
+  .view { display: none; } .view.on { display: block; animation: fade .4s ease; }
+  @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+  .hero { margin-bottom: 26px; }
+  .hero h1 { font-family: var(--display); font-weight: 800; font-size: clamp(25px, 3.6vw, 38px); letter-spacing: -1px; line-height: 1.08; }
+  .hero h1 em { font-style: normal; color: var(--accent); }
+  .hero p { color: var(--muted); margin-top: 11px; max-width: 64ch; font-size: 14.5px; }
+
+  /* ---------- Library ---------- */
+  .lib-layout { display: grid; grid-template-columns: 244px 1fr; gap: 26px; align-items: start; }
+  .facets { position: sticky; top: 78px; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; max-height: calc(100dvh - 92px); overflow-y: auto; scrollbar-width: thin; }
+  .facets::-webkit-scrollbar { width: 7px; } .facets::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 4px; }
+  .facets h4 { font-size: 11px; text-transform: uppercase; letter-spacing: .8px; color: var(--faint); margin: 16px 0 9px; font-weight: 700; }
+  .facets h4:first-of-type { margin-top: 14px; }
+  .facet-btn { display: flex; justify-content: space-between; align-items: center; width: 100%; padding: 7px 10px; border-radius: 8px; font-size: 13px; color: var(--muted); text-align: left; }
+  .facet-btn:hover { background: var(--surface-2); color: var(--text); }
+  .facet-btn.on { background: var(--accent-soft); color: var(--text); font-weight: 600; }
+  .facet-btn .c { font-size: 11px; color: var(--faint); font-family: var(--display); }
+  .facet-btn.on .c { color: var(--accent); }
+  .search { width: 100%; background: var(--bg-2); border: 1px solid var(--border); color: var(--text); padding: 10px 12px; border-radius: 9px; font-size: 13.5px; }
+  .search:focus { outline: none; border-color: var(--accent-line); }
+
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(224px, 1fr)); gap: 16px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; display: flex; flex-direction: column; transition: transform .16s, border-color .16s; }
+  .card:hover { transform: translateY(-3px); border-color: var(--border-strong); }
+  .card .thumb { aspect-ratio: 16/10; background: var(--bg-2); display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative; border-bottom: 1px solid var(--border); }
+  .card .thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .card .thumb.icon img { width: 52px; height: 52px; object-fit: contain; filter: invert(var(--chip-invert)); }
+  .card .thumb.logo img { width: 46px; height: 46px; object-fit: contain; border-radius: 10px; }
+  .card .thumb .srcbadge { position: absolute; left: 8px; top: 8px; width: 22px; height: 22px; border-radius: 6px; background: var(--surface); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; overflow: hidden; }
+  .card .thumb .srcbadge img { width: 15px; height: 15px; object-fit: contain; }
+  .card .body { padding: 12px 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .card .ttl { font-size: 13.5px; font-weight: 600; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .meta { display: flex; align-items: center; gap: 6px; margin-top: auto; flex-wrap: wrap; }
+  .badge { font-size: 10.5px; padding: 3px 7px; border-radius: 6px; background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); white-space: nowrap; }
+  .badge.cat { color: var(--accent); border-color: var(--accent-line); background: var(--accent-soft); }
+  .card .acts { display: flex; gap: 6px; }
+  .card .acts a, .card .acts button { flex: 1; text-align: center; font-size: 11.5px; font-weight: 600; padding: 7px; border-radius: 7px; background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
+  .card .acts a:hover, .card .acts button:hover { color: var(--text); border-color: var(--border-strong); }
+  .empty { grid-column: 1/-1; text-align: center; color: var(--faint); padding: 60px; }
+
+  /* ---------- Panels / generic ---------- */
+  .panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); }
+  .panel .p-head { padding: 14px 18px; border-bottom: 1px solid var(--border); font-weight: 700; font-size: 14px; display: flex; align-items: center; gap: 8px; }
+  .panel .p-body { padding: 16px 18px; }
+  .field { margin-bottom: 14px; }
+  .field label { display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .6px; color: var(--faint); font-weight: 700; margin-bottom: 6px; }
+  .field input[type=text], .field textarea, .field select { width: 100%; background: var(--bg-2); border: 1px solid var(--border); color: var(--text); padding: 9px 11px; border-radius: 8px; font-size: 13px; }
+  .field input:focus, .field textarea:focus, .field select:focus { outline: none; border-color: var(--accent-line); }
+  .field textarea { resize: vertical; min-height: 92px; font-family: ui-monospace, monospace; font-size: 12px; line-height: 1.5; }
+  .row2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .btn { padding: 9px 15px; border-radius: 9px; font-size: 13px; font-weight: 600; background: var(--surface-2); border: 1px solid var(--border); color: var(--text); }
+  .btn:hover { border-color: var(--border-strong); }
+  .btn.primary { background: var(--accent); border-color: var(--accent); color: #ffffff; }
+  .mini-btn { color: var(--accent); }
+  .btn.primary.mini-btn, .mini-btn.primary { color: #fff; }
+  .btn.primary:hover { filter: brightness(1.08); }
+  .btn.sm { padding: 6px 11px; font-size: 12px; }
+  .divider { height: 1px; background: var(--border); margin: 16px 0; }
+  .hint { font-size: 11.5px; color: var(--faint); margin-top: 8px; line-height: 1.5; }
+
+  /* ---------- Generator ---------- */
+  .gen-layout { display: grid; grid-template-columns: 320px 1fr; gap: 24px; align-items: start; }
+  .tpl-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+  .tpl { border: 1px solid var(--border); border-radius: 10px; padding: 11px 10px; text-align: center; background: var(--bg-2); transition: border-color .15s, background .15s; }
+  .tpl:hover { border-color: var(--border-strong); }
+  .tpl.on { border-color: var(--accent); background: var(--accent-soft); }
+  .tpl svg { width: 100%; height: 38px; color: var(--muted); }
+  .tpl.on svg { color: var(--accent); }
+  .tpl span { display: block; font-size: 11.5px; margin-top: 6px; color: var(--muted); font-weight: 600; }
+  .tpl.on span { color: var(--text); }
+  .vtiles { display: grid; grid-template-columns: repeat(3, 1fr); gap: 7px; }
+  .vtile { border: 1px solid var(--border); border-radius: 9px; padding: 8px 4px 6px; background: var(--bg-2); text-align: center; transition: border-color .15s, background .15s; }
+  .vtile:hover { border-color: var(--border-strong); }
+  .vtile.on { border-color: var(--accent); background: var(--accent-soft); }
+  .vtile svg { width: 100%; height: 26px; display: block; }
+  .vtile span { display: block; font-size: 10.5px; margin-top: 3px; color: var(--muted); font-weight: 600; }
+  .vtile.on span { color: var(--text); }
+
+  .preset-row { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+  .preset { flex: none; border: 1px solid var(--border); border-radius: 10px; overflow: hidden; width: 92px; background: var(--bg-2); transition: border-color .15s; }
+  .preset.on { border-color: var(--accent); }
+  .preset .sw { height: 32px; display: flex; }
+  .preset .sw i { flex: 1; }
+  .preset span { display: block; font-size: 10.5px; font-weight: 600; padding: 5px 4px; color: var(--muted); }
+  .preset.on span { color: var(--text); }
+
+  .data-table { width: 100%; border-collapse: collapse; }
+  .data-table td { padding: 3px; }
+  .data-table input { width: 100%; background: var(--bg-2); border: 1px solid var(--border); color: var(--text); padding: 7px 9px; border-radius: 7px; font-size: 12.5px; }
+  .data-table input:focus { outline: none; border-color: var(--accent-line); }
+  .data-table .del { color: var(--faint); padding: 4px 8px; font-size: 15px; }
+  .data-table .del:hover { color: var(--bad); }
+  .mini-btn { font-size: 12px; font-weight: 600; color: var(--accent); padding: 8px 12px; border-radius: 8px; border: 1px dashed var(--accent-line); width: 100%; margin-top: 4px; background: transparent; }
+  .mini-btn:hover { background: var(--accent-soft); }
+
+  .toggles { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .tg { display: flex; align-items: center; justify-content: space-between; padding: 8px 11px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 8px; font-size: 12.5px; color: var(--muted); cursor: pointer; }
+  .tg.on { color: var(--text); border-color: var(--accent-line); }
+  .tg .dot { width: 30px; height: 17px; border-radius: 10px; background: var(--surface-2); border: 1px solid var(--border); position: relative; transition: background .15s; }
+  .tg.on .dot { background: var(--accent); }
+  .tg .dot::after { content:""; position: absolute; top: 1px; left: 1px; width: 13px; height: 13px; border-radius: 50%; background: #fff; transition: transform .15s; }
+  .tg.on .dot::after { transform: translateX(13px); }
+  .seg { display: flex; gap: 3px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 9px; padding: 3px; }
+  .seg button { flex: 1; padding: 7px; border-radius: 6px; font-size: 12px; font-weight: 600; color: var(--muted); }
+  .seg button.on { background: var(--surface); color: var(--text); }
+
+  .swatches { display: flex; gap: 8px; flex-wrap: wrap; }
+  .swatch { width: 30px; height: 30px; border-radius: 8px; border: 2px solid transparent; cursor: pointer; overflow: hidden; }
+  .swatch.on { border-color: var(--text); }
+  .swatch .dots { display: flex; height: 100%; } .swatch .dots i { flex: 1; }
+
+  .stage-wrap { position: sticky; top: 82px; }
+  .stage-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+  .stage-bar .sp { flex: 1; }
+  .stage { border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow);
+    background: var(--surface);
+    background-image: linear-gradient(45deg, var(--bg-2) 25%, transparent 25%), linear-gradient(-45deg, var(--bg-2) 25%, transparent 25%), linear-gradient(45deg, transparent 75%, var(--bg-2) 75%), linear-gradient(-45deg, transparent 75%, var(--bg-2) 75%);
+    background-size: 22px 22px; background-position: 0 0, 0 11px, 11px -11px, -11px 0px; }
+  #stageSvg { width: 100%; height: auto; display: block; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,.12); }
+  #stageSvg [data-edit] { cursor: text; }
+  #stageSvg [data-edit]:hover { opacity: .6; }
+
+  /* ---------- Builder ---------- */
+  .builder-layout { display: grid; grid-template-columns: 320px 1fr; gap: 24px; align-items: start; }
+  .builder-frame { border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); background: #fff; transition: max-width .3s, margin .3s; }
+  .builder-frame.mobile { max-width: 390px; margin: 0 auto; }
+  #builderFrame { width: 100%; height: 640px; border: 0; display: block; }
+  .b-stack { display: flex; flex-direction: column; gap: 7px; }
+  .b-stack .empty-s { color: var(--faint); font-size: 12.5px; text-align: center; padding: 12px; }
+  .b-chip { display: flex; align-items: center; gap: 9px; padding: 8px 10px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 9px; font-size: 12.5px; }
+  .b-chip .sw { width: 16px; height: 16px; border-radius: 5px; flex: none; }
+  .b-chip .nm { flex: 1; font-weight: 600; }
+  .b-chip .x { color: var(--faint); cursor: pointer; font-size: 15px; }
+  .b-chip .x:hover { color: var(--bad); }
+  .bacc { margin-bottom: 12px; }
+  .bacc-h { cursor: pointer; justify-content: space-between; user-select: none; }
+  .bacc-x { color: var(--faint); font-size: 12px; transition: transform .2s; }
+  .bacc[data-open="0"] .bacc-b { display: none; }
+  .bacc[data-open="0"] .bacc-x { transform: rotate(-90deg); }
+  #bFeats .frow, #bStats .srow { display: grid; grid-template-columns: 1fr 1.4fr auto; gap: 5px; margin-bottom: 5px; }
+  #bStats .srow { grid-template-columns: 1fr 1.4fr auto; }
+  #bFeats input, #bStats input { background: var(--bg-2); border: 1px solid var(--border); color: var(--text); padding: 6px 8px; border-radius: 6px; font-size: 12px; width: 100%; }
+  #bRefPreview img { width: 100%; border-radius: 9px; border: 1px solid var(--border); margin-top: 4px; }
+  .b-swatch { width: 26px; height: 26px; border-radius: 7px; border: 2px solid transparent; cursor: pointer; }
+  .b-swatch.on { border-color: var(--text); }
+  /* hover concept preview popover */
+  #cardPeek { position: fixed; z-index: 70; width: 340px; height: 250px; border-radius: 12px; overflow: hidden; border: 1px solid var(--border-strong); box-shadow: var(--shadow); background: #fff; display: none; pointer-events: none; }
+  #cardPeek.on { display: block; animation: fade .2s ease; }
+  #cardPeek iframe { width: 680px; height: 500px; border: 0; transform: scale(0.5); transform-origin: top left; }
+  #cardPeek .peek-tag { position: absolute; left: 0; bottom: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,.7)); color: #fff; font-size: 11px; font-weight: 700; padding: 16px 10px 8px; pointer-events: none; }
+
+  /* ---------- Studio ---------- */
+  .studio-layout { display: grid; grid-template-columns: 320px 1fr; gap: 24px; align-items: start; }
+  .studio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; max-height: 360px; overflow-y: auto; padding: 2px; }
+  .studio-ic { aspect-ratio: 1; border: 1px solid var(--border); border-radius: 9px; background: var(--bg-2); display: flex; align-items: center; justify-content: center; padding: 10px; transition: border-color .15s; }
+  .studio-ic:hover { border-color: var(--border-strong); }
+  .studio-ic.on { border-color: var(--accent); background: var(--accent-soft); }
+  .studio-ic img { width: 100%; height: 100%; object-fit: contain; filter: invert(var(--chip-invert)); }
+  .studio-preview { display: flex; align-items: center; justify-content: center; min-height: 300px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface);
+    background-image: linear-gradient(45deg, var(--bg-2) 25%, transparent 25%), linear-gradient(-45deg, var(--bg-2) 25%, transparent 25%), linear-gradient(45deg, transparent 75%, var(--bg-2) 75%), linear-gradient(-45deg, transparent 75%, var(--bg-2) 75%);
+    background-size: 22px 22px; background-position: 0 0, 0 11px, 11px -11px, -11px 0px; }
+  .studio-preview svg, .studio-preview img { width: 200px; height: 200px; }
+  .color-dots { display: flex; gap: 8px; flex-wrap: wrap; }
+  .color-dots i { width: 30px; height: 30px; border-radius: 8px; border: 2px solid transparent; cursor: pointer; }
+  .color-dots i.on { border-color: var(--text); }
+
+  /* ---------- Requests page ---------- */
+  .req-list { display: flex; flex-direction: column; gap: 12px; max-width: 860px; }
+  .req { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; display: flex; gap: 14px; align-items: flex-start; }
+  .req .num { width: 26px; height: 26px; border-radius: 8px; background: var(--accent-soft); color: var(--accent); font-family: var(--display); font-weight: 700; font-size: 13px; display: flex; align-items: center; justify-content: center; flex: none; }
+  .req .rc { flex: 1; }
+  .req .rloc { font-size: 11.5px; color: var(--accent); font-weight: 600; margin-bottom: 3px; }
+  .req .rtext { font-size: 13.5px; line-height: 1.5; }
+  .req .rmeta { font-size: 11px; color: var(--faint); margin-top: 6px; }
+  .req . from { font-size: 10px; color: var(--faint); margin-left: 6px; }
+  .rstatus { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 20px; white-space: nowrap; flex: none; }
+  .rstatus.pending { background: var(--surface-2); color: var(--muted); border: 1px solid var(--border); }
+  .rstatus.requested { background: rgba(251,191,36,.14); color: var(--warn); border: 1px solid rgba(251,191,36,.4); }
+  .rstatus.resolved { background: rgba(52,211,153,.14); color: var(--good); border: 1px solid rgba(52,211,153,.4); }
+  .req del, .req .strike { text-decoration: line-through; opacity: .6; }
+
+  .docs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 18px; }
+  .doc-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px 24px; }
+  .doc-card h3 { font-family: var(--display); font-size: 17px; margin-bottom: 12px; color: var(--accent); font-weight: 700; }
+  .doc-card p, .doc-card ul, .doc-card ol { color: var(--muted); font-size: 14px; line-height: 1.65; }
+  .doc-card ul, .doc-card ol { padding-left: 18px; } .doc-card li { margin-bottom: 6px; }
+  .doc-card b { color: var(--text); font-weight: 600; }
+  .doc-card code { background: var(--bg-2); border: 1px solid var(--border); border-radius: 5px; padding: 1px 6px; font-size: 12.5px; }
+
+  /* ---------- Comment system (overhauled) ---------- */
+  #cmtToggle { position: fixed; right: 22px; bottom: 22px; z-index: 60; height: 46px; padding: 0 18px; border-radius: 24px;
+    background: var(--accent); color: #ffffff; display: flex; align-items: center; gap: 8px; box-shadow: var(--shadow); font-size: 14px; font-weight: 700; }
+  #cmtToggle svg { width: 17px; height: 17px; }
+  #cmtToggle.on { background: var(--bad); color: #fff; }
+  #cmtToggle .badge-n { background: rgba(0,0,0,.25); border-radius: 20px; padding: 1px 7px; font-family: var(--display); font-size: 12px; }
+  body.cmt-mode { cursor: crosshair; }
+  body.cmt-mode .cmt-hint-bar { display: flex; }
+  .cmt-hint-bar { display: none; position: fixed; top: 66px; left: 50%; transform: translateX(-50%); z-index: 59;
+    background: var(--accent); color: #ffffff; padding: 7px 16px; border-radius: 20px; font-size: 12.5px; font-weight: 700; box-shadow: var(--shadow); }
+  .cmt-pin { position: absolute; width: 27px; height: 27px; border-radius: 50% 50% 50% 3px; background: var(--accent); color: #ffffff;
+    font-size: 12px; font-weight: 700; display: flex; align-items: center; justify-content: center; transform: translate(-50%, -100%);
+    z-index: 55; box-shadow: var(--shadow); font-family: var(--display); border: 2px solid #fff; transition: transform .12s; }
+  .cmt-pin:hover { transform: translate(-50%, -100%) scale(1.12); }
+  .cmt-pin.resolved { background: var(--good); }
+  .cmt-pin.pending-draft { background: var(--warn); animation: pulse 1.2s infinite; }
+  @keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(251,191,36,.5); } 50% { box-shadow: 0 0 0 7px rgba(251,191,36,0); } }
+
+  #cmtPanel { position: fixed; right: 22px; bottom: 80px; width: 356px; max-height: 74vh; display: none; flex-direction: column;
+    background: var(--surface); border: 1px solid var(--border-strong); border-radius: 16px; z-index: 60; box-shadow: var(--shadow); overflow: hidden; }
+  #cmtPanel.on { display: flex; }
+  #cmtPanel .ph { padding: 14px 16px; border-bottom: 1px solid var(--border); font-weight: 700; font-size: 14px; display: flex; justify-content: space-between; align-items: center; }
+  #cmtPanel .ph .sub { font-size: 11px; color: var(--faint); font-weight: 500; margin-top: 2px; }
+  #cmtPanel .pbody { padding: 12px 16px; overflow-y: auto; flex: 1; }
+  #cmtPanel .pfoot { padding: 12px 16px; border-top: 1px solid var(--border); }
+  .cmt-item { border: 1px solid var(--border); border-radius: 10px; padding: 11px 12px; margin-bottom: 9px; font-size: 12.5px; }
+  .cmt-item .top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px; }
+  .cmt-item .loc { color: var(--accent); font-size: 11px; font-weight: 700; }
+  .cmt-item .txt { line-height: 1.5; }
+  .cmt-item .row { display: flex; gap: 6px; margin-top: 8px; }
+  .cmt-item .row button { font-size: 11px; font-weight: 600; padding: 5px 9px; border-radius: 7px; border: 1px solid var(--border); color: var(--muted); }
+  .cmt-item .row button:hover { color: var(--text); border-color: var(--border-strong); }
+  .cmt-item .row .danger:hover { color: var(--bad); border-color: var(--bad); }
+  .cmt-item.resolved { opacity: .65; } .cmt-item.resolved .txt { text-decoration: line-through; }
+  .cmt-empty { color: var(--faint); font-size: 12.5px; text-align: center; padding: 16px 8px; line-height: 1.6; }
+  #cmtPanel textarea { width: 100%; background: var(--bg-2); border: 1px solid var(--border); color: var(--text); padding: 9px; border-radius: 8px; font-size: 12.5px; min-height: 58px; resize: vertical; }
+  .pill-tag { font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 20px; }
+  .pill-tag.p { background: var(--surface-2); color: var(--muted); }
+  .pill-tag.r { background: rgba(251,191,36,.15); color: var(--warn); }
+  .pill-tag.d { background: rgba(52,211,153,.15); color: var(--good); }
+
+  .toast { position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%); background: var(--surface-2); border: 1px solid var(--border-strong); color: var(--text); padding: 11px 18px; border-radius: 10px; font-size: 13px; z-index: 100; box-shadow: var(--shadow); opacity: 0; transition: opacity .25s, transform .25s; pointer-events: none; max-width: 90vw; }
+  .toast.on { opacity: 1; transform: translateX(-50%) translateY(-4px); }
+
+  @media (max-width: 900px) {
+    .lib-layout, .gen-layout, .studio-layout { grid-template-columns: 1fr; }
+    .facets, .stage-wrap { position: static; }
+    .tabs { overflow-x: auto; }
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="top-inner">
+    <div class="brand"><svg class="mark" viewBox="0 0 64 64" aria-label="Prism logo"><defs><linearGradient id="plogo" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#4f8cff"/><stop offset=".42" stop-color="#25c9b0"/><stop offset=".72" stop-color="#ffcf5c"/><stop offset="1" stop-color="#ff7a8a"/></linearGradient></defs><polygon points="32,16 50,47 14,47" fill="url(#plogo)" stroke="url(#plogo)" stroke-width="7" stroke-linejoin="round"/></svg><div><b>Prism</b> <span>발표자료 그래픽 스튜디오</span></div></div>
+    <div class="tabs">
+      <button class="on" data-view="library">라이브러리</button>
+      <button data-view="builder">웹 빌더</button>
+      <button data-view="generator">제너레이터</button>
+      <button data-view="studio">에셋 스튜디오</button>
+      <button data-view="requests">요청내역<span class="n" id="reqTabN"></span></button>
+      <button data-view="docs">Docs</button>
+    </div>
+    <div class="top-spacer"></div>
+    <button class="icon-btn" id="themeToggle" title="라이트/다크 전환"></button>
+    <div class="stat-pill">자산 <b id="pillCount">—</b>건 · <span id="pillDate">—</span></div>
+  </div>
+</header>
+
+<main>
+  <!-- ============ LIBRARY ============ -->
+  <section class="view on" id="view-library">
+    <div class="hero">
+      <h1>세계 최고 소스에서 모은 <em>발표용 그래픽</em>을 한 곳에서.</h1>
+      <p>차트·인포그래픽·아이콘·일러스트·템플릿을 카테고리와 타입으로 세그먼트 호출. 매일 오전 11시 자동 갱신. 각 자산엔 소스 로고/썸네일이 함께 표시됩니다.</p>
+    </div>
+    <div class="lib-layout">
+      <aside class="facets">
+        <input class="search" id="q" placeholder="검색 (제목·태그·소스)" />
+        <h4>카테고리</h4><div id="facetCat"></div>
+        <h4>타입</h4><div id="facetType"></div>
+        <h4>소스</h4><div id="facetSource"></div>
+      </aside>
+      <div><div class="grid" id="libGrid"></div></div>
+    </div>
+  </section>
+
+  <!-- ============ BUILDER ============ -->
+  <section class="view" id="view-builder">
+    <div class="hero">
+      <h1>레퍼런스를 <em>붙여넣고</em>, 업종을 적으면 — 랜딩페이지가 나온다.</h1>
+      <p>참고 사이트 URL로 무드·색을 가져오고, 업종·상품을 입력하면 문구와 톤까지 맞춰집니다. 이미지는 업로드하거나 URL로 불러오고, 모든 문구를 직접 편집하세요.</p>
+    </div>
+    <div class="builder-layout">
+      <div>
+        <!-- 브리프 -->
+        <div class="panel bacc" data-open="1"><div class="p-head bacc-h">① 브리프 <span class="bacc-x">▾</span></div>
+          <div class="p-body bacc-b">
+            <div class="field"><label>업종 / 카테고리 <span style="color:var(--faint);font-weight:500;font-size:11px">— 무드·문구 스타일에 반영</span></label>
+              <input type="text" id="bIndustry" list="industryList" placeholder="예: 카페/디저트, 핀테크/금융, 헬스케어…" autocomplete="off" />
+              <datalist id="industryList"></datalist></div>
+            <div class="field"><label>상품 / 서비스명</label><input type="text" id="bProduct" list="productList" placeholder="예: 데일리 로스터리" autocomplete="off" /><datalist id="productList"></datalist></div>
+            <div class="field"><label>목적 / 한 줄 소개</label><input type="text" id="bGoal" list="goalList" placeholder="예: 신규 방문 예약을 늘리고 싶어요" autocomplete="off" /><datalist id="goalList"></datalist></div>
+            <div class="row2"><button class="btn sm" id="bRandom">↻ 랜덤 적용</button><button class="btn sm primary" id="bGenerate">✦ 초안 생성</button></div>
+            <p class="hint">'랜덤 적용'을 누를 때마다 업종·상품·목적이 랜덤 설정되고, 레퍼런스는 <b>디자인 어워드 수상 사이트</b>를 매번 바꿔 가져와 반영합니다.</p>
+          </div></div>
+        <!-- 레퍼런스 -->
+        <div class="panel bacc" data-open="0"><div class="p-head bacc-h">② 레퍼런스 반영 <span class="bacc-x">▾</span></div>
+          <div class="p-body bacc-b">
+            <div class="field"><label>참고 사이트 URL</label>
+              <div style="display:flex;gap:6px"><input type="text" id="bRefUrl" placeholder="https://참고사이트.com" style="flex:1" /><button class="btn sm" id="bRefApply">반영</button></div>
+              <p class="hint">그 사이트의 실제 화면을 캡처해 히어로에 넣고, 색을 추출해 무드로 적용합니다.</p></div>
+            <div id="bRefPreview"></div>
+          </div></div>
+        <!-- 콘텐츠 -->
+        <div class="panel bacc" data-open="0"><div class="p-head bacc-h">③ 콘텐츠 · 문구 <span class="bacc-x">▾</span></div>
+          <div class="p-body bacc-b">
+            <div class="field"><label>브랜드</label><input type="text" id="bBrand" value="Acme" /></div>
+            <div class="field"><label>헤드라인</label><input type="text" id="bHead" value="복잡한 데이터를, 명료한 결정으로." /></div>
+            <div class="field"><label>서브카피</label><textarea id="bSub" style="min-height:56px;font-family:inherit">Prism으로 모은 세계 최고의 소스로, 당신의 아이디어를 수려한 화면으로 바꿉니다.</textarea></div>
+            <div class="row2"><div class="field"><label>CTA</label><input type="text" id="bCta" value="지금 시작하기" /></div><div class="field"><label>보조 CTA</label><input type="text" id="bCta2" value="데모 보기" /></div></div>
+            <div class="field"><label>특징 3개 (제목 · 설명)</label><div id="bFeats"></div></div>
+            <div class="field"><label>통계 3개 (수치 · 라벨)</label><div id="bStats"></div></div>
+            <div class="field"><label>추천사 (인용 · 이름)</label><input type="text" id="bQuote" value="도입 2주 만에 전환율이 눈에 띄게 올랐어요." /><input type="text" id="bAuthor" value="김대표 · 스타트업 A" style="margin-top:6px" /></div>
+          </div></div>
+        <!-- 이미지 -->
+        <div class="panel bacc" data-open="0"><div class="p-head bacc-h">④ 이미지 <span class="bacc-x">▾</span></div>
+          <div class="p-body bacc-b">
+            <div class="field"><label>히어로 이미지</label>
+              <div style="display:flex;gap:6px;margin-bottom:6px"><input type="text" id="bHeroUrl" placeholder="이미지 URL 붙여넣기" style="flex:1" /><button class="btn sm" id="bHeroUrlApply">불러오기</button></div>
+              <button class="btn sm" id="bHeroUpload" style="width:100%">파일 업로드</button>
+              <input type="file" id="bHeroFile" accept="image/*" style="display:none" />
+              <button class="btn sm" id="bHeroClear" style="width:100%;margin-top:6px">이미지 제거(그래픽 사용)</button></div>
+          </div></div>
+        <!-- 스타일 & 스택 -->
+        <div class="panel bacc" data-open="1"><div class="p-head bacc-h">⑤ 스타일 · 적용 이력 <span id="bStackN" style="color:var(--faint);font-weight:500;font-size:12px"></span><span class="bacc-x" style="margin-left:auto">▾</span></div>
+          <div class="p-body bacc-b">
+            <div class="field"><label>무드 색상</label><div class="swatches" id="bMoodSwatch"></div></div>
+            <div id="bStack" class="b-stack"></div>
+            <div class="row2" style="margin-top:10px"><button class="btn sm" id="bReset">초기화</button><button class="btn sm" id="bShuffle">랜덤 무드</button></div>
+          </div></div>
+      </div>
+      <div class="stage-wrap">
+        <div class="stage-bar">
+          <div class="seg" id="bDevice" style="max-width:180px"><button class="on" data-d="desktop">데스크탑</button><button data-d="mobile">모바일</button></div>
+          <div class="sp"></div>
+          <button class="btn sm" id="bOpenNew">새 창</button>
+          <button class="btn sm primary" id="bExport">HTML 내보내기</button>
+        </div>
+        <div class="builder-frame" id="builderFrameWrap"><iframe id="builderFrame" title="preview"></iframe></div>
+        <p class="hint" id="bHint">브리프를 입력하거나 라이브러리에서 '체험하기'를 눌러 시작하세요.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GENERATOR ============ -->
+  <section class="view" id="view-generator">
+    <div class="hero">
+      <h1>요소를 고르고 값만 넣으면 <em>결과물</em>이 나온다.</h1>
+      <p>템플릿 선택 → 값 입력/import → 프리셋으로 즉시 수려하게, 또는 스타일을 직접 설정. 16:9·1:1·4:5 그래픽을 SVG·PNG로 출력.</p>
+    </div>
+    <div class="gen-layout">
+      <div>
+        <div class="panel" style="margin-bottom:16px">
+          <div class="p-head">1 · 요소 선택</div>
+          <div class="p-body"><div class="tpl-grid" id="tplGrid"></div>
+            <div id="variantWrap" style="margin-top:12px;display:none"><label style="display:block;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--faint);font-weight:700;margin-bottom:6px">하위 요소 <span style="font-weight:500;text-transform:none;letter-spacing:0">— 변형 선택</span></label><div class="vtiles" id="variantSeg"></div></div>
+          </div>
+        </div>
+        <div class="panel" style="margin-bottom:16px">
+          <div class="p-head">2 · 프리셋 <span style="font-weight:500;color:var(--faint);font-size:12px">— 설정 없이 바로 예쁘게</span></div>
+          <div class="p-body"><div class="preset-row" id="presetRow"></div></div>
+        </div>
+        <div class="panel" style="margin-bottom:16px">
+          <div class="p-head">3 · 값 입력 / Import</div>
+          <div class="p-body">
+            <div class="field"><label>제목</label><input type="text" id="gTitle" placeholder="예: 2026 분기별 매출 성장" /></div>
+            <div class="field"><label>부제 / 단위</label><input type="text" id="gSubtitle" placeholder="예: 단위 · 억원" /></div>
+            <div class="field"><label>데이터</label><table class="data-table"><tbody id="dataRows"></tbody></table><button class="mini-btn" id="addRow">+ 행 추가</button></div>
+            <div class="field"><label>Import (CSV 또는 JSON)</label>
+              <textarea id="importBox" placeholder="label,value&#10;1분기,120&#10;2분기,180"></textarea>
+              <div class="row2" style="margin-top:8px"><button class="btn sm" id="applyImport">Import 적용</button><button class="btn sm" id="loadFile">파일 열기</button></div>
+              <input type="file" id="fileInput" accept=".csv,.json,.tsv" style="display:none" />
+            </div>
+          </div>
+        </div>
+        <div class="panel">
+          <div class="p-head">4 · 스타일 설정 <span style="font-weight:500;color:var(--faint);font-size:12px">— 직접 다듬기</span></div>
+          <div class="p-body">
+            <div class="field"><label>팔레트</label><div class="swatches" id="swatches"></div></div>
+            <div class="field"><label>배경</label><div class="seg" id="bgSeg">
+              <button data-bg="white" class="on">화이트</button><button data-bg="light">라이트</button><button data-bg="dark">다크</button><button data-bg="transparent">투명</button>
+            </div></div>
+            <div class="field"><label>글꼴</label><div class="seg" id="fontSeg">
+              <button data-font="Outfit" class="on">모던</button><button data-font="Pretendard">기본</button><button data-font="Fraunces">세리프</button>
+            </div></div>
+            <div class="field"><label>글꼴 크기 <span id="fontScaleV" style="color:var(--muted);font-weight:600">100%</span></label>
+              <input type="range" id="fontScale" min="0.7" max="1.5" step="0.05" value="1" style="width:100%" /></div>
+            <div class="field"><label>글자 색</label><div style="display:flex;gap:8px;align-items:center">
+              <div class="seg" id="textColorMode" style="flex:1"><button data-tc="auto" class="on">자동</button><button data-tc="custom">직접</button></div>
+              <input type="color" id="textColor" value="#121722" style="width:40px;height:36px;border:1px solid var(--border);border-radius:8px;background:var(--bg-2);padding:2px" />
+            </div></div>
+            <div class="field"><label>커스텀 팔레트 <span style="color:var(--faint);font-weight:500;font-size:11px">— 색 지정 / HEX 입력</span></label>
+              <div id="customPalette" style="display:flex;flex-direction:column;gap:6px"></div>
+              <button class="mini-btn" id="useCustomPal" style="margin-top:8px">커스텀 팔레트 적용</button></div>
+            <div class="field"><label>옵션</label><div class="toggles" id="toggles"></div></div>
+            <div class="field"><label>정렬 순서</label><div class="seg" id="sortSeg"><button data-sort="none" class="on">원본</button><button data-sort="desc">내림</button><button data-sort="asc">오름</button></div></div>
+            <div class="row2">
+              <div class="field"><label>소수점</label><div class="seg" id="decSeg"><button data-dec="0" class="on">0</button><button data-dec="1">1</button><button data-dec="2">2</button></div></div>
+              <div class="field"><label>제목 위치</label><div class="seg" id="alignSeg"><button data-align="left" class="on">좌</button><button data-align="center">중앙</button></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="stage-wrap">
+        <div class="stage-bar">
+          <div class="seg" id="sizeToggle" style="max-width:220px">
+            <button class="on" data-w="1280" data-h="720">16:9</button><button data-w="1080" data-h="1080">1:1</button><button data-w="1080" data-h="1350">4:5</button>
+          </div>
+          <div class="sp"></div>
+          <button class="btn sm" id="btnCopy">SVG 복사</button>
+          <button class="btn sm" id="btnSvg">SVG</button>
+          <button class="btn sm primary" id="btnPng">PNG 저장</button>
+        </div>
+        <div class="stage"><svg id="stageSvg" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg"></svg></div>
+        <p class="hint" id="stageHint"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STUDIO ============ -->
+  <section class="view" id="view-studio">
+    <div class="hero">
+      <h1>수집한 에셋을 추출해 <em>내 덱에 맞게</em> 변형.</h1>
+      <p>라이브러리 아이콘을 골라 색·크기·굵기를 바꿔 유사한 에셋으로 재생산. 이미지에서 팔레트를 추출해 차트·아이콘에 그대로 적용.</p>
+    </div>
+    <div class="studio-layout">
+      <div>
+        <div class="panel" style="margin-bottom:16px">
+          <div class="p-head">1 · 아이콘 선택 <span style="font-weight:500;color:var(--faint);font-size:12px" id="studioCount"></span></div>
+          <div class="p-body"><input class="search" id="studioSearch" placeholder="아이콘 검색" style="margin-bottom:10px" /><div class="studio-grid" id="studioGrid"></div></div>
+        </div>
+        <div class="panel">
+          <div class="p-head">2 · 변형</div>
+          <div class="p-body">
+            <div class="field"><label>색상 (팔레트에서 추출)</label><div class="color-dots" id="studioColors"></div></div>
+            <div class="field"><label>굵기 (stroke)</label><input type="range" id="studioStroke" min="1" max="3" step="0.25" value="2" style="width:100%" /></div>
+            <div class="field"><label>이미지에서 팔레트 추출</label>
+              <button class="btn sm" id="extractBtn">이미지 열기 → 색 추출</button>
+              <input type="file" id="extractFile" accept="image/*" style="display:none" />
+              <div class="color-dots" id="extractedColors" style="margin-top:10px"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="stage-wrap">
+        <div class="stage-bar"><div class="sp"></div><button class="btn sm" id="studioCopy">SVG 복사</button><button class="btn sm primary" id="studioDl">SVG 저장</button></div>
+        <div class="studio-preview" id="studioPreview"><span style="color:var(--faint)">아이콘을 선택하세요</span></div>
+        <p class="hint">라이브러리에서 수집한 실제 오픈소스 아이콘을 색·굵기만 바꿔 덱 톤에 맞춰 재생산합니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ REQUESTS ============ -->
+  <section class="view" id="view-requests">
+    <div class="hero">
+      <h1><em>변경 요청</em> 내역과 처리 현황.</h1>
+      <p>코멘트로 등록한 요청과, 실제 반영되어 해결된 항목을 한눈에. 대기 → 요청됨 → 해결 순으로 상태가 표시됩니다.</p>
+    </div>
+    <div class="stage-bar" style="max-width:860px">
+      <button class="btn sm" id="reqCopyAll">전체 요청 프롬프트 복사</button>
+      <button class="btn sm" id="reqClearLocal">내 로컬 요청 비우기</button>
+      <div class="sp"></div>
+      <span class="hint" id="reqSummary" style="margin:0"></span>
+    </div>
+    <div class="req-list" id="reqList" style="margin-top:16px"></div>
+  </section>
+
+  <!-- ============ DOCS ============ -->
+  <section class="view" id="view-docs">
+    <div class="hero"><h1><em>Docs</em> — 이 시스템은 무엇이고 어떻게 쓰는가</h1>
+      <p>발표자료용 그래픽을 매일 자동 수집하고, 세그먼트로 호출하고, 값만 넣어 결과물을 출력하는 로컬 우선 시스템의 설명·구성·정책·가이드.</p></div>
+    <div class="docs-grid">
+      <div class="doc-card"><h3>1 · 설명</h3><p>세계 최고 소스 20곳(6 카테고리)에서 차트·인포그래픽·아이콘·일러스트·프레젠테이션 템플릿을 수집한다. 아이콘·일러스트는 실제 SVG까지 내려받고, 갤러리형은 메타(제목·썸네일·링크)만 인덱싱한다.</p></div>
+      <div class="doc-card"><h3>2 · 구성</h3><ul>
+        <li><b>라이브러리</b> — 카테고리·타입·소스·검색으로 세그먼트 호출, 로고/썸네일 표시, 원본·다운로드.</li>
+        <li><b>제너레이터</b> — 9종 템플릿 + 프리셋 + 스타일 설정 → SVG·PNG.</li>
+        <li><b>에셋 스튜디오</b> — 아이콘 추출·리컬러·리사이즈, 이미지 팔레트 추출.</li>
+        <li><b>요청내역</b> — 코멘트 요청과 해결 현황.</li></ul></div>
+      <div class="doc-card"><h3>3 · 정책</h3><ul>
+        <li>수집은 공개 RSS·오픈 API 우선(합법·안정). 갤러리형은 메타만.</li>
+        <li>맥북 전원과 무관하게 <b>GitHub Actions 클라우드</b>에서 매일 11:00 KST 실행.</li>
+        <li>라이선스는 아이템별 <code>license</code> 필드에 기록 — 재사용 전 확인.</li></ul></div>
+      <div class="doc-card"><h3>4 · 가이드</h3><ol>
+        <li><b>테마</b>: 우상단 버튼으로 라이트/다크 전환.</li>
+        <li><b>그래픽</b>: 제너레이터 → 요소·프리셋 선택 → 값 입력 → 저장.</li>
+        <li><b>코멘트</b>: 우하단 버튼 → 화면 클릭 핀 → 내용 입력 → "적용 요청" → 요청내역에서 처리 추적.</li></ol></div>
+    </div>
+  </section>
+</main>
+
+<!-- Comment system -->
+<div class="cmt-hint-bar">📍 개선하고 싶은 영역을 클릭해 핀을 찍고, 요청을 남기세요</div>
+<button id="cmtToggle" title="코멘트 모드"><span id="cmtToggleIcon"></span><span id="cmtToggleLabel">코멘트</span><span class="badge-n" id="cmtCount" style="display:none">0</span></button>
+<div id="cmtPanel">
+  <div class="ph"><div><div>코멘트 · 변경요청</div><div class="sub" id="cmtViewLabel"></div></div><button class="btn sm" id="cmtGotoReq">요청내역 →</button></div>
+  <div class="pbody"><div id="cmtList"></div></div>
+  <div class="pfoot">
+    <textarea id="cmtDraft" placeholder="핀을 찍은 뒤 원하는 변경을 적으세요. 예: '이 카드 간격을 넓혀줘'"></textarea>
+    <div class="row2" style="margin-top:8px"><button class="btn sm" id="cmtCancel">취소</button><button class="btn sm primary" id="cmtAdd">코멘트 추가</button></div>
+    <button class="btn sm primary" id="cmtApply" style="width:100%;margin-top:8px">✦ 등록된 요청 적용 요청 (프롬프트 복사)</button>
+  </div>
+</div>
+
+<input id="inlineEdit" style="position:fixed;display:none;z-index:80;border:2px solid var(--accent);border-radius:8px;padding:6px 9px;font-size:14px;font-weight:600;background:var(--surface);color:var(--text);box-shadow:var(--shadow);min-width:120px" />
+<div id="cardPeek"><iframe id="cardPeekFrame" title="concept"></iframe><div class="peek-tag" id="cardPeekTag"></div></div>
+<div class="toast" id="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
