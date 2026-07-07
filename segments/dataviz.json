@@ -3,86 +3,6 @@
   "count": 43,
   "items": [
     {
-      "id": "ourworldindata:how-does-food-get-traded-around-the-world",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How does food get traded around the world?",
-      "url": "https://ourworldindata.org/how-does-food-get-traded-around-the-world",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/65dfb98e-8a6d-4318-59cd-d71a642a1000/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
-    },
-    {
-      "id": "ourworldindata:how-much-are-people-across-the-world-paying-for-their-carbon",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How much are people across the world paying for their carbon emissions?",
-      "url": "https://ourworldindata.org/how-much-are-people-across-the-world-paying-for-their-carbon-emissions",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0ea1f35f-dea2-4a58-61cb-bceb18a06900/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
-    },
-    {
-      "id": "ourworldindata:where-do-migrants-live-and-where-were-they-born",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Where do migrants live, and where were they born?",
-      "url": "https://ourworldindata.org/where-do-migrants-live-and-where-were-they-born",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/4ef2a38d-e4fd-46c0-0f52-d8e5c7646d00/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-06-15T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
-    },
-    {
-      "id": "ourworldindata:five-million-children-die-every-year-what-do-they-die-from",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Five million children die every year — what do they die from?",
-      "url": "https://ourworldindata.org/five-million-children-die-every-year-what-do-they-die-from",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/b8650845-1cae-4503-540d-d1c6681b4900/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-05-25T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
-    },
-    {
-      "id": "ourworldindata:south-korea-s-population-is-set-to-shrink-what-would-it-take",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "South Korea’s population is set to shrink: what would it take to stop the decline?",
-      "url": "https://ourworldindata.org/south-koreas-population-is-set-to-shrink-what-would-it-take-to-stop-the-decline",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/133452ba-5209-482d-089c-c51f5b48b900/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
-    },
-    {
       "id": "ourworldindata:population-tool-how-will-populations-across-the-world-change",
       "source": "ourworldindata",
       "sourceName": "Our World in Data",
@@ -96,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
+      "collectedAt": "2026-07-06T06:12:26.334Z"
     },
     {
       "id": "ourworldindata:childhood-stunting-fell-dramatically-over-the-20th-century",
@@ -112,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-11T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
+      "collectedAt": "2026-07-06T06:12:26.334Z"
     },
     {
       "id": "ourworldindata:most-people-care-about-farm-animals-our-food-system-doesn-t-",
@@ -128,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-20T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
+      "collectedAt": "2026-07-06T06:12:26.334Z"
     },
     {
       "id": "ourworldindata:we-re-looking-for-a-writer",
@@ -144,7 +64,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-15T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
+      "collectedAt": "2026-07-06T06:12:26.334Z"
     },
     {
       "id": "ourworldindata:what-do-people-die-from-in-different-countries",
@@ -160,7 +80,87 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-13T00:00:00.000Z",
-      "collectedAt": "2026-07-07T02:15:07.900Z"
+      "collectedAt": "2026-07-06T06:12:26.334Z"
+    },
+    {
+      "id": "ourworldindata:how-does-food-get-traded-around-the-world",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How does food get traded around the world?",
+      "url": "https://ourworldindata.org/how-does-food-get-traded-around-the-world",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/65dfb98e-8a6d-4318-59cd-d71a642a1000/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "collectedAt": "2026-07-06T06:12:26.333Z"
+    },
+    {
+      "id": "ourworldindata:how-much-are-people-across-the-world-paying-for-their-carbon",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How much are people across the world paying for their carbon emissions?",
+      "url": "https://ourworldindata.org/how-much-are-people-across-the-world-paying-for-their-carbon-emissions",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0ea1f35f-dea2-4a58-61cb-bceb18a06900/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "collectedAt": "2026-07-06T06:12:26.333Z"
+    },
+    {
+      "id": "ourworldindata:where-do-migrants-live-and-where-were-they-born",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Where do migrants live, and where were they born?",
+      "url": "https://ourworldindata.org/where-do-migrants-live-and-where-were-they-born",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/4ef2a38d-e4fd-46c0-0f52-d8e5c7646d00/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "collectedAt": "2026-07-06T06:12:26.333Z"
+    },
+    {
+      "id": "ourworldindata:five-million-children-die-every-year-what-do-they-die-from",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Five million children die every year — what do they die from?",
+      "url": "https://ourworldindata.org/five-million-children-die-every-year-what-do-they-die-from",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/b8650845-1cae-4503-540d-d1c6681b4900/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "collectedAt": "2026-07-06T06:12:26.333Z"
+    },
+    {
+      "id": "ourworldindata:south-korea-s-population-is-set-to-shrink-what-would-it-take",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "South Korea’s population is set to shrink: what would it take to stop the decline?",
+      "url": "https://ourworldindata.org/south-koreas-population-is-set-to-shrink-what-would-it-take-to-stop-the-decline",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/133452ba-5209-482d-089c-c51f5b48b900/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "collectedAt": "2026-07-06T06:12:26.333Z"
     },
     {
       "id": "rawgraphs:alluvial-diagram",
@@ -179,7 +179,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-07T02:15:07.738Z"
+      "collectedAt": "2026-07-06T06:12:26.237Z"
     },
     {
       "id": "rawgraphs:bump-chart",
@@ -198,7 +198,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-07T02:15:07.738Z"
+      "collectedAt": "2026-07-06T06:12:26.237Z"
     },
     {
       "id": "observable:d3-gallery",
@@ -217,7 +217,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-07T02:15:07.738Z"
+      "collectedAt": "2026-07-06T06:12:26.237Z"
     },
     {
       "id": "observable:zoomable-sunburst",
@@ -236,7 +236,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-07T02:15:07.738Z"
+      "collectedAt": "2026-07-06T06:12:26.237Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -255,7 +255,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-07T02:15:07.738Z"
+      "collectedAt": "2026-07-06T06:12:26.237Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -275,7 +275,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-07T02:15:07.738Z"
+      "collectedAt": "2026-07-06T06:12:26.237Z"
     },
     {
       "id": "flourish:scatter-connected-scatter",
@@ -294,7 +294,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-07T02:15:07.738Z"
+      "collectedAt": "2026-07-06T06:12:26.237Z"
     },
     {
       "id": "flourish:survey-likert",
@@ -313,103 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-07T02:15:07.738Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-april-28-white-house-correspondents-8217-d",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, April 28: White House Correspondents&#8217; Dinner, Chernobyl, and jazz",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-april-28-2026-white-house-correspondents-dinner-chernobyl-and-jazz",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-april-28-2026-white-house-correspondents-dinner-chernobyl-and-jazz/7cfe92914a-1777386799/april-29.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-04-28 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
-    },
-    {
-      "id": "datawrapper:untangling-the-underground",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Untangling the underground",
-      "url": "https://www.datawrapper.de/blog/public-transport-maps-berlin",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/public-transport-maps-berlin/00294d3699-1776952403/apr_23.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-04-23 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-april-21-sea-routes-ai-and-penguins",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, April 21: Sea routes, AI, and penguins",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-april-21-2026-sea-routes-ai-and-penguins",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-april-21-2026-sea-routes-ai-and-penguins/19f97990da-1776782006/april-21.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-04-21 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
-    },
-    {
-      "id": "datawrapper:say-hi-to-michelle",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Say hi to Michelle!",
-      "url": "https://www.datawrapper.de/blog/say-hi-to-michelle",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/say-hi-to-michelle/e9b6ffe862-1776686052/newmichelle-1.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-04-20 16:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-june-23-heatwaves-the-world-cup-and-the-10",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, June 23: Heatwaves, the World Cup, and the 10th anniversary of the Brexit referendum",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-23-2026-heatwaves-the-world-cup-and-the-10th-anniversary-of-the-brexit-referendum",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-23-2026-heatwaves-the-world-cup-and-the-10th-anniversary-of-the-brexit-referendum/ba7d3c028f-1782215852/june-23-final.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-23 18:30:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
-    },
-    {
-      "id": "datawrapper:how-to-become-a-trillionaire",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How to become a trillionaire",
-      "url": "https://www.datawrapper.de/blog/elon-musk-trillionaire-wealth",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/elon-musk-trillionaire-wealth/885db65d12-1781803413/jun_18-4.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-18 18:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.237Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-16-the-swiss-population-cap-1-77-tril",
@@ -425,7 +329,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-16 18:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:in-which-stadiums-will-the-world-cup-favorites-play",
@@ -441,7 +345,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-11 18:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:new-draw-arrows-in-locator-maps",
@@ -457,7 +361,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-11 16:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-9-the-world-cup-spacex-and-the-pope",
@@ -473,7 +377,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-09 18:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:how-long-will-you-live",
@@ -489,7 +393,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-04 18:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-2-extreme-weather-gambling-and-the-sw",
@@ -505,7 +409,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-02 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:eighty-percent-of-germans-will-benefit-from-a-blood-donation",
@@ -521,7 +425,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-28 19:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-may-26-ebola-outbreak-taxing-the-rich-and-",
@@ -537,7 +441,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-26 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:let-there-be-twilight-brighter-nights-in-belfast-and-beyond",
@@ -553,7 +457,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-21 19:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-may-19-china-maps-and-the-eurovision-song-",
@@ -569,7 +473,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-19 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:secure-your-account-with-passkeys-38-better-access-controls",
@@ -585,7 +489,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-18 10:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:the-fracturing-of-london-8217-s-politics",
@@ -601,7 +505,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-14 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-may-12-hantavirus-ai-inequality-and-burnin",
@@ -617,7 +521,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-12 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:8220-verify-you-8217-re-an-adult-to-access-this-content-8221",
@@ -633,7 +537,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-07 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-may-5-soccer-health-and-parrot-species",
@@ -649,7 +553,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-05 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:bookworms-of-europe-and-the-gender-reading-gap",
@@ -665,7 +569,103 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-04-30 17:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-april-28-white-house-correspondents-8217-d",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, April 28: White House Correspondents&#8217; Dinner, Chernobyl, and jazz",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-april-28-2026-white-house-correspondents-dinner-chernobyl-and-jazz",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-april-28-2026-white-house-correspondents-dinner-chernobyl-and-jazz/7cfe92914a-1777386799/april-29.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-04-28 17:00:00",
+      "collectedAt": "2026-07-06T06:12:26.236Z"
+    },
+    {
+      "id": "datawrapper:untangling-the-underground",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Untangling the underground",
+      "url": "https://www.datawrapper.de/blog/public-transport-maps-berlin",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/public-transport-maps-berlin/00294d3699-1776952403/apr_23.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-04-23 17:00:00",
+      "collectedAt": "2026-07-06T06:12:26.236Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-april-21-sea-routes-ai-and-penguins",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, April 21: Sea routes, AI, and penguins",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-april-21-2026-sea-routes-ai-and-penguins",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-april-21-2026-sea-routes-ai-and-penguins/19f97990da-1776782006/april-21.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-04-21 17:00:00",
+      "collectedAt": "2026-07-06T06:12:26.236Z"
+    },
+    {
+      "id": "datawrapper:say-hi-to-michelle",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Say hi to Michelle!",
+      "url": "https://www.datawrapper.de/blog/say-hi-to-michelle",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/say-hi-to-michelle/e9b6ffe862-1776686052/newmichelle-1.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-04-20 16:00:00",
+      "collectedAt": "2026-07-06T06:12:26.236Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-june-23-heatwaves-the-world-cup-and-the-10",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, June 23: Heatwaves, the World Cup, and the 10th anniversary of the Brexit referendum",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-23-2026-heatwaves-the-world-cup-and-the-10th-anniversary-of-the-brexit-referendum",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-23-2026-heatwaves-the-world-cup-and-the-10th-anniversary-of-the-brexit-referendum/ba7d3c028f-1782215852/june-23-final.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-23 18:30:00",
+      "collectedAt": "2026-07-06T06:12:26.236Z"
+    },
+    {
+      "id": "datawrapper:how-to-become-a-trillionaire",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How to become a trillionaire",
+      "url": "https://www.datawrapper.de/blog/elon-musk-trillionaire-wealth",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/elon-musk-trillionaire-wealth/885db65d12-1781803413/jun_18-4.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-18 18:00:00",
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:where-europe-needs-cooling-and-heating",
@@ -681,7 +681,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-02 18:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-30-venezuela-a-heat-dome-and-messi",
@@ -697,7 +697,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-30 18:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     },
     {
       "id": "datawrapper:found-in-translation",
@@ -713,7 +713,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-25 18:00:00",
-      "collectedAt": "2026-07-07T02:15:07.737Z"
+      "collectedAt": "2026-07-06T06:12:26.236Z"
     }
   ]
 }

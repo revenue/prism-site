@@ -799,6 +799,7 @@ function renderMoodSwatch() {
   $$("#bMoodSwatch [data-mood]").forEach(el => el.onclick = () => { builder.theme = moodTheme(el.dataset.mood); renderMoodSwatch(); renderBuilder(); });
 }
 function renderBuilder() {
+  if (builder.uploadedHtml) return; // 내 HTML 미리보기 중엔 생성 화면으로 덮지 않음
   const t = activeTheme(), c = bcContent();
   $("#builderFrame").srcdoc = pageHTML(t, c);
   const box = $("#bStack");
@@ -847,6 +848,15 @@ function initBuilder() {
   $("#bExport").onclick = () => { saveBlob(new Blob([pageHTML(activeTheme(), bcContent())], { type: "text/html" }), (bcContent().brand || "page").replace(/\s+/g, "-") + ".html"); toast("HTML 내보내기 완료"); };
   $("#bOpenNew").onclick = () => { const w = window.open(); w.document.write(pageHTML(activeTheme(), bcContent())); w.document.close(); };
   $("#bRandom").onclick = () => randomBrief();
+  // 내 HTML 업로드 → 미리보기(내 콘텐츠 렌더)
+  $("#bUploadHtml").onclick = () => $("#bHtmlFile").click();
+  $("#bHtmlFile").onchange = (e) => {
+    const f = e.target.files[0]; if (!f) return;
+    const r = new FileReader();
+    r.onload = () => { builder.uploadedHtml = String(r.result); $("#builderFrame").srcdoc = builder.uploadedHtml; $("#bHint").style.display = "none"; $("#bUploadHint").style.display = ""; toast(`${f.name} 미리보기`); };
+    r.readAsText(f); e.target.value = "";
+  };
+  $("#bBackToGen").onclick = () => { builder.uploadedHtml = null; $("#bUploadHint").style.display = "none"; $("#bHint").style.display = ""; renderBuilder(); toast("빌더로 돌아왔습니다"); };
   renderFeatRows(); renderStatRows(); renderMoodSwatch();
   // 초기 화면 = 완성형 사이트: 기본 브리프 + 어워드 수상 레퍼런스를 실제 적용해 출력
   $("#bIndustry").value = "SaaS/소프트웨어"; $("#bProduct").value = "Nova"; $("#bGoal").value = "무료체험 가입을 늘리고 싶어요";

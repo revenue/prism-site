@@ -404,11 +404,14 @@
         <div class="stage-bar">
           <div class="seg" id="bDevice" style="max-width:180px"><button class="on" data-d="desktop">데스크탑</button><button data-d="mobile">모바일</button></div>
           <div class="sp"></div>
+          <button class="btn sm" id="bUploadHtml">내 HTML 열기</button>
+          <input type="file" id="bHtmlFile" accept=".html,.htm,text/html" style="display:none" />
           <button class="btn sm" id="bOpenNew">새 창</button>
           <button class="btn sm primary" id="bExport">HTML 내보내기</button>
         </div>
         <div class="builder-frame" id="builderFrameWrap"><iframe id="builderFrame" title="preview"></iframe></div>
         <p class="hint" id="bHint">브리프를 입력하거나 라이브러리에서 '체험하기'를 눌러 시작하세요.</p>
+        <p class="hint" id="bUploadHint" style="display:none">내 HTML 미리보기 중 · <button id="bBackToGen" style="color:var(--accent);font-weight:600;background:none;border:none;cursor:pointer;padding:0">빌더로 돌아가기</button></p>
       </div>
     </div>
   </section>
