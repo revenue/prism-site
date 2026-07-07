@@ -830,44 +830,63 @@ async function loadBuilderAssets() {
 }
 /* 내가 준비한 폴더(사이트 패키지) 업로드 → 상대경로 에셋을 blob URL로 연결해 미리보기.
    내 콘텐츠를 로컬에서 렌더할 뿐, 외부 사이트를 가져오지 않음. */
+const nextFrame = () => new Promise((r) => requestAnimationFrame(() => r()));
+function fpShow(msg) { $("#fpTitle").textContent = "폴더 적용 중…"; $("#fpSub").textContent = msg || "파일을 불러오는 중"; $("#fpBar").style.width = "0%"; $("#folderProgress").classList.add("on"); }
+function fpSet(pct, msg) { $("#fpBar").style.width = Math.max(0, Math.min(100, pct)) + "%"; if (msg != null) $("#fpSub").textContent = msg; }
+function fpHide() { $("#folderProgress").classList.remove("on"); }
 async function previewUploadedFolder(files) {
-  const paths = files.map((f) => f.webkitRelativePath || f.name);
-  const root = (paths[0] || "").includes("/") ? paths[0].split("/")[0] + "/" : "";
-  const map = new Map(); // relPath(lowercase) -> File
-  for (const f of files) { let rel = f.webkitRelativePath || f.name; if (root && rel.startsWith(root)) rel = rel.slice(root.length); map.set(rel.toLowerCase(), f); }
-  let indexKey = [...map.keys()].find((k) => k === "index.html") || [...map.keys()].find((k) => k.endsWith("/index.html")) || [...map.keys()].find((k) => k.endsWith(".html"));
-  if (!indexKey) return toast("index.html을 찾을 수 없습니다");
-  const indexDir = indexKey.includes("/") ? indexKey.slice(0, indexKey.lastIndexOf("/") + 1) : "";
-  const blobUrls = new Map();
-  const urlFor = (key) => { if (blobUrls.has(key)) return blobUrls.get(key); const f = map.get(key); if (!f) return null; const u = URL.createObjectURL(f); blobUrls.set(key, u); return u; };
-  const resolve = (baseDir, ref) => {
-    if (!ref || /^(https?:|data:|blob:|#|mailto:|tel:|\/\/|javascript:)/i.test(ref)) return null;
-    let p = ref.split("#")[0].split("?")[0];
-    p = p.startsWith("/") ? p.slice(1) : baseDir + p;
-    const parts = []; for (const seg of p.split("/")) { if (seg === "..") parts.pop(); else if (seg === "." || seg === "") continue; else parts.push(seg); }
-    return parts.join("/").toLowerCase();
-  };
-  const rewriteCss = async (css, baseDir) => {
-    const refs = [...css.matchAll(/url\(\s*['"]?([^'")]+)['"]?\s*\)/g)];
-    for (const m of refs) { const key = resolve(baseDir, m[1]); const u = key && urlFor(key); if (u) css = css.split(m[0]).join(`url(${u})`); }
-    return css;
-  };
-  const cssBlob = async (key) => { const f = map.get(key); if (!f) return null; const dir = key.includes("/") ? key.slice(0, key.lastIndexOf("/") + 1) : ""; return URL.createObjectURL(new Blob([await rewriteCss(await f.text(), dir)], { type: "text/css" })); };
-  const doc = new DOMParser().parseFromString(await map.get(indexKey).text(), "text/html");
-  for (const el of doc.querySelectorAll("[src],[href],[poster],[data-src]")) {
-    for (const attr of ["src", "href", "poster", "data-src"]) {
-      const v = el.getAttribute(attr); if (!v) continue;
-      const key = resolve(indexDir, v); if (!key || !map.has(key)) continue;
-      if (el.tagName === "LINK" && /stylesheet/i.test(el.getAttribute("rel") || "")) { const u = await cssBlob(key); if (u) el.setAttribute(attr, u); }
-      else { const u = urlFor(key); if (u) el.setAttribute(attr, u); }
+  fpShow(`${files.length}개 파일 읽는 중…`);
+  await nextFrame();
+  try {
+    const paths = files.map((f) => f.webkitRelativePath || f.name);
+    const root = (paths[0] || "").includes("/") ? paths[0].split("/")[0] + "/" : "";
+    const map = new Map(); // relPath(lowercase) -> File
+    for (const f of files) { let rel = f.webkitRelativePath || f.name; if (root && rel.startsWith(root)) rel = rel.slice(root.length); map.set(rel.toLowerCase(), f); }
+    let indexKey = [...map.keys()].find((k) => k === "index.html") || [...map.keys()].find((k) => k.endsWith("/index.html")) || [...map.keys()].find((k) => k.endsWith(".html"));
+    if (!indexKey) { toast("index.html을 찾을 수 없습니다"); return; }
+    const indexDir = indexKey.includes("/") ? indexKey.slice(0, indexKey.lastIndexOf("/") + 1) : "";
+    const blobUrls = new Map();
+    const urlFor = (key) => { if (blobUrls.has(key)) return blobUrls.get(key); const f = map.get(key); if (!f) return null; const u = URL.createObjectURL(f); blobUrls.set(key, u); return u; };
+    const resolve = (baseDir, ref) => {
+      if (!ref || /^(https?:|data:|blob:|#|mailto:|tel:|\/\/|javascript:)/i.test(ref)) return null;
+      let p = ref.split("#")[0].split("?")[0];
+      p = p.startsWith("/") ? p.slice(1) : baseDir + p;
+      const parts = []; for (const seg of p.split("/")) { if (seg === "..") parts.pop(); else if (seg === "." || seg === "") continue; else parts.push(seg); }
+      return parts.join("/").toLowerCase();
+    };
+    const rewriteCss = async (css, baseDir) => {
+      const refs = [...css.matchAll(/url\(\s*['"]?([^'")]+)['"]?\s*\)/g)];
+      for (const m of refs) { const key = resolve(baseDir, m[1]); const u = key && urlFor(key); if (u) css = css.split(m[0]).join(`url(${u})`); }
+      return css;
+    };
+    const cssBlob = async (key) => { const f = map.get(key); if (!f) return null; const dir = key.includes("/") ? key.slice(0, key.lastIndexOf("/") + 1) : ""; return URL.createObjectURL(new Blob([await rewriteCss(await f.text(), dir)], { type: "text/css" })); };
+    fpSet(12, "index.html 분석 중…"); await nextFrame();
+    const doc = new DOMParser().parseFromString(await map.get(indexKey).text(), "text/html");
+    const els = [...doc.querySelectorAll("[src],[href],[poster],[data-src]")];
+    for (let i = 0; i < els.length; i++) {
+      const el = els[i];
+      for (const attr of ["src", "href", "poster", "data-src"]) {
+        const v = el.getAttribute(attr); if (!v) continue;
+        const key = resolve(indexDir, v); if (!key || !map.has(key)) continue;
+        if (el.tagName === "LINK" && /stylesheet/i.test(el.getAttribute("rel") || "")) { const u = await cssBlob(key); if (u) el.setAttribute(attr, u); }
+        else { const u = urlFor(key); if (u) el.setAttribute(attr, u); }
+      }
+      if (i % 8 === 0) { fpSet(12 + 76 * (i + 1) / els.length, `에셋 연결 중… (${i + 1}/${els.length})`); await nextFrame(); }
     }
+    for (const st of doc.querySelectorAll("style")) st.textContent = await rewriteCss(st.textContent, indexDir);
+    fpSet(94, "렌더링…"); await nextFrame();
+    const out = "<!DOCTYPE html>" + doc.documentElement.outerHTML;
+    builder.uploadedHtml = out; builder.uploadedName = indexKey;
+    $("#builderFrame").srcdoc = out;
+    $("#bHint").style.display = "none"; $("#bUploadHint").style.display = "";
+    fpSet(100, "완료");
+    toast(`폴더 미리보기 · ${map.size}개 파일 · ${indexKey}`);
+    await new Promise((r) => setTimeout(r, 350));
+  } catch (e) {
+    toast("폴더 적용 오류: " + e.message);
+  } finally {
+    fpHide();
   }
-  for (const st of doc.querySelectorAll("style")) st.textContent = await rewriteCss(st.textContent, indexDir);
-  const out = "<!DOCTYPE html>" + doc.documentElement.outerHTML;
-  builder.uploadedHtml = out; builder.uploadedName = indexKey;
-  $("#builderFrame").srcdoc = out;
-  $("#bHint").style.display = "none"; $("#bUploadHint").style.display = "";
-  toast(`폴더 미리보기 · ${map.size}개 파일 · ${indexKey}`);
 }
 function initBuilder() {
   $("#industryList").innerHTML = Object.keys(INDUSTRIES).map(k => `<option value="${esc(k)}">`).join("");

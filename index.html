@@ -182,6 +182,16 @@
 
   .stage-wrap { position: sticky; top: 82px; }
   .stage-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+  /* folder-apply progress dialog */
+  .fp-overlay { position: fixed; inset: 0; z-index: 200; background: rgba(6,9,14,.55); backdrop-filter: blur(3px); display: none; align-items: center; justify-content: center; }
+  .fp-overlay.on { display: flex; animation: fade .2s ease; }
+  .fp-box { background: var(--surface); border: 1px solid var(--border-strong); border-radius: 16px; padding: 26px 30px; width: 320px; max-width: 86vw; text-align: center; box-shadow: var(--shadow); }
+  .fp-spin { width: 38px; height: 38px; border-radius: 50%; border: 3px solid var(--border); border-top-color: var(--accent); margin: 0 auto 16px; animation: fpspin .8s linear infinite; }
+  @keyframes fpspin { to { transform: rotate(360deg); } }
+  .fp-title { font-weight: 700; font-size: 15px; }
+  .fp-sub { color: var(--muted); font-size: 12.5px; margin-top: 6px; min-height: 16px; }
+  .fp-bar { height: 6px; background: var(--bg-2); border-radius: 3px; margin-top: 15px; overflow: hidden; }
+  .fp-bar i { display: block; height: 100%; width: 0; background: linear-gradient(90deg, var(--accent), #7aa7ff); border-radius: 3px; transition: width .25s ease; }
   .stage-bar .sp { flex: 1; }
   .stage { border: 1px solid var(--border); border-radius: var(--radius); padding: 18px; box-shadow: var(--shadow);
     background: var(--surface);
@@ -579,6 +589,14 @@
 
 <input id="inlineEdit" style="position:fixed;display:none;z-index:80;border:2px solid var(--accent);border-radius:8px;padding:6px 9px;font-size:14px;font-weight:600;background:var(--surface);color:var(--text);box-shadow:var(--shadow);min-width:120px" />
 <div id="cardPeek"><iframe id="cardPeekFrame" title="concept"></iframe><div class="peek-tag" id="cardPeekTag"></div></div>
+<div id="folderProgress" class="fp-overlay">
+  <div class="fp-box">
+    <div class="fp-spin"></div>
+    <div class="fp-title" id="fpTitle">폴더 적용 중…</div>
+    <div class="fp-sub" id="fpSub">파일을 불러오는 중</div>
+    <div class="fp-bar"><i id="fpBar"></i></div>
+  </div>
+</div>
 <div class="toast" id="toast"></div>
 <script src="app.js"></script>
 </body>
