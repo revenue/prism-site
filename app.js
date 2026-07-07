@@ -830,6 +830,25 @@ async function loadBuilderAssets() {
 }
 /* 내가 준비한 폴더(사이트 패키지) 업로드 → 상대경로 에셋을 blob URL로 연결해 미리보기.
    내 콘텐츠를 로컬에서 렌더할 뿐, 외부 사이트를 가져오지 않음. */
+const UP_MIME = { html: "text/html", htm: "text/html", css: "text/css", js: "text/javascript", mjs: "text/javascript", json: "application/json", svg: "image/svg+xml", png: "image/png", jpg: "image/jpeg", jpeg: "image/jpeg", gif: "image/gif", webp: "image/webp", avif: "image/avif", ico: "image/x-icon", bmp: "image/bmp", woff: "font/woff", woff2: "font/woff2", ttf: "font/ttf", otf: "font/otf", eot: "application/vnd.ms-fontobject", mp4: "video/mp4", webm: "video/webm", ogg: "audio/ogg", mp3: "audio/mpeg", wav: "audio/wav", txt: "text/plain", xml: "application/xml", pdf: "application/pdf", map: "application/json", md: "text/markdown", csv: "text/csv" };
+const mimeOf = (path, file) => UP_MIME[(path.split(".").pop() || "").toLowerCase()] || (file && file.type) || "application/octet-stream";
+async function ensureUploadSW() {
+  if (!("serviceWorker" in navigator)) return null;
+  try {
+    let reg = await navigator.serviceWorker.getRegistration();
+    const has = reg && /upload-sw\.js/.test((reg.active || reg.installing || reg.waiting || {}).scriptURL || "");
+    if (!has) reg = await navigator.serviceWorker.register("upload-sw.js");
+    await navigator.serviceWorker.ready;
+    return reg;
+  } catch (e) { return null; }
+}
+function postToSW(sw, files) {
+  return new Promise((resolve) => {
+    const ch = new MessageChannel();
+    ch.port1.onmessage = (ev) => resolve(ev.data);
+    sw.postMessage({ type: "PRISM_UPLOAD", reset: true, files }, [...files.map((f) => f.buf), ch.port2]);
+  });
+}
 const nextFrame = () => new Promise((r) => requestAnimationFrame(() => r()));
 function fpShow(msg) { $("#fpTitle").textContent = "폴더 적용 중…"; $("#fpSub").textContent = msg || "파일을 불러오는 중"; $("#fpBar").style.width = "0%"; $("#folderProgress").classList.add("on"); }
 function fpSet(pct, msg) { $("#fpBar").style.width = Math.max(0, Math.min(100, pct)) + "%"; if (msg != null) $("#fpSub").textContent = msg; }
@@ -844,6 +863,37 @@ async function previewUploadedFolder(files) {
     for (const f of files) { let rel = f.webkitRelativePath || f.name; if (root && rel.startsWith(root)) rel = rel.slice(root.length); map.set(rel.toLowerCase(), f); }
     let indexKey = [...map.keys()].find((k) => k === "index.html") || [...map.keys()].find((k) => k.endsWith("/index.html")) || [...map.keys()].find((k) => k.endsWith(".html"));
     if (!indexKey) { toast("index.html을 찾을 수 없습니다"); return; }
+
+    // ── 방식 A: Service Worker로 폴더 전체를 서빙(멀티페이지·fetch·@import·모든 에셋 반영) ──
+    const reg = await ensureUploadSW();
+    const sw = reg && (reg.active || navigator.serviceWorker.controller);
+    if (sw) {
+      const keys = [...map.keys()], payload = [];
+      for (let i = 0; i < keys.length; i++) {
+        const k = keys[i], f = map.get(k);
+        payload.push({ path: k, ct: mimeOf(k, f), buf: await f.arrayBuffer() });
+        if (i % 5 === 0) { fpSet(8 + 76 * (i + 1) / keys.length, `파일 처리 중… (${i + 1}/${keys.length})`); await nextFrame(); }
+      }
+      fpSet(90, "폴더 서버 준비 중…"); await nextFrame();
+      await postToSW(sw, payload);
+      const base = location.pathname.replace(/[^/]*$/, ""), testUrl = base + "__prismup__/" + indexKey;
+      let swWorks = false;
+      try { const t = await fetch(testUrl, { cache: "no-store" }); if (t.ok) swWorks = !(await t.clone().text()).startsWith("Not found in uploaded folder"); } catch (e) {}
+      if (swWorks) {
+        const fr = $("#builderFrame");
+        fr.removeAttribute("srcdoc");
+        builder.uploadedHtml = "sw:" + indexKey; builder.uploadedName = indexKey;
+        fr.src = testUrl;
+        $("#bHint").style.display = "none"; $("#bUploadHint").style.display = "";
+        fpSet(100, "완료");
+        toast(`폴더 전체 반영 · ${map.size}개 파일 · ${indexKey}`);
+        await new Promise((r) => setTimeout(r, 300));
+        return;
+      }
+      // SW가 서빙하지 못함(미제어) → 아래 단일 페이지 blob 방식으로 폴백
+    }
+
+    // ── 방식 B(폴백): SW 미지원/미제어 → 단일 index.html만 blob 재작성 ──
     const indexDir = indexKey.includes("/") ? indexKey.slice(0, indexKey.lastIndexOf("/") + 1) : "";
     const blobUrls = new Map();
     const urlFor = (key) => { if (blobUrls.has(key)) return blobUrls.get(key); const f = map.get(key); if (!f) return null; const u = URL.createObjectURL(f); blobUrls.set(key, u); return u; };
@@ -877,10 +927,10 @@ async function previewUploadedFolder(files) {
     fpSet(94, "렌더링…"); await nextFrame();
     const out = "<!DOCTYPE html>" + doc.documentElement.outerHTML;
     builder.uploadedHtml = out; builder.uploadedName = indexKey;
-    $("#builderFrame").srcdoc = out;
+    const fr = $("#builderFrame"); fr.removeAttribute("src"); fr.srcdoc = out;
     $("#bHint").style.display = "none"; $("#bUploadHint").style.display = "";
     fpSet(100, "완료");
-    toast(`폴더 미리보기 · ${map.size}개 파일 · ${indexKey}`);
+    toast(`폴더 미리보기(단일 페이지) · ${map.size}개 파일 · ${indexKey}`);
     await new Promise((r) => setTimeout(r, 350));
   } catch (e) {
     toast("폴더 적용 오류: " + e.message);
@@ -916,7 +966,7 @@ function initBuilder() {
     r.onload = () => { builder.uploadedHtml = String(r.result); $("#builderFrame").srcdoc = builder.uploadedHtml; $("#bHint").style.display = "none"; $("#bUploadHint").style.display = ""; toast(`${f.name} 미리보기`); };
     r.readAsText(f); e.target.value = "";
   };
-  $("#bBackToGen").onclick = () => { builder.uploadedHtml = null; $("#bUploadHint").style.display = "none"; $("#bHint").style.display = ""; renderBuilder(); toast("빌더로 돌아왔습니다"); };
+  $("#bBackToGen").onclick = () => { builder.uploadedHtml = null; const fr = $("#builderFrame"); fr.removeAttribute("src"); $("#bUploadHint").style.display = "none"; $("#bHint").style.display = ""; renderBuilder(); toast("빌더로 돌아왔습니다"); };
   // 내 폴더(사이트 패키지) 업로드 → 상대경로를 blob으로 연결해 미리보기
   $("#bUploadFolder").onclick = () => $("#bFolderFile").click();
   $("#bFolderFile").onchange = async (e) => { const files = [...e.target.files]; e.target.value = ""; if (files.length) await previewUploadedFolder(files); };
