@@ -1,6 +1,6 @@
 {
   "category": "dataviz",
-  "count": 43,
+  "count": 44,
   "items": [
     {
       "id": "ourworldindata:population-tool-how-will-populations-across-the-world-change",
@@ -16,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.334Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:childhood-stunting-fell-dramatically-over-the-20th-century",
@@ -32,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-11T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.334Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:most-people-care-about-farm-animals-our-food-system-doesn-t-",
@@ -48,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-20T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.334Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:we-re-looking-for-a-writer",
@@ -64,7 +64,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-15T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.334Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:what-do-people-die-from-in-different-countries",
@@ -80,7 +80,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-13T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.334Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:how-does-food-get-traded-around-the-world",
@@ -96,7 +96,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-29T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.333Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:how-much-are-people-across-the-world-paying-for-their-carbon",
@@ -112,7 +112,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-22T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.333Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:where-do-migrants-live-and-where-were-they-born",
@@ -128,7 +128,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-15T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.333Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:five-million-children-die-every-year-what-do-they-die-from",
@@ -144,7 +144,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-25T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.333Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "ourworldindata:south-korea-s-population-is-set-to-shrink-what-would-it-take",
@@ -160,7 +160,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-07-06T06:12:26.333Z"
+      "collectedAt": "2026-07-08T02:15:06.355Z"
     },
     {
       "id": "rawgraphs:alluvial-diagram",
@@ -179,7 +179,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-06T06:12:26.237Z"
+      "collectedAt": "2026-07-08T02:15:06.141Z"
     },
     {
       "id": "rawgraphs:bump-chart",
@@ -198,7 +198,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-06T06:12:26.237Z"
+      "collectedAt": "2026-07-08T02:15:06.141Z"
     },
     {
       "id": "observable:d3-gallery",
@@ -217,7 +217,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-06T06:12:26.237Z"
+      "collectedAt": "2026-07-08T02:15:06.141Z"
     },
     {
       "id": "observable:zoomable-sunburst",
@@ -236,7 +236,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-06T06:12:26.237Z"
+      "collectedAt": "2026-07-08T02:15:06.141Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -255,7 +255,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-06T06:12:26.237Z"
+      "collectedAt": "2026-07-08T02:15:06.141Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -275,7 +275,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-06T06:12:26.237Z"
+      "collectedAt": "2026-07-08T02:15:06.141Z"
     },
     {
       "id": "flourish:scatter-connected-scatter",
@@ -294,7 +294,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-06T06:12:26.237Z"
+      "collectedAt": "2026-07-08T02:15:06.141Z"
     },
     {
       "id": "flourish:survey-likert",
@@ -313,7 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-06T06:12:26.237Z"
+      "collectedAt": "2026-07-08T02:15:06.141Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-16-the-swiss-population-cap-1-77-tril",
@@ -329,7 +329,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-16 18:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:in-which-stadiums-will-the-world-cup-favorites-play",
@@ -345,7 +345,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-11 18:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:new-draw-arrows-in-locator-maps",
@@ -361,7 +361,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-11 16:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-9-the-world-cup-spacex-and-the-pope",
@@ -377,7 +377,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-09 18:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:how-long-will-you-live",
@@ -393,7 +393,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-04 18:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-2-extreme-weather-gambling-and-the-sw",
@@ -409,7 +409,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-02 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:eighty-percent-of-germans-will-benefit-from-a-blood-donation",
@@ -425,7 +425,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-28 19:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-may-26-ebola-outbreak-taxing-the-rich-and-",
@@ -441,7 +441,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-26 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:let-there-be-twilight-brighter-nights-in-belfast-and-beyond",
@@ -457,7 +457,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-21 19:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-may-19-china-maps-and-the-eurovision-song-",
@@ -473,7 +473,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-19 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:secure-your-account-with-passkeys-38-better-access-controls",
@@ -489,7 +489,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-18 10:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:the-fracturing-of-london-8217-s-politics",
@@ -505,7 +505,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-14 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-may-12-hantavirus-ai-inequality-and-burnin",
@@ -521,7 +521,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-12 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:8220-verify-you-8217-re-an-adult-to-access-this-content-8221",
@@ -537,7 +537,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-07 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-may-5-soccer-health-and-parrot-species",
@@ -553,7 +553,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-05-05 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:bookworms-of-europe-and-the-gender-reading-gap",
@@ -569,7 +569,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-04-30 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-april-28-white-house-correspondents-8217-d",
@@ -585,7 +585,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-04-28 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:untangling-the-underground",
@@ -601,7 +601,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-04-23 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-april-21-sea-routes-ai-and-penguins",
@@ -617,23 +617,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-04-21 17:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
-    },
-    {
-      "id": "datawrapper:say-hi-to-michelle",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Say hi to Michelle!",
-      "url": "https://www.datawrapper.de/blog/say-hi-to-michelle",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/say-hi-to-michelle/e9b6ffe862-1776686052/newmichelle-1.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-04-20 16:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-23-heatwaves-the-world-cup-and-the-10",
@@ -649,7 +633,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-23 18:30:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:how-to-become-a-trillionaire",
@@ -665,7 +649,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-18 18:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:where-europe-needs-cooling-and-heating",
@@ -681,7 +665,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-02 18:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-30-venezuela-a-heat-dome-and-messi",
@@ -697,7 +681,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-30 18:00:00",
-      "collectedAt": "2026-07-06T06:12:26.236Z"
+      "collectedAt": "2026-07-08T02:15:06.140Z"
     },
     {
       "id": "datawrapper:found-in-translation",
@@ -713,6 +697,38 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-25 18:00:00",
+      "collectedAt": "2026-07-08T02:15:06.140Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-july-7-the-fourth-of-july-fifa-rankings-an",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, July 7: The Fourth of July, FIFA rankings, and squids",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-7-2026-the-fourth-of-july-fifa-rankings-and-squids",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-7-2026-the-fourth-of-july-fifa-rankings-and-squids/88d3a3fb3a-1783429641/july-7.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-07 17:00:00",
+      "collectedAt": "2026-07-08T02:15:06.140Z"
+    },
+    {
+      "id": "datawrapper:say-hi-to-michelle",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Say hi to Michelle!",
+      "url": "https://www.datawrapper.de/blog/say-hi-to-michelle",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/say-hi-to-michelle/e9b6ffe862-1776686052/newmichelle-1.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-04-20 16:00:00",
       "collectedAt": "2026-07-06T06:12:26.236Z"
     }
   ]
