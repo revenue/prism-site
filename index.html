@@ -51,7 +51,7 @@
 
   header.top { position: sticky; top: 0; z-index: 40; backdrop-filter: blur(14px);
     background: color-mix(in srgb, var(--bg) 82%, transparent); border-bottom: 1px solid var(--border); }
-  .top-inner { max-width: 1360px; margin: 0 auto; padding: 13px 24px; display: flex; align-items: center; gap: 18px; }
+  .top-inner { max-width: none; margin: 0; padding: 13px 28px; display: flex; align-items: center; gap: 18px; }
   .brand { display: flex; align-items: center; gap: 11px; font-weight: 700; }
   .brand .mark { width: 32px; height: 32px; flex: none; display: block; color: var(--text); }
   .brand b { font-family: var(--display); font-size: 15px; letter-spacing: -.2px; }
@@ -68,7 +68,8 @@
   .stat-pill { font-size: 12px; color: var(--muted); background: var(--surface); border: 1px solid var(--border); padding: 7px 12px; border-radius: 20px; white-space: nowrap; }
   .stat-pill b { color: var(--accent); font-family: var(--display); }
 
-  main { max-width: 1360px; margin: 0 auto; padding: 30px 24px 90px; }
+  main { max-width: none; margin: 0; padding: 30px 28px 90px; }
+  main.wb-fullwidth { padding: 0; }
   .view { display: none; } .view.on { display: block; animation: fade .4s ease; }
   @keyframes fade { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
   .hero { margin-bottom: 26px; }
@@ -230,6 +231,74 @@
   #cardPeek iframe { width: 680px; height: 500px; border: 0; transform: scale(0.5); transform-origin: top left; }
   #cardPeek .peek-tag { position: absolute; left: 0; bottom: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,.7)); color: #fff; font-size: 11px; font-weight: 700; padding: 16px 10px 8px; pointer-events: none; }
 
+  /* ---------- Builder v2 (내역 + 코멘트) ---------- */
+  #view-builder.on { display: flex; }
+  .wb { display: grid; grid-template-columns: 300px 1fr; width: 100%; height: calc(100dvh - 66px); }
+  .wb-side { border-right: 1px solid var(--border); display: flex; flex-direction: column; min-height: 0; background: var(--surface); }
+  .wb-side-head { padding: 16px 16px 12px; border-bottom: 1px solid var(--border); }
+  .wb-side-title { font-weight: 700; font-size: 14px; margin-bottom: 10px; display: flex; align-items: center; gap: 8px; }
+  .wb-count { font-family: var(--display); font-size: 11px; color: var(--accent); background: var(--accent-soft); padding: 1px 8px; border-radius: 10px; }
+  .wb-search { display: flex; flex-direction: column; gap: 7px; }
+  .wb-search input, .wb-search select { width: 100%; background: var(--bg-2); border: 1px solid var(--border); color: var(--text); padding: 8px 10px; border-radius: 8px; font-size: 13px; }
+  .wb-search input:focus, .wb-search select:focus { outline: none; border-color: var(--accent-line); }
+  .wb-list { flex: 1; overflow-y: auto; padding: 10px; display: flex; flex-direction: column; gap: 8px; scrollbar-width: thin; }
+  .wb-item { display: flex; gap: 10px; padding: 8px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-2); cursor: pointer; transition: border-color .15s, background .15s; }
+  .wb-item:hover { border-color: var(--border-strong); }
+  .wb-item.on { border-color: var(--accent); background: var(--accent-soft); }
+  .wb-item .th { width: 64px; height: 44px; border-radius: 6px; object-fit: cover; background: var(--surface-2); flex: none; border: 1px solid var(--border); }
+  .wb-item .meta { min-width: 0; flex: 1; display: flex; flex-direction: column; justify-content: center; gap: 3px; }
+  .wb-item .t { font-size: 13px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .wb-item .d { font-size: 10.5px; color: var(--faint); }
+  .wb-item .del { color: var(--faint); font-size: 14px; align-self: center; padding: 2px 4px; border-radius: 5px; }
+  .wb-item .del:hover { color: var(--bad); background: var(--surface-2); }
+  .wb-list .empty-h { color: var(--faint); font-size: 12.5px; text-align: center; padding: 30px 12px; }
+  .wb-main { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
+  .wb-toolbar { display: flex; align-items: center; gap: 10px; padding: 12px 18px; border-bottom: 1px solid var(--border); background: var(--surface); flex: none; }
+  .wb-doc-title { font-weight: 700; font-size: 15px; max-width: 40ch; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .wb-doc-sub { font-size: 11.5px; color: var(--faint); }
+  .wb-toolbar .sp { flex: 1; }
+  .wb-toolbar .btn[disabled] { opacity: .4; cursor: not-allowed; }
+  .wb-stage { flex: 1; position: relative; overflow: auto; background: repeating-conic-gradient(var(--bg) 0% 25%, var(--bg-2) 0% 50%) 50%/22px 22px; display: flex; }
+  .wb-frame-wrap { position: relative; width: 100%; min-height: 100%; }
+  .wb-frame-wrap.mobile { max-width: 400px; margin: 20px auto; box-shadow: var(--shadow); border-radius: 14px; overflow: hidden; min-height: 720px; }
+  #wbFrame { width: 100%; height: 100%; min-height: calc(100dvh - 132px); border: 0; display: block; background: #fff; }
+  .wb-frame-wrap.mobile #wbFrame { min-height: 720px; }
+  .wb-empty { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 14px; color: var(--muted); text-align: center; }
+  .wb-empty-ic { font-size: 40px; color: var(--faint); opacity: .5; }
+  .wb-stage.has-doc .wb-empty { display: none; }
+  /* 코멘트 오버레이 */
+  .wb-cmt-layer { position: absolute; inset: 0; display: none; z-index: 5; }
+  .wb-stage.cmt .wb-cmt-layer { display: block; cursor: crosshair; }
+  .wb-stage.cmt #wbFrame { pointer-events: none; }
+  .wb-pin { position: absolute; width: 26px; height: 26px; border-radius: 50% 50% 50% 3px; background: var(--accent); color: #fff; font-size: 12px; font-weight: 700; font-family: var(--display); display: flex; align-items: center; justify-content: center; transform: translate(-50%, -100%); box-shadow: var(--shadow); cursor: pointer; z-index: 6; }
+  .wb-pin.resolved { background: var(--good); }
+  .wb-cmtbar { display: none; align-items: center; gap: 9px; padding: 10px 18px; border-top: 1px solid var(--border); background: var(--surface); font-size: 12.5px; color: var(--muted); flex: none; }
+  .wb-cmtbar.on { display: flex; }
+  .wb-cmtbar-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent); }
+  .wb-cmtbar .sp { flex: 1; }
+  /* 코멘트 팝오버 */
+  #wbCmtPop { position: fixed; z-index: 210; width: 300px; background: var(--surface); border: 1px solid var(--border-strong); border-radius: 12px; box-shadow: var(--shadow); display: none; }
+  #wbCmtPop.on { display: block; }
+  #wbCmtPop .ph { padding: 10px 13px; border-bottom: 1px solid var(--border); font-size: 12.5px; font-weight: 700; display: flex; align-items: center; gap: 6px; }
+  #wbCmtPop .pb { padding: 12px 13px; }
+  #wbCmtPop textarea { width: 100%; background: var(--bg-2); border: 1px solid var(--border); color: var(--text); border-radius: 8px; padding: 9px; font-size: 12.5px; min-height: 64px; resize: vertical; }
+  #wbCmtPop .row { display: flex; gap: 7px; margin-top: 9px; }
+  #wbCmtPop .row .sp { flex: 1; }
+  /* 코멘트 목록 드로어 */
+  #wbCmtDrawer { position: absolute; top: 0; right: 0; bottom: 0; width: 320px; background: var(--surface); border-left: 1px solid var(--border-strong); z-index: 8; display: none; flex-direction: column; box-shadow: var(--shadow); }
+  #wbCmtDrawer.on { display: flex; }
+  #wbCmtDrawer .dh { padding: 13px 15px; border-bottom: 1px solid var(--border); font-weight: 700; font-size: 13.5px; display: flex; align-items: center; }
+  #wbCmtDrawer .dl { flex: 1; overflow-y: auto; padding: 12px; display: flex; flex-direction: column; gap: 8px; }
+  .wb-cmt-card { border: 1px solid var(--border); border-radius: 9px; padding: 10px 12px; font-size: 12.5px; background: var(--bg-2); }
+  .wb-cmt-card .cn { display: flex; align-items: center; gap: 7px; margin-bottom: 5px; }
+  .wb-cmt-card .cn b { background: var(--accent); color: #fff; width: 18px; height: 18px; border-radius: 50%; font-size: 10px; display: flex; align-items: center; justify-content: center; font-family: var(--display); }
+  .wb-cmt-card .cn .date { color: var(--faint); font-size: 10.5px; margin-left: auto; }
+  .wb-cmt-card .ca { display: flex; gap: 8px; margin-top: 7px; }
+  .wb-cmt-card .ca button { font-size: 11px; color: var(--muted); font-weight: 600; }
+  .wb-cmt-card .ca button:hover { color: var(--text); }
+  .wb-cmt-card.resolved { opacity: .6; }
+  @media (max-width: 820px) { .wb { grid-template-columns: 1fr; height: auto; } .wb-side { max-height: 240px; } }
+
   /* ---------- Studio ---------- */
   .studio-layout { display: grid; grid-template-columns: 320px 1fr; gap: 24px; align-items: start; }
   .studio-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(64px, 1fr)); gap: 8px; max-height: 360px; overflow-y: auto; padding: 2px; }
@@ -355,77 +424,55 @@
     </div>
   </section>
 
-  <!-- ============ BUILDER ============ -->
+  <!-- ============ BUILDER (v2 · 내역 + 코멘트) ============ -->
   <section class="view" id="view-builder">
-    <div class="hero">
-      <h1>레퍼런스를 <em>붙여넣고</em>, 업종을 적으면 — 랜딩페이지가 나온다.</h1>
-      <p>참고 사이트 URL로 무드·색을 가져오고, 업종·상품을 입력하면 문구와 톤까지 맞춰집니다. 이미지는 업로드하거나 URL로 불러오고, 모든 문구를 직접 편집하세요.</p>
-    </div>
-    <div class="builder-layout">
-      <div>
-        <!-- 브리프 -->
-        <div class="panel bacc" data-open="1"><div class="p-head bacc-h">① 브리프 <span class="bacc-x">▾</span></div>
-          <div class="p-body bacc-b">
-            <div class="field"><label>업종 / 카테고리 <span style="color:var(--faint);font-weight:500;font-size:11px">— 무드·문구 스타일에 반영</span></label>
-              <input type="text" id="bIndustry" list="industryList" placeholder="예: 카페/디저트, 핀테크/금융, 헬스케어…" autocomplete="off" />
-              <datalist id="industryList"></datalist></div>
-            <div class="field"><label>상품 / 서비스명</label><input type="text" id="bProduct" list="productList" placeholder="예: 데일리 로스터리" autocomplete="off" /><datalist id="productList"></datalist></div>
-            <div class="field"><label>목적 / 한 줄 소개</label><input type="text" id="bGoal" list="goalList" placeholder="예: 신규 방문 예약을 늘리고 싶어요" autocomplete="off" /><datalist id="goalList"></datalist></div>
-            <div class="row2"><button class="btn sm" id="bRandom">↻ 랜덤 적용</button><button class="btn sm primary" id="bGenerate">✦ 초안 생성</button></div>
-            <p class="hint">'랜덤 적용'을 누를 때마다 업종·상품·목적이 랜덤 설정되고, 레퍼런스는 <b>디자인 어워드 수상 사이트</b>를 매번 바꿔 가져와 반영합니다.</p>
-          </div></div>
-        <!-- 레퍼런스 -->
-        <div class="panel bacc" data-open="0"><div class="p-head bacc-h">② 레퍼런스 반영 <span class="bacc-x">▾</span></div>
-          <div class="p-body bacc-b">
-            <div class="field"><label>참고 사이트 URL</label>
-              <div style="display:flex;gap:6px"><input type="text" id="bRefUrl" placeholder="https://참고사이트.com" style="flex:1" /><button class="btn sm" id="bRefApply">반영</button></div>
-              <p class="hint">그 사이트의 실제 화면을 캡처해 히어로에 넣고, 색을 추출해 무드로 적용합니다.</p></div>
-            <div id="bRefPreview"></div>
-          </div></div>
-        <!-- 콘텐츠 -->
-        <div class="panel bacc" data-open="0"><div class="p-head bacc-h">③ 콘텐츠 · 문구 <span class="bacc-x">▾</span></div>
-          <div class="p-body bacc-b">
-            <div class="field"><label>브랜드</label><input type="text" id="bBrand" value="Acme" /></div>
-            <div class="field"><label>헤드라인</label><input type="text" id="bHead" value="복잡한 데이터를, 명료한 결정으로." /></div>
-            <div class="field"><label>서브카피</label><textarea id="bSub" style="min-height:56px;font-family:inherit">Prism으로 모은 세계 최고의 소스로, 당신의 아이디어를 수려한 화면으로 바꿉니다.</textarea></div>
-            <div class="row2"><div class="field"><label>CTA</label><input type="text" id="bCta" value="지금 시작하기" /></div><div class="field"><label>보조 CTA</label><input type="text" id="bCta2" value="데모 보기" /></div></div>
-            <div class="field"><label>특징 3개 (제목 · 설명)</label><div id="bFeats"></div></div>
-            <div class="field"><label>통계 3개 (수치 · 라벨)</label><div id="bStats"></div></div>
-            <div class="field"><label>추천사 (인용 · 이름)</label><input type="text" id="bQuote" value="도입 2주 만에 전환율이 눈에 띄게 올랐어요." /><input type="text" id="bAuthor" value="김대표 · 스타트업 A" style="margin-top:6px" /></div>
-          </div></div>
-        <!-- 이미지 -->
-        <div class="panel bacc" data-open="0"><div class="p-head bacc-h">④ 이미지 <span class="bacc-x">▾</span></div>
-          <div class="p-body bacc-b">
-            <div class="field"><label>히어로 이미지</label>
-              <div style="display:flex;gap:6px;margin-bottom:6px"><input type="text" id="bHeroUrl" placeholder="이미지 URL 붙여넣기" style="flex:1" /><button class="btn sm" id="bHeroUrlApply">불러오기</button></div>
-              <button class="btn sm" id="bHeroUpload" style="width:100%">파일 업로드</button>
-              <input type="file" id="bHeroFile" accept="image/*" style="display:none" />
-              <button class="btn sm" id="bHeroClear" style="width:100%;margin-top:6px">이미지 제거(그래픽 사용)</button></div>
-          </div></div>
-        <!-- 스타일 & 스택 -->
-        <div class="panel bacc" data-open="1"><div class="p-head bacc-h">⑤ 스타일 · 적용 이력 <span id="bStackN" style="color:var(--faint);font-weight:500;font-size:12px"></span><span class="bacc-x" style="margin-left:auto">▾</span></div>
-          <div class="p-body bacc-b">
-            <div class="field"><label>무드 색상</label><div class="swatches" id="bMoodSwatch"></div></div>
-            <div id="bStack" class="b-stack"></div>
-            <div class="row2" style="margin-top:10px"><button class="btn sm" id="bReset">초기화</button><button class="btn sm" id="bShuffle">랜덤 무드</button></div>
-          </div></div>
-      </div>
-      <div class="stage-wrap">
-        <div class="stage-bar">
-          <div class="seg" id="bDevice" style="max-width:180px"><button class="on" data-d="desktop">데스크탑</button><button data-d="mobile">모바일</button></div>
-          <div class="sp"></div>
-          <button class="btn sm" id="bUploadFolder">폴더 열기</button>
-          <input type="file" id="bFolderFile" webkitdirectory directory multiple style="display:none" />
-          <button class="btn sm" id="bUploadHtml">내 HTML 열기</button>
-          <input type="file" id="bHtmlFile" accept=".html,.htm,text/html" style="display:none" />
-          <button class="btn sm" id="bOpenNew">새 창</button>
-          <button class="btn sm primary" id="bExport">HTML 내보내기</button>
+    <div class="wb">
+      <!-- LEFT: 내역 -->
+      <aside class="wb-side">
+        <div class="wb-side-head">
+          <div class="wb-side-title">내역 <span class="wb-count" id="wbCount">0</span></div>
+          <div class="wb-search">
+            <input id="wbSearch" placeholder="제목 검색…" autocomplete="off" />
+            <select id="wbRange"><option value="all">전체 기간</option><option value="7">최근 7일</option><option value="30">최근 30일</option><option value="90">최근 90일</option></select>
+          </div>
         </div>
-        <div class="builder-frame" id="builderFrameWrap"><iframe id="builderFrame" title="preview"></iframe></div>
-        <p class="hint" id="bHint">브리프를 입력하거나 라이브러리에서 '체험하기'를 눌러 시작하세요.</p>
-        <p class="hint" id="bUploadHint" style="display:none">내 HTML 미리보기 중 · <button id="bBackToGen" style="color:var(--accent);font-weight:600;background:none;border:none;cursor:pointer;padding:0">빌더로 돌아가기</button></p>
+        <div class="wb-list" id="wbList"></div>
+      </aside>
+      <!-- RIGHT: body -->
+      <div class="wb-main">
+        <div class="wb-toolbar">
+          <div class="wb-doc-title" id="wbDocTitle">웹 빌더</div>
+          <div class="wb-doc-sub" id="wbDocSub"></div>
+          <div class="sp"></div>
+          <div class="seg" id="wbDevice"><button class="on" data-d="desktop">데스크탑</button><button data-d="mobile">모바일</button></div>
+          <button class="btn sm primary" id="wbNew">＋ 새로 만들기</button>
+          <button class="btn sm" id="wbEdit" disabled>✎ 수정하기</button>
+          <button class="btn sm" id="wbDeploy" disabled>배포</button>
+        </div>
+        <div class="wb-stage" id="wbStage">
+          <div class="wb-frame-wrap" id="wbFrameWrap"><iframe id="wbFrame" title="preview"></iframe>
+            <div class="wb-cmt-layer" id="wbCmtLayer"></div>
+          </div>
+          <div class="wb-empty" id="wbEmpty">
+            <div class="wb-empty-ic">▤</div>
+            <p><b>내역에서 항목을 선택</b>하거나 <b>＋ 새로 만들기</b>로 시작하세요.</p>
+            <button class="btn primary" id="wbNewBig">＋ 새로 만들기</button>
+          </div>
+          <div id="wbCmtDrawer"><div class="dh">코멘트 목록<button class="btn sm" id="wbCmtDrawerClose" style="margin-left:auto">닫기</button></div><div class="dl" id="wbCmtDrawerList"></div></div>
+        </div>
+        <!-- 코멘트 모드 바 -->
+        <div class="wb-cmtbar" id="wbCmtbar">
+          <span class="wb-cmtbar-dot"></span> 코멘트 모드 · 화면을 클릭해 코멘트 추가
+          <div class="sp"></div>
+          <button class="btn sm" id="wbCmtList">목록 (<span id="wbCmtN">0</span>)</button>
+          <button class="btn sm" id="wbCmtClearOld">이전 삭제</button>
+          <button class="btn sm" id="wbCmtClearAll">전체 삭제</button>
+          <button class="btn sm primary" id="wbCmtSave">저장 · 프롬프트 복사</button>
+          <button class="btn sm" id="wbCmtExit">종료</button>
+        </div>
       </div>
     </div>
+    <input type="file" id="wbFolderInput" webkitdirectory directory multiple style="display:none" />
   </section>
 
   <!-- ============ GENERATOR ============ -->
@@ -597,6 +644,7 @@
     <div class="fp-bar"><i id="fpBar"></i></div>
   </div>
 </div>
+<div id="wbCmtPop"><div class="ph" id="wbCmtPopHead">코멘트 추가</div><div class="pb"><textarea id="wbCmtText" placeholder="수정할 내용을 적으세요. 예: 이 히어로 카피를 더 짧고 강하게"></textarea><div class="row"><button class="btn sm" id="wbCmtDelete" style="color:var(--bad)">삭제</button><div class="sp"></div><button class="btn sm" id="wbCmtCancel">취소</button><button class="btn sm primary" id="wbCmtOk">저장</button></div></div></div>
 <div class="toast" id="toast"></div>
 <script src="app.js"></script>
 </body>

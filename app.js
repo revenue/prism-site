@@ -808,7 +808,7 @@ function renderBuilder() {
   const sn = $("#bStackN"); if (sn) sn.textContent = builder.stack.length ? `(${builder.stack.length})` : "";
   const bh = $("#bHint"); if (bh) bh.textContent = `${t.name} 적용 중 · 브리프/레퍼런스/라이브러리를 더해 발전시키세요.`;
 }
-window.tryLibrary = (id) => { const item = (CATALOG.items || []).find((x) => x.id === id); if (!item) return; builder.stack.push(item); builder.theme = null; goView("builder"); renderBuilder(); toast(`${item.sourceName} 스타일 적용 — 웹 빌더에서 확인`); };
+window.tryLibrary = (id) => { const item = (CATALOG.items || []).find((x) => x.id === id); if (!item) return; goView("builder"); if (typeof wbNewGenerated === "function") wbNewGenerated(item); else toast("웹 빌더에서 확인"); };
 
 function setHeroImage(src) { builder.heroImage = src; renderBuilder(); }
 /* 오픈라이선스 아이콘을 로드해 랜딩 특징 섹션에 자동 채움(레퍼런스 색으로 리컬러됨) */
@@ -1015,17 +1015,142 @@ function goView(name) {
   currentView = name;
   $$("[data-view]").forEach((x) => x.classList.toggle("on", x.dataset.view === name));
   $$(".view").forEach((v) => v.classList.toggle("on", v.id === "view-" + name));
+  document.querySelector("main").classList.toggle("wb-fullwidth", name === "builder");
   window.scrollTo({ top: 0, behavior: "smooth" });
   if (cmtMode) { $("#cmtViewLabel").textContent = `현재 페이지: ${viewName(name)}`; renderPins(); renderCommentList(); } else clearPins();
   if (name === "requests") renderRequests();
 }
 function initTabs() { $$("[data-view]").forEach((b) => b.onclick = () => goView(b.dataset.view)); $$("[data-goto]").forEach((b) => b.onclick = () => goView(b.dataset.goto)); }
 
+/* ===================================================== WEB BUILDER v2 (내역·코멘트·배포) */
+const WB = { current: null, project: null, cmt: false, comments: [], editing: null };
+const WB_LS = "prism.wb.projects";
+let _wbdb = null;
+function wbIDB() { return new Promise((res, rej) => { if (_wbdb) return res(_wbdb); const r = indexedDB.open("prism-wb", 1); r.onupgradeneeded = () => r.result.createObjectStore("docs"); r.onsuccess = () => res(_wbdb = r.result); r.onerror = () => rej(r.error); }); }
+async function wbIdbPut(id, v) { const db = await wbIDB(); return new Promise((res, rej) => { const tx = db.transaction("docs", "readwrite"); tx.objectStore("docs").put(v, id); tx.oncomplete = () => res(); tx.onerror = () => rej(tx.error); }); }
+async function wbIdbGet(id) { const db = await wbIDB(); return new Promise((res) => { const tx = db.transaction("docs", "readonly"); const q = tx.objectStore("docs").get(id); q.onsuccess = () => res(q.result); q.onerror = () => res(null); }); }
+async function wbIdbDel(id) { const db = await wbIDB(); return new Promise((res) => { const tx = db.transaction("docs", "readwrite"); tx.objectStore("docs").delete(id); tx.oncomplete = () => res(); tx.onerror = () => res(); }); }
+const wbLoad = () => { try { return JSON.parse(localStorage.getItem(WB_LS) || "[]"); } catch { return []; } };
+const wbSaveP = (a) => localStorage.setItem(WB_LS, JSON.stringify(a));
+const wbNow = () => new Date().toISOString();
+const wbId = () => "p" + Date.now().toString(36) + Math.floor(Math.random() * 1e4).toString(36);
+const wbCmtKey = (id) => "prism.wb.cmt." + id;
+const wbFmtDate = (iso) => { if (!iso) return ""; const d = new Date(iso); return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`; };
+function wbThumb(title, hue) { const h = hue != null ? hue : (hashN(title || "x") % 360); return "data:image/svg+xml," + encodeURIComponent(`<svg xmlns='http://www.w3.org/2000/svg' width='128' height='88'><defs><linearGradient id='g' x1='0' y1='0' x2='1' y2='1'><stop offset='0' stop-color='hsl(${h} 68% 58%)'/><stop offset='1' stop-color='hsl(${(h + 45) % 360} 68% 52%)'/></linearGradient></defs><rect width='128' height='88' fill='url(#g)'/><text x='11' y='55' font-family='sans-serif' font-size='34' font-weight='800' fill='rgba(255,255,255,.92)'>${esc((title || "?").trim()[0] || "P")}</text></svg>`); }
+
+function wbRenderList() {
+  const projects = wbLoad(); $("#wbCount").textContent = projects.length;
+  const q = ($("#wbSearch").value || "").toLowerCase().trim(), range = $("#wbRange").value, now = Date.now();
+  const items = projects.filter((p) => {
+    if (q && !(p.title || "").toLowerCase().includes(q)) return false;
+    if (range !== "all" && now - new Date(p.modified || p.created).getTime() > +range * 864e5) return false;
+    return true;
+  }).sort((a, b) => (b.modified || b.created).localeCompare(a.modified || a.created));
+  const list = $("#wbList");
+  if (!items.length) { list.innerHTML = `<div class="empty-h">${projects.length ? "검색 결과 없음" : "아직 만든 페이지가 없습니다.<br>＋ 새로 만들기로 시작하세요."}</div>`; return; }
+  list.innerHTML = items.map((p) => `<div class="wb-item ${WB.current === p.id ? "on" : ""}" data-id="${p.id}"><img class="th" src="${esc(p.thumb || wbThumb(p.title))}" alt=""/><div class="meta"><div class="t">${esc(p.title || "제목 없음")}</div><div class="d">생성 ${wbFmtDate(p.created)} · 수정 ${wbFmtDate(p.modified || p.created)}</div></div><button class="del" data-del="${p.id}">×</button></div>`).join("");
+  $$("#wbList .wb-item").forEach((el) => el.onclick = (e) => { if (!e.target.closest("[data-del]")) wbOpen(el.dataset.id); });
+  $$("#wbList [data-del]").forEach((b) => b.onclick = (e) => { e.stopPropagation(); wbDelete(b.dataset.del); });
+}
+function wbPostFolder(sw, files) { return new Promise((res) => { const ch = new MessageChannel(); ch.port1.onmessage = () => res(); sw.postMessage({ type: "PRISM_UPLOAD", reset: true, files }, [ch.port2]); }); }
+async function wbServeFolder(files, indexKey, fr) {
+  const reg = await ensureUploadSW(), sw = reg && (reg.active || navigator.serviceWorker.controller);
+  if (sw) { await wbPostFolder(sw, files); const base = location.pathname.replace(/[^/]*$/, ""), testUrl = base + "__prismup__/" + indexKey; let ok = false; try { const t = await fetch(testUrl, { cache: "no-store" }); if (t.ok) ok = !(await t.clone().text()).startsWith("Not found in uploaded folder"); } catch {} if (ok) { fr.removeAttribute("srcdoc"); fr.src = testUrl; return; } }
+  const idx = files.find((f) => f.path === indexKey); if (idx) { fr.removeAttribute("src"); fr.srcdoc = new TextDecoder().decode(idx.buf); }
+}
+async function wbOpen(id) {
+  const p = wbLoad().find((x) => x.id === id); if (!p) return;
+  WB.current = id; WB.project = p; wbExitCmt();
+  $("#wbDocTitle").textContent = p.title || "제목 없음";
+  $("#wbDocSub").textContent = `${p.kind === "folder" ? "폴더" : p.kind === "generated" ? "생성" : "HTML"} · 수정 ${wbFmtDate(p.modified || p.created)}`;
+  $("#wbStage").classList.add("has-doc"); $("#wbEdit").disabled = false; $("#wbDeploy").disabled = false;
+  const fr = $("#wbFrame");
+  if (p.kind === "folder") { const doc = await wbIdbGet(id); if (!doc) { toast("폴더 데이터 없음(재생성 필요)"); return; } await wbServeFolder(doc.files, doc.index, fr); }
+  else { fr.removeAttribute("src"); fr.srcdoc = localStorage.getItem("prism.wb.doc." + id) || "<h1>빈 문서</h1>"; }
+  WB.comments = (() => { try { return JSON.parse(localStorage.getItem(wbCmtKey(id)) || "[]"); } catch { return []; } })();
+  wbRenderList();
+}
+async function wbNewFolder(fileList) {
+  const files = [...fileList]; if (!files.length) return;
+  fpShow(`${files.length}개 파일 저장 중…`); await nextFrame();
+  try {
+    const paths = files.map((f) => f.webkitRelativePath || f.name), rootName = (paths[0] || "site").split("/")[0], root = (paths[0] || "").includes("/") ? rootName + "/" : "";
+    const arr = [];
+    for (let i = 0; i < files.length; i++) { const f = files[i]; let rel = f.webkitRelativePath || f.name; if (root && rel.startsWith(root)) rel = rel.slice(root.length); rel = rel.toLowerCase(); arr.push({ path: rel, ct: mimeOf(rel, f), buf: await f.arrayBuffer() }); if (i % 5 === 0) { fpSet(10 + 78 * (i + 1) / files.length, `저장 중… (${i + 1}/${files.length})`); await nextFrame(); } }
+    const ks = arr.map((a) => a.path), indexKey = ks.find((k) => k === "index.html") || ks.find((k) => k.endsWith("/index.html")) || ks.find((k) => k.endsWith(".html"));
+    if (!indexKey) { toast("index.html을 찾을 수 없습니다"); return; }
+    const id = wbId(), now = wbNow(), title = rootName || "새 페이지";
+    await wbIdbPut(id, { files: arr, index: indexKey });
+    const ps = wbLoad(); ps.push({ id, title, created: now, modified: now, thumb: wbThumb(title), kind: "folder" }); wbSaveP(ps);
+    fpSet(100, "완료"); await wbOpen(id); toast(`'${title}' 생성 · ${arr.length}개 파일`);
+  } catch (e) { toast("오류: " + e.message); } finally { fpHide(); }
+}
+function wbNewGenerated(item) {
+  if (typeof pageHTML !== "function" || typeof themeFromSource !== "function") return toast("생성 엔진 없음");
+  const t = themeFromSource(item);
+  const c = { brand: item.sourceName || "Brand", head: "당신의 아이디어를,\n수려한 화면으로.", sub: "Prism 웹 빌더로 만든 원본 랜딩페이지입니다. 모든 문구·색은 코멘트로 수정하세요.", cta: "시작하기", cta2: "더 보기", features: [{ t: "빠른 시작", d: "설정 없이 바로." }, { t: "협업", d: "함께 만들고 배포." }, { t: "확장", d: "성장에 맞춰." }], stats: [{ v: "+247%", l: "성장" }, { v: "47,200", l: "사용자" }, { v: "99.9%", l: "가동률" }], quote: "도입 후 전환율이 눈에 띄게 올랐어요.", author: "김대표 · 스타트업", eyebrow: "FEATURES", secTitle: "필요한 모든 것을,<br>한 화면에서", secSub: "" };
+  const html = pageHTML(t, c), id = wbId(), now = wbNow(), title = (item.sourceName || "생성") + " 스타일";
+  localStorage.setItem("prism.wb.doc." + id, html);
+  const ps = wbLoad(); ps.push({ id, title, created: now, modified: now, thumb: wbThumb(title, t.hue), kind: "generated" }); wbSaveP(ps);
+  wbOpen(id); toast(`'${title}' 생성됨`);
+}
+async function wbDelete(id) {
+  if (!confirm("이 내역을 삭제할까요?")) return;
+  wbSaveP(wbLoad().filter((p) => p.id !== id)); localStorage.removeItem("prism.wb.doc." + id); localStorage.removeItem(wbCmtKey(id)); await wbIdbDel(id);
+  if (WB.current === id) { WB.current = null; WB.project = null; $("#wbStage").classList.remove("has-doc"); $("#wbEdit").disabled = true; $("#wbDeploy").disabled = true; const fr = $("#wbFrame"); fr.removeAttribute("src"); fr.srcdoc = ""; $("#wbDocTitle").textContent = "웹 빌더"; $("#wbDocSub").textContent = ""; wbExitCmt(); }
+  wbRenderList(); toast("삭제됨");
+}
+function wbTouch() { const ps = wbLoad(), p = ps.find((x) => x.id === WB.current); if (p) { p.modified = wbNow(); wbSaveP(ps); wbRenderList(); $("#wbDocSub").textContent = `${p.kind === "folder" ? "폴더" : p.kind === "generated" ? "생성" : "HTML"} · 수정 ${wbFmtDate(p.modified)}`; } }
+function wbPersistCmt() { if (WB.current) localStorage.setItem(wbCmtKey(WB.current), JSON.stringify(WB.comments)); }
+function wbRenderPins() {
+  const layer = $("#wbCmtLayer");
+  layer.innerHTML = WB.comments.map((c, i) => `<div class="wb-pin ${c.resolved ? "resolved" : ""}" data-i="${i}" style="left:${c.x * 100}%;top:${c.y * 100}%">${i + 1}</div>`).join("");
+  $$("#wbCmtLayer .wb-pin").forEach((p) => p.onclick = (e) => { e.stopPropagation(); wbOpenPop(+p.dataset.i, p); });
+  $("#wbCmtN").textContent = WB.comments.length;
+}
+function wbRenderDrawer() {
+  $("#wbCmtDrawerList").innerHTML = WB.comments.length ? WB.comments.map((c, i) => `<div class="wb-cmt-card ${c.resolved ? "resolved" : ""}"><div class="cn"><b>${i + 1}</b><span class="date">${wbFmtDate(c.modified || c.created)}</span></div><div>${esc(c.text)}</div><div class="ca"><button data-edit="${i}">수정</button><button data-res="${i}">${c.resolved ? "미해결" : "해결"}</button><button data-rm="${i}" style="color:var(--bad)">삭제</button></div></div>`).join("") : `<div class="empty-h">코멘트가 없습니다.</div>`;
+  $$("#wbCmtDrawerList [data-edit]").forEach((b) => b.onclick = () => { const p = $$("#wbCmtLayer .wb-pin")[+b.dataset.edit]; if (p) wbOpenPop(+b.dataset.edit, p); });
+  $$("#wbCmtDrawerList [data-rm]").forEach((b) => b.onclick = () => { WB.comments.splice(+b.dataset.rm, 1); wbPersistCmt(); wbRenderPins(); wbRenderDrawer(); });
+  $$("#wbCmtDrawerList [data-res]").forEach((b) => b.onclick = () => { const c = WB.comments[+b.dataset.res]; c.resolved = !c.resolved; wbPersistCmt(); wbRenderPins(); wbRenderDrawer(); });
+}
+function wbShowPop(cx, cy, text, isNew) { const pop = $("#wbCmtPop"); $("#wbCmtPopHead").textContent = isNew ? "코멘트 추가" : "코멘트 수정"; $("#wbCmtText").value = text || ""; $("#wbCmtDelete").style.display = isNew ? "none" : ""; pop.classList.add("on"); pop.style.left = Math.max(12, Math.min(cx, innerWidth - 312)) + "px"; pop.style.top = Math.max(12, Math.min(cy + 8, innerHeight - 200)) + "px"; $("#wbCmtText").focus(); }
+function wbOpenPop(i, pinEl) { WB.editing = { i, isNew: false }; const r = pinEl.getBoundingClientRect(); wbShowPop(r.left, r.bottom, WB.comments[i].text, false); }
+function wbEnterCmt() { if (!WB.current) return toast("먼저 내역에서 페이지를 선택하세요"); WB.cmt = true; $("#wbStage").classList.add("cmt"); $("#wbCmtbar").classList.add("on"); wbRenderPins(); toast("코멘트 모드 · 화면을 클릭해 추가"); }
+function wbExitCmt() { WB.cmt = false; $("#wbStage").classList.remove("cmt"); $("#wbCmtbar").classList.remove("on"); $("#wbCmtDrawer").classList.remove("on"); $("#wbCmtPop").classList.remove("on"); $("#wbCmtLayer").innerHTML = ""; }
+function wbDeploy() {
+  if (!WB.current) return; const p = WB.project;
+  const slug = (p.title || "page").toLowerCase().replace(/[^a-z0-9가-힣-]+/g, "-").replace(/^-|-$/g, "").slice(0, 40) || "page";
+  const kw = prompt("배포할 주소를 확인/수정하세요 — suik.me/<여기>", slug); if (kw === null) return;
+  const keyword = kw.trim().replace(/^\/+|\/+$/g, ""); if (!keyword) return toast("주소가 비었습니다");
+  const dp = `# Prism 배포 요청\nsuik.me/${keyword} 로 아래 프로젝트를 배포해줘.\n- 프로젝트: ${p.title} (${p.kind})\n- 대상 URL: https://suik.me/${keyword}\n- 방식: 로컬 프로젝트를 suik-me/${keyword} 로 복사 후 재배포`;
+  navigator.clipboard.writeText(dp).then(() => toast(`배포 요청 복사됨 → suik.me/${keyword} · 저에게 붙여넣어 주세요`));
+}
+function initWebBuilder() {
+  $("#wbSearch").oninput = wbRenderList; $("#wbRange").onchange = wbRenderList;
+  const openNew = () => $("#wbFolderInput").click();
+  $("#wbNew").onclick = openNew; $("#wbNewBig").onclick = openNew;
+  $("#wbFolderInput").onchange = (e) => { const f = [...e.target.files]; e.target.value = ""; if (f.length) wbNewFolder(f); };
+  $("#wbEdit").onclick = wbEnterCmt; $("#wbDeploy").onclick = wbDeploy;
+  $$("#wbDevice button").forEach((b) => b.onclick = () => { $$("#wbDevice button").forEach((x) => x.classList.toggle("on", x === b)); $("#wbFrameWrap").classList.toggle("mobile", b.dataset.d === "mobile"); });
+  $("#wbCmtLayer").onclick = (e) => { if (!WB.cmt) return; const r = e.currentTarget.getBoundingClientRect(); WB.editing = { x: (e.clientX - r.left) / r.width, y: (e.clientY - r.top) / r.height, isNew: true }; wbShowPop(e.clientX, e.clientY, "", true); };
+  $("#wbCmtExit").onclick = wbExitCmt;
+  $("#wbCmtList").onclick = () => { wbRenderDrawer(); $("#wbCmtDrawer").classList.toggle("on"); };
+  $("#wbCmtDrawerClose").onclick = () => $("#wbCmtDrawer").classList.remove("on");
+  $("#wbCmtClearAll").onclick = () => { if (!WB.comments.length) return; if (!confirm("모든 코멘트를 삭제할까요?")) return; WB.comments = []; wbPersistCmt(); wbRenderPins(); wbRenderDrawer(); toast("전체 삭제됨"); };
+  $("#wbCmtClearOld").onclick = () => { const cut = Date.now() - 7 * 864e5, before = WB.comments.length; WB.comments = WB.comments.filter((c) => new Date(c.modified || c.created).getTime() >= cut); wbPersistCmt(); wbRenderPins(); wbRenderDrawer(); toast(`${before - WB.comments.length}개 이전(7일 초과) 삭제`); };
+  $("#wbCmtSave").onclick = () => { wbPersistCmt(); if (!WB.comments.length) return toast("코멘트가 없습니다"); const p = WB.project; const prm = `# ${p.title} 수정 요청 (Prism 웹 빌더)\n아래 코멘트를 반영해 이 페이지를 수정해줘.\n\n` + WB.comments.map((c, i) => `${i + 1}. [${Math.round(c.x * 100)}%, ${Math.round(c.y * 100)}%]${c.resolved ? " (해결됨)" : ""} ${c.text}`).join("\n"); navigator.clipboard.writeText(prm).then(() => toast(`저장됨 · ${WB.comments.length}개 코멘트 프롬프트 복사`)); };
+  $("#wbCmtOk").onclick = () => { const t = $("#wbCmtText").value.trim(); if (!t) return toast("내용을 입력하세요"); if (WB.editing && WB.editing.isNew) WB.comments.push({ x: WB.editing.x, y: WB.editing.y, text: t, created: wbNow(), modified: wbNow(), resolved: false }); else if (WB.editing) { const c = WB.comments[WB.editing.i]; c.text = t; c.modified = wbNow(); } wbPersistCmt(); wbTouch(); wbRenderPins(); wbRenderDrawer(); $("#wbCmtPop").classList.remove("on"); };
+  $("#wbCmtDelete").onclick = () => { if (WB.editing && !WB.editing.isNew) { WB.comments.splice(WB.editing.i, 1); wbPersistCmt(); wbRenderPins(); wbRenderDrawer(); } $("#wbCmtPop").classList.remove("on"); };
+  $("#wbCmtCancel").onclick = () => $("#wbCmtPop").classList.remove("on");
+  wbRenderList();
+}
+
 (async function () {
   initTheme(); initTabs(); initGenerator(); initRequestsPage();
   await Promise.all([loadCatalog(), loadRequests()]);
   $("#pillCount").textContent = (CATALOG.items || []).length;
   $("#pillDate").textContent = CATALOG.generated ? CATALOG.generated.slice(0, 10) : "—";
-  renderFacets(); renderGrid(); initStudio(); initBuilder(); initComments(); renderRequests();
+  renderFacets(); renderGrid(); initStudio(); initWebBuilder(); initComments(); renderRequests();
   $("#q").oninput = (e) => { filter.q = e.target.value; renderGrid(); };
 })();
