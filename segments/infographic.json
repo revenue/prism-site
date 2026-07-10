@@ -1,6 +1,6 @@
 {
   "category": "infographic",
-  "count": 36,
+  "count": 41,
   "items": [
     {
       "id": "venngage:timeline",
@@ -19,7 +19,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-09T02:15:14.607Z"
+      "collectedAt": "2026-07-10T02:15:06.383Z"
     },
     {
       "id": "venngage:comparison",
@@ -37,7 +37,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-09T02:15:14.607Z"
+      "collectedAt": "2026-07-10T02:15:06.383Z"
     },
     {
       "id": "venngage:statistical",
@@ -56,7 +56,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-09T02:15:14.607Z"
+      "collectedAt": "2026-07-10T02:15:06.383Z"
     },
     {
       "id": "visualcapitalist:the-only-five-countries-to-land-on-the-moon-and-when-they-di",
@@ -81,7 +81,7 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Tue, 07 Jul 2026 19:59:35 +0000",
-      "collectedAt": "2026-07-09T02:15:14.606Z"
+      "collectedAt": "2026-07-10T02:15:06.383Z"
     },
     {
       "id": "visualcapitalist:which-u-s-states-have-the-most-vehicles-per-1-000-people",
@@ -106,7 +106,224 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Tue, 07 Jul 2026 17:10:27 +0000",
-      "collectedAt": "2026-07-09T02:15:14.606Z"
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-countries-that-trust-news-most-and-least-in-2026",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Countries that Trust News Most and Least in 2026",
+      "url": "https://www.visualcapitalist.com/ranked-worlds-most-trusted-news-markets-2026/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/most-trusted-news-markets-share.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Media",
+        "news",
+        "united states",
+        "united kingdom",
+        "trust",
+        "nigeria",
+        "media trust"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 08 Jul 2026 17:16:05 +0000",
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-the-states-driving-america-8217-s-economic-growth",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: The States Driving America&#8217;s Economic Growth",
+      "url": "https://www.visualcapitalist.com/mapped-states-driving-americas-economic-growth/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/shareable-10.webp",
+      "asset": null,
+      "tags": [
+        "Maps",
+        "Economy",
+        "United States",
+        "GDP",
+        "texas",
+        "united states",
+        "usa",
+        "new york"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 08 Jul 2026 14:11:22 +0000",
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-countries-with-the-most-millionaires-in-2026",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Countries With the Most Millionaires in 2026",
+      "url": "https://www.visualcapitalist.com/ranked-countries-with-the-most-millionaires-in-2026/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/countries-with-the-most-millionaires.webp",
+      "asset": null,
+      "tags": [
+        "Money",
+        "Wealth",
+        "china",
+        "wealth",
+        "united states",
+        "millionaires",
+        "world economy",
+        "ubs"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 08 Jul 2026 12:05:14 +0000",
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-highest-paying-college-majors-for-new-graduates",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Highest-Paying College Majors for New Graduates",
+      "url": "https://www.visualcapitalist.com/highest-paying-college-majors-for-new-graduates/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/shareable-2.webp",
+      "asset": null,
+      "tags": [
+        "Money",
+        "Education",
+        "engineering",
+        "higher education",
+        "employment",
+        "salary",
+        "careers",
+        "STEM"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 09 Jul 2026 17:16:08 +0000",
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "visualcapitalist:what-are-the-largest-commodity-companies-in-north-america",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "What are the Largest Commodity Companies in North America?",
+      "url": "https://www.visualcapitalist.com/sp/gx04-what-are-the-largest-commodity-companies-in-north-america/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/GxC-Comms-Viz-2_shareable_1200x675px.webp",
+      "asset": null,
+      "tags": [
+        "Economy",
+        "mining",
+        "copper",
+        "precious metals",
+        "silver",
+        "investing",
+        "gold",
+        "uranium"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 09 Jul 2026 15:52:28 +0000",
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-where-it-costs-the-most-to-own-a-car-in-america",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: Where It Costs the Most to Own a Car in America",
+      "url": "https://www.visualcapitalist.com/mapped-where-it-costs-the-most-to-own-a-car-in-america/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Cost-of-Car-Ownership-by-State_Shareable_06182026.webp",
+      "asset": null,
+      "tags": [
+        "Automotive",
+        "Maps",
+        "Cars",
+        "transportation",
+        "cost of living",
+        "personal finance",
+        "insurance",
+        "U.S. states"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 09 Jul 2026 14:06:45 +0000",
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-richest-countries-by-average-vs-median-wealth",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Richest Countries by Average vs. Median Wealth",
+      "url": "https://www.visualcapitalist.com/ranked-the-richest-countries-by-average-and-median-wealth/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/richest-countries-per-adult-2026-1.webp",
+      "asset": null,
+      "tags": [
+        "Money",
+        "Wealth",
+        "wealth",
+        "united states",
+        "switzerland",
+        "rankings",
+        "global economy",
+        "ubs"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 09 Jul 2026 12:05:21 +0000",
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-which-countries-have-been-banned-from-the-world-cup",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: Which Countries Have Been Banned from the World Cup?",
+      "url": "https://www.visualcapitalist.com/countries-banned-from-world-cup/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/banned-from-world-cup-SHARE.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Sports",
+        "football",
+        "soccer",
+        "FIFA",
+        "world cup"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 09 Jul 2026 03:35:47 +0000",
+      "collectedAt": "2026-07-10T02:15:06.383Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-10T02:15:06.204Z"
     },
     {
       "id": "visualcapitalist:the-leading-producers-of-space-race-materials",
@@ -232,100 +449,6 @@
       "seed": false,
       "publishedAt": "Mon, 06 Jul 2026 12:06:31 +0000",
       "collectedAt": "2026-07-09T02:15:14.606Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-countries-that-trust-news-most-and-least-in-2026",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The Countries that Trust News Most and Least in 2026",
-      "url": "https://www.visualcapitalist.com/ranked-worlds-most-trusted-news-markets-2026/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/most-trusted-news-markets-share.webp",
-      "asset": null,
-      "tags": [
-        "Misc",
-        "Media",
-        "news",
-        "united states",
-        "united kingdom",
-        "trust",
-        "nigeria",
-        "media trust"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Wed, 08 Jul 2026 17:16:05 +0000",
-      "collectedAt": "2026-07-09T02:15:14.606Z"
-    },
-    {
-      "id": "visualcapitalist:mapped-the-states-driving-america-8217-s-economic-growth",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Mapped: The States Driving America&#8217;s Economic Growth",
-      "url": "https://www.visualcapitalist.com/mapped-states-driving-americas-economic-growth/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/shareable-10.webp",
-      "asset": null,
-      "tags": [
-        "Maps",
-        "Economy",
-        "United States",
-        "GDP",
-        "texas",
-        "united states",
-        "usa",
-        "new york"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Wed, 08 Jul 2026 14:11:22 +0000",
-      "collectedAt": "2026-07-09T02:15:14.606Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-countries-with-the-most-millionaires-in-2026",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The Countries With the Most Millionaires in 2026",
-      "url": "https://www.visualcapitalist.com/ranked-countries-with-the-most-millionaires-in-2026/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/countries-with-the-most-millionaires.webp",
-      "asset": null,
-      "tags": [
-        "Money",
-        "Wealth",
-        "china",
-        "wealth",
-        "united states",
-        "millionaires",
-        "world economy",
-        "ubs"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Wed, 08 Jul 2026 12:05:14 +0000",
-      "collectedAt": "2026-07-09T02:15:14.606Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-09T02:15:13.710Z"
     },
     {
       "id": "visualcapitalist:women-over-40-are-now-having-more-babies-than-u-s-teenagers",
