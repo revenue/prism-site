@@ -19,7 +19,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "pinterest:pinterest-infographic",
@@ -37,7 +37,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "gdweb:",
@@ -57,7 +57,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "dbcut:",
@@ -77,7 +77,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "designus:designus",
@@ -97,119 +97,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
-    },
-    {
-      "id": "behance:behance-presentation-design",
-      "source": "behance",
-      "sourceName": "Behance — Presentation Design",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Behance — Presentation Design 검색",
-      "url": "https://www.behance.net/search/projects/presentation%20design",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2Fsearch%2Fprojects%2Fpresentation%2520design?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "deck",
-        "art-direction"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
-    },
-    {
-      "id": "behance:behance-infographic",
-      "source": "behance",
-      "sourceName": "Behance — Presentation Design",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Behance — Infographic 검색",
-      "url": "https://www.behance.net/search/projects/infographic",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2Fsearch%2Fprojects%2Finfographic?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "infographic"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
-    },
-    {
-      "id": "dribbble:dribbble-infographic",
-      "source": "dribbble",
-      "sourceName": "Dribbble — Data Viz / Presentation",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Dribbble — Infographic 태그",
-      "url": "https://dribbble.com/tags/infographic",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Finfographic?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "infographic",
-        "ui"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
-    },
-    {
-      "id": "dribbble:dribbble-data-visualization",
-      "source": "dribbble",
-      "sourceName": "Dribbble — Data Viz / Presentation",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Dribbble — Data Visualization",
-      "url": "https://dribbble.com/tags/data-visualization",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Fdata-visualization?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "dataviz",
-        "dashboard"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
-    },
-    {
-      "id": "dribbble:dribbble-presentation",
-      "source": "dribbble",
-      "sourceName": "Dribbble — Data Viz / Presentation",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Dribbble — Presentation 태그",
-      "url": "https://dribbble.com/tags/presentation",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Fpresentation?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "presentation"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
-    },
-    {
-      "id": "awwwards:awwwards",
-      "source": "awwwards",
-      "sourceName": "Awwwards",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Awwwards — 수상 사이트 갤러리",
-      "url": "https://www.awwwards.com/websites/",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.awwwards.com%2Fwebsites%2F?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "web",
-        "award"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "awwwards:awwwards-data-visualization",
@@ -228,7 +116,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "wwit:wwit-design",
@@ -248,7 +136,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "uibowl:ui-bowl-ui",
@@ -268,7 +156,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "uibowl:ui-bowl",
@@ -286,7 +174,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "cssda:css-design-awards",
@@ -306,7 +194,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
     },
     {
       "id": "webjangi:",
@@ -326,7 +214,119 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:51.102Z"
+      "collectedAt": "2026-07-11T04:18:47.742Z"
+    },
+    {
+      "id": "behance:behance-presentation-design",
+      "source": "behance",
+      "sourceName": "Behance — Presentation Design",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Behance — Presentation Design 검색",
+      "url": "https://www.behance.net/search/projects/presentation%20design",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2Fsearch%2Fprojects%2Fpresentation%2520design?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "deck",
+        "art-direction"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T04:18:47.741Z"
+    },
+    {
+      "id": "behance:behance-infographic",
+      "source": "behance",
+      "sourceName": "Behance — Presentation Design",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Behance — Infographic 검색",
+      "url": "https://www.behance.net/search/projects/infographic",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2Fsearch%2Fprojects%2Finfographic?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "infographic"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T04:18:47.741Z"
+    },
+    {
+      "id": "dribbble:dribbble-infographic",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Dribbble — Infographic 태그",
+      "url": "https://dribbble.com/tags/infographic",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Finfographic?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "infographic",
+        "ui"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T04:18:47.741Z"
+    },
+    {
+      "id": "dribbble:dribbble-data-visualization",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Dribbble — Data Visualization",
+      "url": "https://dribbble.com/tags/data-visualization",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Fdata-visualization?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "dataviz",
+        "dashboard"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T04:18:47.741Z"
+    },
+    {
+      "id": "dribbble:dribbble-presentation",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Dribbble — Presentation 태그",
+      "url": "https://dribbble.com/tags/presentation",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Fpresentation?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "presentation"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T04:18:47.741Z"
+    },
+    {
+      "id": "awwwards:awwwards",
+      "source": "awwwards",
+      "sourceName": "Awwwards",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Awwwards — 수상 사이트 갤러리",
+      "url": "https://www.awwwards.com/websites/",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.awwwards.com%2Fwebsites%2F?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "web",
+        "award"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T04:18:47.741Z"
     }
   ]
 }

@@ -16,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:childhood-stunting-fell-dramatically-over-the-20th-century",
@@ -32,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-11T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:most-people-care-about-farm-animals-our-food-system-doesn-t-",
@@ -48,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-20T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:we-re-looking-for-a-writer",
@@ -64,7 +64,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-15T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:what-do-people-die-from-in-different-countries",
@@ -80,7 +80,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-13T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:how-does-food-get-traded-around-the-world",
@@ -96,7 +96,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-29T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:how-much-are-people-across-the-world-paying-for-their-carbon",
@@ -112,7 +112,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-22T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:where-do-migrants-live-and-where-were-they-born",
@@ -128,7 +128,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-15T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:five-million-children-die-every-year-what-do-they-die-from",
@@ -144,7 +144,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-25T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "ourworldindata:south-korea-s-population-is-set-to-shrink-what-would-it-take",
@@ -160,45 +160,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-07-10T02:15:05.873Z"
-    },
-    {
-      "id": "rawgraphs:alluvial-diagram",
-      "source": "rawgraphs",
-      "sourceName": "RAWGraphs",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Alluvial diagram (흐름·전환)",
-      "url": "https://www.rawgraphs.io/learning/how-to-make-an-alluvial-diagram",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "alluvial",
-        "flow"
-      ],
-      "license": "Apache-2.0(툴), 갤러리=메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:05.625Z"
-    },
-    {
-      "id": "rawgraphs:bump-chart",
-      "source": "rawgraphs",
-      "sourceName": "RAWGraphs",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Bump chart (순위 변화)",
-      "url": "https://www.rawgraphs.io/gallery",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "bump",
-        "ranking"
-      ],
-      "license": "Apache-2.0(툴), 갤러리=메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:05.625Z"
+      "collectedAt": "2026-07-11T02:43:24.546Z"
     },
     {
       "id": "observable:d3-gallery",
@@ -217,7 +179,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:05.625Z"
+      "collectedAt": "2026-07-11T02:43:23.830Z"
     },
     {
       "id": "observable:zoomable-sunburst",
@@ -236,7 +198,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:05.625Z"
+      "collectedAt": "2026-07-11T02:43:23.830Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -255,7 +217,83 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:05.625Z"
+      "collectedAt": "2026-07-11T02:43:23.830Z"
+    },
+    {
+      "id": "rawgraphs:alluvial-diagram",
+      "source": "rawgraphs",
+      "sourceName": "RAWGraphs",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Alluvial diagram (흐름·전환)",
+      "url": "https://www.rawgraphs.io/learning/how-to-make-an-alluvial-diagram",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "alluvial",
+        "flow"
+      ],
+      "license": "Apache-2.0(툴), 갤러리=메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T02:43:23.814Z"
+    },
+    {
+      "id": "rawgraphs:bump-chart",
+      "source": "rawgraphs",
+      "sourceName": "RAWGraphs",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Bump chart (순위 변화)",
+      "url": "https://www.rawgraphs.io/gallery",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "bump",
+        "ranking"
+      ],
+      "license": "Apache-2.0(툴), 갤러리=메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T02:43:23.814Z"
+    },
+    {
+      "id": "flourish:scatter-connected-scatter",
+      "source": "flourish",
+      "sourceName": "Flourish",
+      "category": "dataviz",
+      "type": "template",
+      "title": "Scatter / connected scatter",
+      "url": "https://flourish.studio/visualisations/scatter-charts/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "scatter",
+        "correlation"
+      ],
+      "license": "예시 갤러리=영감용 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T02:43:23.800Z"
+    },
+    {
+      "id": "flourish:survey-likert",
+      "source": "flourish",
+      "sourceName": "Flourish",
+      "category": "dataviz",
+      "type": "template",
+      "title": "Survey / Likert 시각화",
+      "url": "https://flourish.studio/visualisations/survey-data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "survey",
+        "likert"
+      ],
+      "license": "예시 갤러리=영감용 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-11T02:43:23.800Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -275,45 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:05.625Z"
-    },
-    {
-      "id": "flourish:scatter-connected-scatter",
-      "source": "flourish",
-      "sourceName": "Flourish",
-      "category": "dataviz",
-      "type": "template",
-      "title": "Scatter / connected scatter",
-      "url": "https://flourish.studio/visualisations/scatter-charts/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "scatter",
-        "correlation"
-      ],
-      "license": "예시 갤러리=영감용 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:05.625Z"
-    },
-    {
-      "id": "flourish:survey-likert",
-      "source": "flourish",
-      "sourceName": "Flourish",
-      "category": "dataviz",
-      "type": "template",
-      "title": "Survey / Likert 시각화",
-      "url": "https://flourish.studio/visualisations/survey-data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "survey",
-        "likert"
-      ],
-      "license": "예시 갤러리=영감용 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-10T02:15:05.625Z"
+      "collectedAt": "2026-07-11T02:43:23.799Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-16-the-swiss-population-cap-1-77-tril",
