@@ -3,22 +3,6 @@
   "count": 45,
   "items": [
     {
-      "id": "ourworldindata:population-tool-how-will-populations-across-the-world-change",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Population tool: How will populations across the world change in the 21st century?",
-      "url": "https://ourworldindata.org/population-simulation-tool",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/95c9945f-c253-4abe-cb79-a28adf7aea00/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
-    },
-    {
       "id": "ourworldindata:childhood-stunting-fell-dramatically-over-the-20th-century",
       "source": "ourworldindata",
       "sourceName": "Our World in Data",
@@ -32,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-11T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
+      "collectedAt": "2026-07-12T02:21:44.770Z"
     },
     {
       "id": "ourworldindata:most-people-care-about-farm-animals-our-food-system-doesn-t-",
@@ -48,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-20T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
+      "collectedAt": "2026-07-12T02:21:44.770Z"
     },
     {
       "id": "ourworldindata:we-re-looking-for-a-writer",
@@ -64,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-15T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
+      "collectedAt": "2026-07-12T02:21:44.770Z"
     },
     {
       "id": "ourworldindata:what-do-people-die-from-in-different-countries",
@@ -80,7 +64,23 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-04-13T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
+      "collectedAt": "2026-07-12T02:21:44.770Z"
+    },
+    {
+      "id": "ourworldindata:population-tool-how-will-populations-across-the-world-change",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Population tool: How will populations across the world change in the 21st century?",
+      "url": "https://ourworldindata.org/population-simulation-tool",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/95c9945f-c253-4abe-cb79-a28adf7aea00/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "collectedAt": "2026-07-12T02:21:44.769Z"
     },
     {
       "id": "ourworldindata:how-does-food-get-traded-around-the-world",
@@ -96,7 +96,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-29T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
+      "collectedAt": "2026-07-12T02:21:44.769Z"
     },
     {
       "id": "ourworldindata:how-much-are-people-across-the-world-paying-for-their-carbon",
@@ -112,7 +112,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-22T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
+      "collectedAt": "2026-07-12T02:21:44.769Z"
     },
     {
       "id": "ourworldindata:where-do-migrants-live-and-where-were-they-born",
@@ -128,7 +128,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-15T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
+      "collectedAt": "2026-07-12T02:21:44.769Z"
     },
     {
       "id": "ourworldindata:five-million-children-die-every-year-what-do-they-die-from",
@@ -144,7 +144,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-25T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
+      "collectedAt": "2026-07-12T02:21:44.769Z"
     },
     {
       "id": "ourworldindata:south-korea-s-population-is-set-to-shrink-what-would-it-take",
@@ -160,45 +160,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-07-11T02:43:24.546Z"
-    },
-    {
-      "id": "observable:d3-gallery",
-      "source": "observable",
-      "sourceName": "Observable / D3 Gallery",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "D3 Gallery — 전체 예시 허브",
-      "url": "https://observablehq.com/@d3/gallery",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "d3",
-        "gallery"
-      ],
-      "license": "ISC/CC 다양, 코드 예시",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-11T02:43:23.830Z"
-    },
-    {
-      "id": "observable:zoomable-sunburst",
-      "source": "observable",
-      "sourceName": "Observable / D3 Gallery",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Zoomable sunburst",
-      "url": "https://observablehq.com/@d3/zoomable-sunburst",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "hierarchy",
-        "sunburst"
-      ],
-      "license": "ISC/CC 다양, 코드 예시",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-11T02:43:23.830Z"
+      "collectedAt": "2026-07-12T02:21:44.769Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -217,7 +179,45 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-11T02:43:23.830Z"
+      "collectedAt": "2026-07-12T02:21:44.194Z"
+    },
+    {
+      "id": "observable:d3-gallery",
+      "source": "observable",
+      "sourceName": "Observable / D3 Gallery",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "D3 Gallery — 전체 예시 허브",
+      "url": "https://observablehq.com/@d3/gallery",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "d3",
+        "gallery"
+      ],
+      "license": "ISC/CC 다양, 코드 예시",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-12T02:21:44.193Z"
+    },
+    {
+      "id": "observable:zoomable-sunburst",
+      "source": "observable",
+      "sourceName": "Observable / D3 Gallery",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Zoomable sunburst",
+      "url": "https://observablehq.com/@d3/zoomable-sunburst",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "hierarchy",
+        "sunburst"
+      ],
+      "license": "ISC/CC 다양, 코드 예시",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-12T02:21:44.193Z"
     },
     {
       "id": "rawgraphs:alluvial-diagram",
@@ -236,7 +236,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-11T02:43:23.814Z"
+      "collectedAt": "2026-07-12T02:21:44.193Z"
     },
     {
       "id": "rawgraphs:bump-chart",
@@ -255,7 +255,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-11T02:43:23.814Z"
+      "collectedAt": "2026-07-12T02:21:44.193Z"
     },
     {
       "id": "flourish:scatter-connected-scatter",
@@ -274,7 +274,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-11T02:43:23.800Z"
+      "collectedAt": "2026-07-12T02:21:44.181Z"
     },
     {
       "id": "flourish:survey-likert",
@@ -293,7 +293,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-11T02:43:23.800Z"
+      "collectedAt": "2026-07-12T02:21:44.181Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -313,7 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-11T02:43:23.799Z"
+      "collectedAt": "2026-07-12T02:21:44.181Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-16-the-swiss-population-cap-1-77-tril",
