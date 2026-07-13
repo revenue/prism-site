@@ -849,7 +849,8 @@ function postToSW(sw, files) {
     sw.postMessage({ type: "PRISM_UPLOAD", reset: true, files }, [...files.map((f) => f.buf), ch.port2]);
   });
 }
-const nextFrame = () => new Promise((r) => requestAnimationFrame(() => r()));
+// rAF는 탭이 hidden이면 멈춘다 → setTimeout과 경쟁시켜 절대 hang되지 않게(진행 모달 stuck 방지)
+const nextFrame = () => new Promise((r) => { let d = false; const f = () => { if (!d) { d = true; r(); } }; requestAnimationFrame(f); setTimeout(f, 40); });
 function fpShow(msg) { $("#fpTitle").textContent = "폴더 적용 중…"; $("#fpSub").textContent = msg || "파일을 불러오는 중"; $("#fpBar").style.width = "0%"; $("#folderProgress").classList.add("on"); }
 function fpSet(pct, msg) { $("#fpBar").style.width = Math.max(0, Math.min(100, pct)) + "%"; if (msg != null) $("#fpSub").textContent = msg; }
 function fpHide() { $("#folderProgress").classList.remove("on"); }
