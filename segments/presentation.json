@@ -3,61 +3,6 @@
   "count": 5,
   "items": [
     {
-      "id": "slidesgo:slidesgo",
-      "source": "slidesgo",
-      "sourceName": "Slidesgo",
-      "category": "presentation",
-      "type": "template",
-      "title": "Slidesgo — 인기 프레젠테이션 템플릿",
-      "url": "https://slidesgo.com/popular-presentations",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "popular",
-        "deck"
-      ],
-      "license": "무료(출처표기) / 프리미엄",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-12T02:24:09.079Z"
-    },
-    {
-      "id": "slidesgo:slidesgo",
-      "source": "slidesgo",
-      "sourceName": "Slidesgo",
-      "category": "presentation",
-      "type": "template",
-      "title": "Slidesgo — 비즈니스 템플릿",
-      "url": "https://slidesgo.com/theme/business",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "business"
-      ],
-      "license": "무료(출처표기) / 프리미엄",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-12T02:24:09.079Z"
-    },
-    {
-      "id": "slidesgo:slidesgo",
-      "source": "slidesgo",
-      "sourceName": "Slidesgo",
-      "category": "presentation",
-      "type": "template",
-      "title": "Slidesgo — 인포그래픽 슬라이드",
-      "url": "https://slidesgo.com/tag/infographics",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "infographic"
-      ],
-      "license": "무료(출처표기) / 프리미엄",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-12T02:24:09.079Z"
-    },
-    {
       "id": "slidescarnival:slidescarnival",
       "source": "slidescarnival",
       "sourceName": "SlidesCarnival",
@@ -74,7 +19,7 @@
       "license": "무료(CC-BY 유사)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-12T02:24:09.079Z"
+      "collectedAt": "2026-07-13T02:15:55.909Z"
     },
     {
       "id": "slidescarnival:slidescarnival",
@@ -92,7 +37,62 @@
       "license": "무료(CC-BY 유사)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-12T02:24:09.079Z"
+      "collectedAt": "2026-07-13T02:15:55.909Z"
+    },
+    {
+      "id": "slidesgo:slidesgo",
+      "source": "slidesgo",
+      "sourceName": "Slidesgo",
+      "category": "presentation",
+      "type": "template",
+      "title": "Slidesgo — 인기 프레젠테이션 템플릿",
+      "url": "https://slidesgo.com/popular-presentations",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "popular",
+        "deck"
+      ],
+      "license": "무료(출처표기) / 프리미엄",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-13T02:15:55.908Z"
+    },
+    {
+      "id": "slidesgo:slidesgo",
+      "source": "slidesgo",
+      "sourceName": "Slidesgo",
+      "category": "presentation",
+      "type": "template",
+      "title": "Slidesgo — 비즈니스 템플릿",
+      "url": "https://slidesgo.com/theme/business",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "business"
+      ],
+      "license": "무료(출처표기) / 프리미엄",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-13T02:15:55.908Z"
+    },
+    {
+      "id": "slidesgo:slidesgo",
+      "source": "slidesgo",
+      "sourceName": "Slidesgo",
+      "category": "presentation",
+      "type": "template",
+      "title": "Slidesgo — 인포그래픽 슬라이드",
+      "url": "https://slidesgo.com/tag/infographics",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "infographic"
+      ],
+      "license": "무료(출처표기) / 프리미엄",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-13T02:15:55.908Z"
     }
   ]
 }
