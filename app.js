@@ -1053,10 +1053,41 @@ function wbRenderList() {
   $$("#wbList [data-del]").forEach((b) => b.onclick = (e) => { e.stopPropagation(); wbDelete(b.dataset.del); });
 }
 function wbPostFolder(sw, files) { return new Promise((res) => { const ch = new MessageChannel(); ch.port1.onmessage = () => res(); sw.postMessage({ type: "PRISM_UPLOAD", reset: true, files }, [ch.port2]); }); }
+function wbEnsureControlled() {
+  if (navigator.serviceWorker.controller) return Promise.resolve(true);
+  return new Promise((resolve) => {
+    let done = false; const fin = (v) => { if (!done) { done = true; resolve(v); } };
+    navigator.serviceWorker.addEventListener("controllerchange", () => fin(true), { once: true });
+    let n = 0; const t = setInterval(() => { if (navigator.serviceWorker.controller) { clearInterval(t); fin(true); } else if (++n > 40) { clearInterval(t); fin(false); } }, 100);
+  });
+}
+// SW 미제어 시 폴백 — index.html의 상대경로 에셋을 blob으로 재작성해 스타일 유지(단일 페이지)
+async function wbBlobFallback(files, indexKey, fr) {
+  const byPath = new Map(files.map((f) => [f.path, f])), blobs = new Map();
+  const urlFor = (k) => { if (blobs.has(k)) return blobs.get(k); const f = byPath.get(k); if (!f) return null; const u = URL.createObjectURL(new Blob([f.buf], { type: f.ct })); blobs.set(k, u); return u; };
+  const resolve = (baseDir, ref) => { if (!ref || /^(https?:|data:|blob:|#|mailto:|tel:|\/\/|javascript:)/i.test(ref)) return null; let p = ref.split("#")[0].split("?")[0]; p = p.startsWith("/") ? p.slice(1) : baseDir + p; const parts = []; for (const s of p.split("/")) { if (s === "..") parts.pop(); else if (s === "." || s === "") continue; else parts.push(s); } return parts.join("/").toLowerCase(); };
+  const rewriteCss = (css, dir) => { for (const m of [...css.matchAll(/url\(\s*['"]?([^'")]+)['"]?\s*\)/g)]) { const k = resolve(dir, m[1]), u = k && urlFor(k); if (u) css = css.split(m[0]).join(`url(${u})`); } return css; };
+  const idx = byPath.get(indexKey); if (!idx) { toast("index.html을 열 수 없습니다"); return; }
+  const dir = indexKey.includes("/") ? indexKey.slice(0, indexKey.lastIndexOf("/") + 1) : "";
+  const doc = new DOMParser().parseFromString(new TextDecoder().decode(idx.buf), "text/html");
+  for (const el of doc.querySelectorAll("[src],[href],[poster],[data-src]")) for (const a of ["src", "href", "poster", "data-src"]) {
+    const v = el.getAttribute(a); if (!v) continue; const k = resolve(dir, v); if (!k || !byPath.has(k)) continue;
+    if (el.tagName === "LINK" && /stylesheet/i.test(el.getAttribute("rel") || "")) { const f = byPath.get(k), fdir = k.includes("/") ? k.slice(0, k.lastIndexOf("/") + 1) : ""; el.setAttribute(a, URL.createObjectURL(new Blob([rewriteCss(new TextDecoder().decode(f.buf), fdir)], { type: "text/css" }))); }
+    else { const u = urlFor(k); if (u) el.setAttribute(a, u); }
+  }
+  for (const st of doc.querySelectorAll("style")) st.textContent = rewriteCss(st.textContent, dir);
+  fr.removeAttribute("src"); fr.srcdoc = "<!DOCTYPE html>" + doc.documentElement.outerHTML;
+}
 async function wbServeFolder(files, indexKey, fr) {
   const reg = await ensureUploadSW(), sw = reg && (reg.active || navigator.serviceWorker.controller);
-  if (sw) { await wbPostFolder(sw, files); const base = location.pathname.replace(/[^/]*$/, ""), testUrl = base + "__prismup__/" + indexKey; let ok = false; try { const t = await fetch(testUrl, { cache: "no-store" }); if (t.ok) ok = !(await t.clone().text()).startsWith("Not found in uploaded folder"); } catch {} if (ok) { fr.removeAttribute("srcdoc"); fr.src = testUrl; return; } }
-  const idx = files.find((f) => f.path === indexKey); if (idx) { fr.removeAttribute("src"); fr.srcdoc = new TextDecoder().decode(idx.buf); }
+  if (sw) {
+    try { await wbPostFolder(sw, files); } catch {}
+    await wbEnsureControlled(); // SW가 페이지를 제어할 때까지 대기(첫 업로드 레이스 방지)
+    const base = location.pathname.replace(/[^/]*$/, ""), testUrl = base + "__prismup__/" + indexKey;
+    let ok = false; try { const t = await fetch(testUrl, { cache: "no-store" }); if (t.ok) ok = !(await t.clone().text()).startsWith("Not found in uploaded folder"); } catch {}
+    if (ok) { fr.removeAttribute("srcdoc"); fr.src = testUrl; return; }
+  }
+  await wbBlobFallback(files, indexKey, fr); // 폴백: 스타일 유지 단일 페이지
 }
 async function wbOpen(id) {
   const p = wbLoad().find((x) => x.id === id); if (!p) return;
