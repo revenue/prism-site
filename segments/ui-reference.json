@@ -19,7 +19,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.414Z"
+      "collectedAt": "2026-07-16T02:20:02.776Z"
     },
     {
       "id": "pinterest:pinterest-infographic",
@@ -37,7 +37,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.414Z"
+      "collectedAt": "2026-07-16T02:20:02.776Z"
     },
     {
       "id": "dbcut:",
@@ -57,7 +57,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.414Z"
+      "collectedAt": "2026-07-16T02:20:02.776Z"
     },
     {
       "id": "designus:designus",
@@ -77,7 +77,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.414Z"
+      "collectedAt": "2026-07-16T02:20:02.776Z"
     },
     {
       "id": "gdweb:",
@@ -97,84 +97,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
-    },
-    {
-      "id": "awwwards:awwwards-data-visualization",
-      "source": "awwwards",
-      "sourceName": "Awwwards",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Awwwards — Data Visualization 컬렉션",
-      "url": "https://www.awwwards.com/websites/data-visualization/",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.awwwards.com%2Fwebsites%2Fdata-visualization%2F?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "dataviz",
-        "interactive"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
-    },
-    {
-      "id": "wwit:wwit-design",
-      "source": "wwit",
-      "sourceName": "WWIT.design",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "WWIT.design — 오늘의 디자인 인스퍼레이션",
-      "url": "https://wwit.design/",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwwit.design%2F?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "ui",
-        "web",
-        "curated"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
-    },
-    {
-      "id": "uibowl:ui-bowl-ui",
-      "source": "uibowl",
-      "sourceName": "UI Bowl",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "UI Bowl — 프로덕트 UI 갤러리",
-      "url": "https://uibowl.io/",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fuibowl.io%2F?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "ui",
-        "product",
-        "pattern"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
-    },
-    {
-      "id": "uibowl:ui-bowl",
-      "source": "uibowl",
-      "sourceName": "UI Bowl",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "UI Bowl — 랜딩페이지 모음",
-      "url": "https://uibowl.io/collections/landing-page",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fuibowl.io%2Fcollections%2Flanding-page?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "landing"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.776Z"
     },
     {
       "id": "cssda:css-design-awards",
@@ -194,7 +117,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.776Z"
     },
     {
       "id": "webjangi:",
@@ -214,7 +137,84 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.776Z"
+    },
+    {
+      "id": "awwwards:awwwards-data-visualization",
+      "source": "awwwards",
+      "sourceName": "Awwwards",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Awwwards — Data Visualization 컬렉션",
+      "url": "https://www.awwwards.com/websites/data-visualization/",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.awwwards.com%2Fwebsites%2Fdata-visualization%2F?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "dataviz",
+        "interactive"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-16T02:20:02.775Z"
+    },
+    {
+      "id": "wwit:wwit-design",
+      "source": "wwit",
+      "sourceName": "WWIT.design",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "WWIT.design — 오늘의 디자인 인스퍼레이션",
+      "url": "https://wwit.design/",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwwit.design%2F?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "ui",
+        "web",
+        "curated"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-16T02:20:02.775Z"
+    },
+    {
+      "id": "uibowl:ui-bowl-ui",
+      "source": "uibowl",
+      "sourceName": "UI Bowl",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "UI Bowl — 프로덕트 UI 갤러리",
+      "url": "https://uibowl.io/",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fuibowl.io%2F?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "ui",
+        "product",
+        "pattern"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-16T02:20:02.775Z"
+    },
+    {
+      "id": "uibowl:ui-bowl",
+      "source": "uibowl",
+      "sourceName": "UI Bowl",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "UI Bowl — 랜딩페이지 모음",
+      "url": "https://uibowl.io/collections/landing-page",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fuibowl.io%2Fcollections%2Flanding-page?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "landing"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-16T02:20:02.775Z"
     },
     {
       "id": "behance:behance-presentation-design",
@@ -233,7 +233,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.775Z"
     },
     {
       "id": "behance:behance-infographic",
@@ -251,7 +251,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.775Z"
     },
     {
       "id": "dribbble:dribbble-infographic",
@@ -270,7 +270,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.775Z"
     },
     {
       "id": "dribbble:dribbble-data-visualization",
@@ -289,7 +289,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.775Z"
     },
     {
       "id": "dribbble:dribbble-presentation",
@@ -307,7 +307,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.775Z"
     },
     {
       "id": "awwwards:awwwards",
@@ -326,7 +326,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-15T02:15:54.413Z"
+      "collectedAt": "2026-07-16T02:20:02.775Z"
     }
   ]
 }
