@@ -3,6 +3,25 @@
   "count": 6,
   "items": [
     {
+      "id": "blush:blush",
+      "source": "blush",
+      "sourceName": "Blush",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "Blush — 일러스트 컬렉션",
+      "url": "https://blush.design/collections",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "mix-match",
+        "custom"
+      ],
+      "license": "무료/유료 혼합(항목별)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-17T02:49:44.791Z"
+    },
+    {
       "id": "undraw:undraw",
       "source": "undraw",
       "sourceName": "unDraw",
@@ -19,7 +38,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-16T02:20:02.775Z"
+      "collectedAt": "2026-07-17T02:49:44.790Z"
     },
     {
       "id": "undraw:undraw-presentation",
@@ -37,7 +56,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-16T02:20:02.775Z"
+      "collectedAt": "2026-07-17T02:49:44.790Z"
     },
     {
       "id": "undraw:undraw-data-analytics",
@@ -56,7 +75,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-16T02:20:02.775Z"
+      "collectedAt": "2026-07-17T02:49:44.790Z"
     },
     {
       "id": "storyset:storyset-business",
@@ -75,7 +94,7 @@
       "license": "무료(출처표기) / Freepik 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-16T02:20:02.775Z"
+      "collectedAt": "2026-07-17T02:49:44.790Z"
     },
     {
       "id": "storyset:storyset-data",
@@ -94,26 +113,7 @@
       "license": "무료(출처표기) / Freepik 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-16T02:20:02.775Z"
-    },
-    {
-      "id": "blush:blush",
-      "source": "blush",
-      "sourceName": "Blush",
-      "category": "illustration",
-      "type": "illustration",
-      "title": "Blush — 일러스트 컬렉션",
-      "url": "https://blush.design/collections",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "mix-match",
-        "custom"
-      ],
-      "license": "무료/유료 혼합(항목별)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-16T02:20:02.775Z"
+      "collectedAt": "2026-07-17T02:49:44.790Z"
     }
   ]
 }
