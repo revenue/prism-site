@@ -19,7 +19,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "pinterest:pinterest-infographic",
@@ -37,7 +37,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "dbcut:",
@@ -57,7 +57,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "designus:designus",
@@ -77,7 +77,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "gdweb:",
@@ -97,7 +97,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "cssda:css-design-awards",
@@ -117,7 +117,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "webjangi:",
@@ -137,7 +137,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "awwwards:awwwards-data-visualization",
@@ -156,7 +156,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "wwit:wwit-design",
@@ -176,7 +176,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "uibowl:ui-bowl-ui",
@@ -196,7 +196,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "uibowl:ui-bowl",
@@ -214,100 +214,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
-    },
-    {
-      "id": "behance:behance-presentation-design",
-      "source": "behance",
-      "sourceName": "Behance — Presentation Design",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Behance — Presentation Design 검색",
-      "url": "https://www.behance.net/search/projects/presentation%20design",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2Fsearch%2Fprojects%2Fpresentation%2520design?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "deck",
-        "art-direction"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
-    },
-    {
-      "id": "behance:behance-infographic",
-      "source": "behance",
-      "sourceName": "Behance — Presentation Design",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Behance — Infographic 검색",
-      "url": "https://www.behance.net/search/projects/infographic",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2Fsearch%2Fprojects%2Finfographic?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "infographic"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
-    },
-    {
-      "id": "dribbble:dribbble-infographic",
-      "source": "dribbble",
-      "sourceName": "Dribbble — Data Viz / Presentation",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Dribbble — Infographic 태그",
-      "url": "https://dribbble.com/tags/infographic",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Finfographic?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "infographic",
-        "ui"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
-    },
-    {
-      "id": "dribbble:dribbble-data-visualization",
-      "source": "dribbble",
-      "sourceName": "Dribbble — Data Viz / Presentation",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Dribbble — Data Visualization",
-      "url": "https://dribbble.com/tags/data-visualization",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Fdata-visualization?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "dataviz",
-        "dashboard"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
-    },
-    {
-      "id": "dribbble:dribbble-presentation",
-      "source": "dribbble",
-      "sourceName": "Dribbble — Data Viz / Presentation",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Dribbble — Presentation 태그",
-      "url": "https://dribbble.com/tags/presentation",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Fpresentation?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "presentation"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
     },
     {
       "id": "awwwards:awwwards",
@@ -326,7 +233,100 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-17T02:49:44.791Z"
+      "collectedAt": "2026-07-19T02:18:56.415Z"
+    },
+    {
+      "id": "dribbble:dribbble-infographic",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Dribbble — Infographic 태그",
+      "url": "https://dribbble.com/tags/infographic",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Finfographic?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "infographic",
+        "ui"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-19T02:18:56.414Z"
+    },
+    {
+      "id": "dribbble:dribbble-data-visualization",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Dribbble — Data Visualization",
+      "url": "https://dribbble.com/tags/data-visualization",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Fdata-visualization?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "dataviz",
+        "dashboard"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-19T02:18:56.414Z"
+    },
+    {
+      "id": "dribbble:dribbble-presentation",
+      "source": "dribbble",
+      "sourceName": "Dribbble — Data Viz / Presentation",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Dribbble — Presentation 태그",
+      "url": "https://dribbble.com/tags/presentation",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdribbble.com%2Ftags%2Fpresentation?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "presentation"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-19T02:18:56.414Z"
+    },
+    {
+      "id": "behance:behance-presentation-design",
+      "source": "behance",
+      "sourceName": "Behance — Presentation Design",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Behance — Presentation Design 검색",
+      "url": "https://www.behance.net/search/projects/presentation%20design",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2Fsearch%2Fprojects%2Fpresentation%2520design?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "deck",
+        "art-direction"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-19T02:18:56.414Z"
+    },
+    {
+      "id": "behance:behance-infographic",
+      "source": "behance",
+      "sourceName": "Behance — Presentation Design",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Behance — Infographic 검색",
+      "url": "https://www.behance.net/search/projects/infographic",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.behance.net%2Fsearch%2Fprojects%2Finfographic?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "infographic"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-19T02:18:56.414Z"
     }
   ]
 }
