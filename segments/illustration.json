@@ -19,63 +19,7 @@
       "license": "무료/유료 혼합(항목별)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-22T02:15:56.606Z"
-    },
-    {
-      "id": "undraw:undraw",
-      "source": "undraw",
-      "sourceName": "unDraw",
-      "category": "illustration",
-      "type": "illustration",
-      "title": "unDraw — 전체 일러스트 검색",
-      "url": "https://undraw.co/illustrations",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "open-source",
-        "recolor"
-      ],
-      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-22T02:15:56.606Z"
-    },
-    {
-      "id": "undraw:undraw-presentation",
-      "source": "undraw",
-      "sourceName": "unDraw",
-      "category": "illustration",
-      "type": "illustration",
-      "title": "unDraw — Presentation 관련",
-      "url": "https://undraw.co/search/presentation",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "presentation"
-      ],
-      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-22T02:15:56.606Z"
-    },
-    {
-      "id": "undraw:undraw-data-analytics",
-      "source": "undraw",
-      "sourceName": "unDraw",
-      "category": "illustration",
-      "type": "illustration",
-      "title": "unDraw — Data/Analytics",
-      "url": "https://undraw.co/search/data",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "data",
-        "analytics"
-      ],
-      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-22T02:15:56.606Z"
+      "collectedAt": "2026-07-23T02:15:53.893Z"
     },
     {
       "id": "storyset:storyset-business",
@@ -94,7 +38,7 @@
       "license": "무료(출처표기) / Freepik 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-22T02:15:56.606Z"
+      "collectedAt": "2026-07-23T02:15:53.893Z"
     },
     {
       "id": "storyset:storyset-data",
@@ -113,7 +57,63 @@
       "license": "무료(출처표기) / Freepik 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-22T02:15:56.606Z"
+      "collectedAt": "2026-07-23T02:15:53.893Z"
+    },
+    {
+      "id": "undraw:undraw",
+      "source": "undraw",
+      "sourceName": "unDraw",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "unDraw — 전체 일러스트 검색",
+      "url": "https://undraw.co/illustrations",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "open-source",
+        "recolor"
+      ],
+      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-23T02:15:53.892Z"
+    },
+    {
+      "id": "undraw:undraw-presentation",
+      "source": "undraw",
+      "sourceName": "unDraw",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "unDraw — Presentation 관련",
+      "url": "https://undraw.co/search/presentation",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "presentation"
+      ],
+      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-23T02:15:53.892Z"
+    },
+    {
+      "id": "undraw:undraw-data-analytics",
+      "source": "undraw",
+      "sourceName": "unDraw",
+      "category": "illustration",
+      "type": "illustration",
+      "title": "unDraw — Data/Analytics",
+      "url": "https://undraw.co/search/data",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "data",
+        "analytics"
+      ],
+      "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-23T02:15:53.892Z"
     }
   ]
 }
