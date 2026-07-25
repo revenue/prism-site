@@ -18,7 +18,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:09.001Z"
+      "collectedAt": "2026-07-25T02:44:08.775Z"
     },
     {
       "id": "venngage:statistical",
@@ -37,7 +37,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:09.001Z"
+      "collectedAt": "2026-07-25T02:44:08.775Z"
     },
     {
       "id": "venngage:timeline",
@@ -56,7 +56,26 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:09.001Z"
+      "collectedAt": "2026-07-25T02:44:08.775Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:44:08.772Z"
     },
     {
       "id": "visualcapitalist:ranked-fifa-world-rankings-after-the-2026-men-8217-s-world-c",
@@ -305,25 +324,6 @@
       "seed": false,
       "publishedAt": "Thu, 23 Jul 2026 04:53:32 +0000",
       "collectedAt": "2026-07-24T02:15:09.001Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:07.095Z"
     },
     {
       "id": "visualcapitalist:mapped-deaths-now-outnumber-births-in-17-u-s-states",

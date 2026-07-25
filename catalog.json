@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-07-24T02:15:56.569Z",
+  "generated": "2026-07-25T02:44:08.866Z",
   "categories": {
     "dataviz": "데이터 시각화 · 차트 · 그래프 · 지도",
     "infographic": "인포그래픽 · 데이터스토리텔링",
@@ -34,9 +34,9 @@
       "gdweb": 1,
       "webjangi": 1,
       "cssda": 1,
+      "uibowl": 2,
       "awwwards": 2,
       "wwit": 1,
-      "uibowl": 2,
       "dribbble": 3,
       "behance": 2,
       "slidescarnival": 2,
@@ -46,14 +46,14 @@
       "undraw": 3,
       "nounproject": 1,
       "svgrepo": 2,
-      "iconify": 350,
       "venngage": 3,
-      "visualcapitalist": 90,
       "informationisbeautiful": 1,
-      "ourworldindata": 12,
       "observable": 3,
       "rawgraphs": 2,
       "flourish": 3,
+      "iconify": 350,
+      "visualcapitalist": 90,
+      "ourworldindata": 12,
       "datawrapper": 36
     }
   },
@@ -75,7 +75,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.547Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
     },
     {
       "id": "pinterest:pinterest-infographic",
@@ -93,7 +93,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.547Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
     },
     {
       "id": "designus:designus",
@@ -113,7 +113,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.547Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
     },
     {
       "id": "dbcut:",
@@ -133,7 +133,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
     },
     {
       "id": "gdweb:",
@@ -153,7 +153,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
     },
     {
       "id": "webjangi:",
@@ -173,7 +173,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
     },
     {
       "id": "cssda:css-design-awards",
@@ -193,46 +193,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
-    },
-    {
-      "id": "awwwards:awwwards-data-visualization",
-      "source": "awwwards",
-      "sourceName": "Awwwards",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "Awwwards — Data Visualization 컬렉션",
-      "url": "https://www.awwwards.com/websites/data-visualization/",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.awwwards.com%2Fwebsites%2Fdata-visualization%2F?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "dataviz",
-        "interactive"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
-    },
-    {
-      "id": "wwit:wwit-design",
-      "source": "wwit",
-      "sourceName": "WWIT.design",
-      "category": "ui-reference",
-      "type": "inspiration",
-      "title": "WWIT.design — 오늘의 디자인 인스퍼레이션",
-      "url": "https://wwit.design/",
-      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwwit.design%2F?w=640&h=400",
-      "asset": null,
-      "tags": [
-        "ui",
-        "web",
-        "curated"
-      ],
-      "license": "저작권 보유(영감·메타만)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
     },
     {
       "id": "uibowl:ui-bowl-ui",
@@ -252,7 +213,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
     },
     {
       "id": "uibowl:ui-bowl",
@@ -270,7 +231,46 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.838Z"
+    },
+    {
+      "id": "awwwards:awwwards-data-visualization",
+      "source": "awwwards",
+      "sourceName": "Awwwards",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "Awwwards — Data Visualization 컬렉션",
+      "url": "https://www.awwwards.com/websites/data-visualization/",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.awwwards.com%2Fwebsites%2Fdata-visualization%2F?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "dataviz",
+        "interactive"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:44:08.837Z"
+    },
+    {
+      "id": "wwit:wwit-design",
+      "source": "wwit",
+      "sourceName": "WWIT.design",
+      "category": "ui-reference",
+      "type": "inspiration",
+      "title": "WWIT.design — 오늘의 디자인 인스퍼레이션",
+      "url": "https://wwit.design/",
+      "thumb": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwwit.design%2F?w=640&h=400",
+      "asset": null,
+      "tags": [
+        "ui",
+        "web",
+        "curated"
+      ],
+      "license": "저작권 보유(영감·메타만)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "awwwards:awwwards",
@@ -289,7 +289,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "dribbble:dribbble-infographic",
@@ -308,7 +308,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "dribbble:dribbble-data-visualization",
@@ -327,7 +327,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "dribbble:dribbble-presentation",
@@ -345,7 +345,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "behance:behance-presentation-design",
@@ -364,7 +364,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "behance:behance-infographic",
@@ -382,7 +382,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "slidescarnival:slidescarnival",
@@ -401,7 +401,7 @@
       "license": "무료(CC-BY 유사)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "slidescarnival:slidescarnival",
@@ -419,7 +419,7 @@
       "license": "무료(CC-BY 유사)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -438,7 +438,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -456,7 +456,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -474,7 +474,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "blush:blush",
@@ -493,7 +493,7 @@
       "license": "무료/유료 혼합(항목별)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "storyset:storyset-business",
@@ -512,7 +512,7 @@
       "license": "무료(출처표기) / Freepik 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "storyset:storyset-data",
@@ -531,7 +531,7 @@
       "license": "무료(출처표기) / Freepik 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "undraw:undraw",
@@ -550,7 +550,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "undraw:undraw-presentation",
@@ -568,7 +568,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "undraw:undraw-data-analytics",
@@ -587,7 +587,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:56.546Z"
+      "collectedAt": "2026-07-25T02:44:08.837Z"
     },
     {
       "id": "nounproject:noun-project",
@@ -606,7 +606,7 @@
       "license": "CC-BY 또는 로열티, 다운로드시 확인",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:44.877Z"
+      "collectedAt": "2026-07-25T02:44:08.795Z"
     },
     {
       "id": "svgrepo:svg-repo-monocolor",
@@ -625,7 +625,7 @@
       "license": "다수 CC0/MIT (항목별 확인)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:44.877Z"
+      "collectedAt": "2026-07-25T02:44:08.795Z"
     },
     {
       "id": "svgrepo:svg-repo-business",
@@ -644,7 +644,235 @@
       "license": "다수 CC0/MIT (항목별 확인)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:44.877Z"
+      "collectedAt": "2026-07-25T02:44:08.795Z"
+    },
+    {
+      "id": "venngage:comparison",
+      "source": "venngage",
+      "sourceName": "Venngage / Piktochart Gallery",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "비교(Comparison) 인포그래픽",
+      "url": "https://venngage.com/templates/infographics/comparison",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "comparison"
+      ],
+      "license": "템플릿 서비스, 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:44:08.775Z"
+    },
+    {
+      "id": "venngage:statistical",
+      "source": "venngage",
+      "sourceName": "Venngage / Piktochart Gallery",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "통계(Statistical) 인포그래픽",
+      "url": "https://venngage.com/templates/infographics/statistical",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "statistics",
+        "kpi"
+      ],
+      "license": "템플릿 서비스, 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:44:08.775Z"
+    },
+    {
+      "id": "venngage:timeline",
+      "source": "venngage",
+      "sourceName": "Venngage / Piktochart Gallery",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Timeline 인포그래픽 템플릿",
+      "url": "https://venngage.com/templates/infographics/timeline",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "timeline",
+        "process"
+      ],
+      "license": "템플릿 서비스, 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:44:08.775Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:44:08.772Z"
+    },
+    {
+      "id": "observable:sankey-diagram",
+      "source": "observable",
+      "sourceName": "Observable / D3 Gallery",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Sankey diagram",
+      "url": "https://observablehq.com/@d3/sankey",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "sankey",
+        "flow"
+      ],
+      "license": "ISC/CC 다양, 코드 예시",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:43:28.270Z"
+    },
+    {
+      "id": "observable:d3-gallery",
+      "source": "observable",
+      "sourceName": "Observable / D3 Gallery",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "D3 Gallery — 전체 예시 허브",
+      "url": "https://observablehq.com/@d3/gallery",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "d3",
+        "gallery"
+      ],
+      "license": "ISC/CC 다양, 코드 예시",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:43:28.270Z"
+    },
+    {
+      "id": "observable:zoomable-sunburst",
+      "source": "observable",
+      "sourceName": "Observable / D3 Gallery",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Zoomable sunburst",
+      "url": "https://observablehq.com/@d3/zoomable-sunburst",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "hierarchy",
+        "sunburst"
+      ],
+      "license": "ISC/CC 다양, 코드 예시",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:43:28.270Z"
+    },
+    {
+      "id": "rawgraphs:alluvial-diagram",
+      "source": "rawgraphs",
+      "sourceName": "RAWGraphs",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Alluvial diagram (흐름·전환)",
+      "url": "https://www.rawgraphs.io/learning/how-to-make-an-alluvial-diagram",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "alluvial",
+        "flow"
+      ],
+      "license": "Apache-2.0(툴), 갤러리=메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:43:28.270Z"
+    },
+    {
+      "id": "rawgraphs:bump-chart",
+      "source": "rawgraphs",
+      "sourceName": "RAWGraphs",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Bump chart (순위 변화)",
+      "url": "https://www.rawgraphs.io/gallery",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "bump",
+        "ranking"
+      ],
+      "license": "Apache-2.0(툴), 갤러리=메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:43:28.270Z"
+    },
+    {
+      "id": "flourish:scatter-connected-scatter",
+      "source": "flourish",
+      "sourceName": "Flourish",
+      "category": "dataviz",
+      "type": "template",
+      "title": "Scatter / connected scatter",
+      "url": "https://flourish.studio/visualisations/scatter-charts/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "scatter",
+        "correlation"
+      ],
+      "license": "예시 갤러리=영감용 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:43:28.270Z"
+    },
+    {
+      "id": "flourish:survey-likert",
+      "source": "flourish",
+      "sourceName": "Flourish",
+      "category": "dataviz",
+      "type": "template",
+      "title": "Survey / Likert 시각화",
+      "url": "https://flourish.studio/visualisations/survey-data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "survey",
+        "likert"
+      ],
+      "license": "예시 갤러리=영감용 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:43:28.270Z"
+    },
+    {
+      "id": "flourish:bar-chart-race",
+      "source": "flourish",
+      "sourceName": "Flourish",
+      "category": "dataviz",
+      "type": "template",
+      "title": "Bar chart race (인구·매출 순위 애니메이션)",
+      "url": "https://flourish.studio/visualisations/bar-chart-race/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "animated",
+        "ranking",
+        "bar"
+      ],
+      "license": "예시 갤러리=영감용 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-25T02:43:28.270Z"
     },
     {
       "id": "iconify:chart-river",
@@ -7746,62 +7974,6 @@
       "collectedAt": "2026-07-24T02:15:44.875Z"
     },
     {
-      "id": "venngage:comparison",
-      "source": "venngage",
-      "sourceName": "Venngage / Piktochart Gallery",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "비교(Comparison) 인포그래픽",
-      "url": "https://venngage.com/templates/infographics/comparison",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "comparison"
-      ],
-      "license": "템플릿 서비스, 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:09.001Z"
-    },
-    {
-      "id": "venngage:statistical",
-      "source": "venngage",
-      "sourceName": "Venngage / Piktochart Gallery",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "통계(Statistical) 인포그래픽",
-      "url": "https://venngage.com/templates/infographics/statistical",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "statistics",
-        "kpi"
-      ],
-      "license": "템플릿 서비스, 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:09.001Z"
-    },
-    {
-      "id": "venngage:timeline",
-      "source": "venngage",
-      "sourceName": "Venngage / Piktochart Gallery",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Timeline 인포그래픽 템플릿",
-      "url": "https://venngage.com/templates/infographics/timeline",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "timeline",
-        "process"
-      ],
-      "license": "템플릿 서비스, 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:09.001Z"
-    },
-    {
       "id": "visualcapitalist:ranked-fifa-world-rankings-after-the-2026-men-8217-s-world-c",
       "source": "visualcapitalist",
       "sourceName": "Visual Capitalist",
@@ -8050,25 +8222,6 @@
       "collectedAt": "2026-07-24T02:15:09.001Z"
     },
     {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:07.095Z"
-    },
-    {
       "id": "ourworldindata:most-people-care-about-farm-animals-our-food-system-doesn-t-",
       "source": "ourworldindata",
       "sourceName": "Our World in Data",
@@ -8227,159 +8380,6 @@
       "seed": false,
       "publishedAt": "2026-07-20T00:00:00.000Z",
       "collectedAt": "2026-07-24T02:15:06.620Z"
-    },
-    {
-      "id": "observable:sankey-diagram",
-      "source": "observable",
-      "sourceName": "Observable / D3 Gallery",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Sankey diagram",
-      "url": "https://observablehq.com/@d3/sankey",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "sankey",
-        "flow"
-      ],
-      "license": "ISC/CC 다양, 코드 예시",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:06.400Z"
-    },
-    {
-      "id": "observable:d3-gallery",
-      "source": "observable",
-      "sourceName": "Observable / D3 Gallery",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "D3 Gallery — 전체 예시 허브",
-      "url": "https://observablehq.com/@d3/gallery",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "d3",
-        "gallery"
-      ],
-      "license": "ISC/CC 다양, 코드 예시",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:06.400Z"
-    },
-    {
-      "id": "observable:zoomable-sunburst",
-      "source": "observable",
-      "sourceName": "Observable / D3 Gallery",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Zoomable sunburst",
-      "url": "https://observablehq.com/@d3/zoomable-sunburst",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "hierarchy",
-        "sunburst"
-      ],
-      "license": "ISC/CC 다양, 코드 예시",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:06.400Z"
-    },
-    {
-      "id": "rawgraphs:alluvial-diagram",
-      "source": "rawgraphs",
-      "sourceName": "RAWGraphs",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Alluvial diagram (흐름·전환)",
-      "url": "https://www.rawgraphs.io/learning/how-to-make-an-alluvial-diagram",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "alluvial",
-        "flow"
-      ],
-      "license": "Apache-2.0(툴), 갤러리=메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:06.399Z"
-    },
-    {
-      "id": "rawgraphs:bump-chart",
-      "source": "rawgraphs",
-      "sourceName": "RAWGraphs",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Bump chart (순위 변화)",
-      "url": "https://www.rawgraphs.io/gallery",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "bump",
-        "ranking"
-      ],
-      "license": "Apache-2.0(툴), 갤러리=메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:06.399Z"
-    },
-    {
-      "id": "flourish:scatter-connected-scatter",
-      "source": "flourish",
-      "sourceName": "Flourish",
-      "category": "dataviz",
-      "type": "template",
-      "title": "Scatter / connected scatter",
-      "url": "https://flourish.studio/visualisations/scatter-charts/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "scatter",
-        "correlation"
-      ],
-      "license": "예시 갤러리=영감용 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:06.399Z"
-    },
-    {
-      "id": "flourish:survey-likert",
-      "source": "flourish",
-      "sourceName": "Flourish",
-      "category": "dataviz",
-      "type": "template",
-      "title": "Survey / Likert 시각화",
-      "url": "https://flourish.studio/visualisations/survey-data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "survey",
-        "likert"
-      ],
-      "license": "예시 갤러리=영감용 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:06.399Z"
-    },
-    {
-      "id": "flourish:bar-chart-race",
-      "source": "flourish",
-      "sourceName": "Flourish",
-      "category": "dataviz",
-      "type": "template",
-      "title": "Bar chart race (인구·매출 순위 애니메이션)",
-      "url": "https://flourish.studio/visualisations/bar-chart-race/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "animated",
-        "ranking",
-        "bar"
-      ],
-      "license": "예시 갤러리=영감용 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-24T02:15:06.399Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-16-the-swiss-population-cap-1-77-tril",
