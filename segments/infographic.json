@@ -1,6 +1,6 @@
 {
   "category": "infographic",
-  "count": 104,
+  "count": 109,
   "items": [
     {
       "id": "venngage:comparison",
@@ -18,7 +18,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-27T02:15:10.863Z"
+      "collectedAt": "2026-07-28T02:15:13.402Z"
     },
     {
       "id": "venngage:statistical",
@@ -37,7 +37,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-27T02:15:10.863Z"
+      "collectedAt": "2026-07-28T02:15:13.402Z"
     },
     {
       "id": "venngage:timeline",
@@ -56,7 +56,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-27T02:15:10.863Z"
+      "collectedAt": "2026-07-28T02:15:13.402Z"
     },
     {
       "id": "visualcapitalist:how-americans-spend-every-hour-of-the-day",
@@ -81,7 +81,7 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Sat, 25 Jul 2026 16:48:27 +0000",
-      "collectedAt": "2026-07-27T02:15:10.863Z"
+      "collectedAt": "2026-07-28T02:15:13.402Z"
     },
     {
       "id": "visualcapitalist:ranked-america-s-most-dangerous-cities-for-driving",
@@ -106,7 +106,226 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Sat, 25 Jul 2026 14:15:55 +0000",
-      "collectedAt": "2026-07-27T02:15:10.863Z"
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "visualcapitalist:the-mammals-that-sleep-most-and-least",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "The Mammals That Sleep Most and Least",
+      "url": "https://www.visualcapitalist.com/animals-that-sleep-most-least/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/mammalsthatsleepmost-least-share.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Science",
+        "wildlife",
+        "evolution",
+        "sleep",
+        "biology",
+        "nature",
+        "animals"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 26 Jul 2026 17:11:16 +0000",
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-which-countries-are-best-for-women",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: Which Countries Are Best for Women?",
+      "url": "https://www.visualcapitalist.com/best-countries-for-women-map/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Best-Countries-for-Women-2026_Shareable.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Inequality",
+        "Demographics",
+        "Maps",
+        "population",
+        "demographics",
+        "safety",
+        "women"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 26 Jul 2026 14:02:39 +0000",
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-countries-with-the-least-fresh-water-per-person",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: Countries With the Least Fresh Water Per Person",
+      "url": "https://www.visualcapitalist.com/countries-with-the-least-fresh-water-per-person/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Countries-With-the-Least-Water_Shareable_07152026-1.webp",
+      "asset": null,
+      "tags": [
+        "Water",
+        "Environment",
+        "Geography",
+        "fresh water",
+        "freshwater",
+        "water access",
+        "access to water",
+        "drinking water"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 26 Jul 2026 12:05:49 +0000",
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-which-brands-gained-the-most-from-the-fifa-world-cup",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: Which Brands Gained the Most From the FIFA World Cup?",
+      "url": "https://www.visualcapitalist.com/ranked-which-brands-gained-the-most-from-the-fifa-world-cup/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/FiFABrand_Site.webp",
+      "asset": null,
+      "tags": [
+        "Business",
+        "Advertising",
+        "Brands",
+        "marketing",
+        "brand value",
+        "football",
+        "global brands",
+        "FIFA world cup"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 27 Jul 2026 19:26:50 +0000",
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-income-needed-to-be-happy-in-50-u-s-cities",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Income Needed to Be Happy in 50 U.S. Cities",
+      "url": "https://www.visualcapitalist.com/ranked-price-of-happiness-major-us-cities/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/price-of-happiness-us-cities-share-1.webp",
+      "asset": null,
+      "tags": [
+        "Money",
+        "Economy",
+        "United States",
+        "united states",
+        "cities",
+        "cost of living",
+        "personal finance",
+        "income"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 27 Jul 2026 17:08:33 +0000",
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-new-home-building-permits-by-state",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: New Home Building Permits By State",
+      "url": "https://www.visualcapitalist.com/sp/ter02-new-home-building-permits-by-state/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/12-Terzo-HousingPermits-Shareable_1200x675px.webp",
+      "asset": null,
+      "tags": [
+        "Housing",
+        "united states",
+        "housing",
+        "housing affordability",
+        "Terzo",
+        "Markets In A Minute",
+        "home permits",
+        "house permits"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 27 Jul 2026 15:42:00 +0000",
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-america-8217-s-most-valuable-farmland-by-state",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: America&#8217;s Most Valuable Farmland by State",
+      "url": "https://www.visualcapitalist.com/ranked-the-states-with-americas-most-valuable-farmland/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Farmland-Value_US_02-share.webp",
+      "asset": null,
+      "tags": [
+        "Agriculture",
+        "Maps",
+        "agriculture",
+        "Real Estate",
+        "maps",
+        "Farming",
+        "usda",
+        "U.S. states"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 27 Jul 2026 14:01:12 +0000",
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-countries-that-consume-the-most-coal",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Countries That Consume the Most Coal",
+      "url": "https://www.visualcapitalist.com/the-countries-that-consume-the-most-coal/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/CoalConsumption_Shareable.webp",
+      "asset": null,
+      "tags": [
+        "Energy",
+        "China",
+        "United States",
+        "china",
+        "energy",
+        "india",
+        "coal",
+        "electricity"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 27 Jul 2026 12:06:59 +0000",
+      "collectedAt": "2026-07-28T02:15:13.402Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-28T02:15:11.877Z"
     },
     {
       "id": "visualcapitalist:ranked-the-highest-grossing-directors-ever",
@@ -232,100 +451,6 @@
       "seed": false,
       "publishedAt": "Fri, 24 Jul 2026 11:41:14 +0000",
       "collectedAt": "2026-07-27T02:15:10.863Z"
-    },
-    {
-      "id": "visualcapitalist:the-mammals-that-sleep-most-and-least",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "The Mammals That Sleep Most and Least",
-      "url": "https://www.visualcapitalist.com/animals-that-sleep-most-least/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/mammalsthatsleepmost-least-share.webp",
-      "asset": null,
-      "tags": [
-        "Misc",
-        "Science",
-        "wildlife",
-        "evolution",
-        "sleep",
-        "biology",
-        "nature",
-        "animals"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 26 Jul 2026 17:11:16 +0000",
-      "collectedAt": "2026-07-27T02:15:10.863Z"
-    },
-    {
-      "id": "visualcapitalist:mapped-which-countries-are-best-for-women",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Mapped: Which Countries Are Best for Women?",
-      "url": "https://www.visualcapitalist.com/best-countries-for-women-map/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Best-Countries-for-Women-2026_Shareable.webp",
-      "asset": null,
-      "tags": [
-        "Misc",
-        "Inequality",
-        "Demographics",
-        "Maps",
-        "population",
-        "demographics",
-        "safety",
-        "women"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 26 Jul 2026 14:02:39 +0000",
-      "collectedAt": "2026-07-27T02:15:10.863Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-countries-with-the-least-fresh-water-per-person",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: Countries With the Least Fresh Water Per Person",
-      "url": "https://www.visualcapitalist.com/countries-with-the-least-fresh-water-per-person/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Countries-With-the-Least-Water_Shareable_07152026-1.webp",
-      "asset": null,
-      "tags": [
-        "Water",
-        "Environment",
-        "Geography",
-        "fresh water",
-        "freshwater",
-        "water access",
-        "access to water",
-        "drinking water"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 26 Jul 2026 12:05:49 +0000",
-      "collectedAt": "2026-07-27T02:15:10.863Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-27T02:15:10.417Z"
     },
     {
       "id": "visualcapitalist:which-world-regions-have-the-most-high-income-countries",
