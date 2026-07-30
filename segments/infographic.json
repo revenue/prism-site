@@ -18,7 +18,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-29T02:15:07.662Z"
+      "collectedAt": "2026-07-30T02:25:39.172Z"
     },
     {
       "id": "venngage:statistical",
@@ -37,7 +37,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-29T02:15:07.662Z"
+      "collectedAt": "2026-07-30T02:25:39.172Z"
     },
     {
       "id": "venngage:timeline",
@@ -56,7 +56,26 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-29T02:15:07.662Z"
+      "collectedAt": "2026-07-30T02:25:39.172Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-30T02:25:39.169Z"
     },
     {
       "id": "visualcapitalist:ranked-which-brands-gained-the-most-from-the-fifa-world-cup",
@@ -306,25 +325,6 @@
       "seed": false,
       "publishedAt": "Tue, 28 Jul 2026 12:02:22 +0000",
       "collectedAt": "2026-07-29T02:15:07.662Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-29T02:15:06.702Z"
     },
     {
       "id": "visualcapitalist:how-americans-spend-every-hour-of-the-day",
