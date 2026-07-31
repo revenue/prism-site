@@ -1,6 +1,6 @@
 {
   "category": "infographic",
-  "count": 115,
+  "count": 124,
   "items": [
     {
       "id": "venngage:comparison",
@@ -18,7 +18,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.172Z"
+      "collectedAt": "2026-07-31T02:15:11.078Z"
     },
     {
       "id": "venngage:statistical",
@@ -37,7 +37,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.172Z"
+      "collectedAt": "2026-07-31T02:15:11.078Z"
     },
     {
       "id": "venngage:timeline",
@@ -56,7 +56,257 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.172Z"
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Most Valuable Squads at the 2026 FIFA World Cup",
+      "url": "https://www.visualcapitalist.com/cp/ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/fifa-world-cup-squad-values.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Money",
+        "Sports",
+        "football",
+        "soccer",
+        "FIFA world cup",
+        "FIFA World Cup 2026",
+        "squad values"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Tue, 28 Jul 2026 19:45:41 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-world-8217-s-most-livable-regions-in-2026",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The World&#8217;s Most Livable Regions in 2026",
+      "url": "https://www.visualcapitalist.com/ranked-the-worlds-most-livable-regions-in-2026/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/The-Worlds-Most-Liveable-Regions-in-2026_shareable2_Jul21.webp",
+      "asset": null,
+      "tags": [
+        "Economy",
+        "Wealth",
+        "infrastructure",
+        "cities",
+        "healthcare",
+        "quality of life",
+        "eiu",
+        "liveability"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 30 Jul 2026 17:23:47 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-the-u-s-cities-hit-hardest-by-wildfire-smoke-in-2026",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: The U.S. Cities Hit Hardest by Wildfire Smoke in 2026",
+      "url": "https://www.visualcapitalist.com/us-cities-hit-hardest-wildfire-smoke-2026/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/NA_WildfireSmoke-shareable.webp",
+      "asset": null,
+      "tags": [
+        "Maps",
+        "Environment",
+        "United States",
+        "canada",
+        "ontario",
+        "united states",
+        "great lakes",
+        "natural disasters"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 30 Jul 2026 16:57:51 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:investing-through-financial-distress",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Investing Through Financial Distress",
+      "url": "https://www.visualcapitalist.com/sp/investing-through-financial-distress/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/NYLI-Financial-Distress-Shareable_1200x675px.webp",
+      "asset": null,
+      "tags": [
+        "Economy",
+        "investing",
+        "investment",
+        "debt",
+        "investors",
+        "US",
+        "NYLI",
+        "uncertainty"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 30 Jul 2026 15:38:00 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-the-states-with-the-most-empty-homes",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: The States With the Most Empty Homes",
+      "url": "https://www.visualcapitalist.com/mapped-where-americas-homes-sit-empty/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/WhereHousesSitEmpty_Shareable.webp",
+      "asset": null,
+      "tags": [
+        "Real Estate",
+        "Maps",
+        "America",
+        "Housing Market",
+        "maps",
+        "housing",
+        "census bureau",
+        "U.S. states"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 30 Jul 2026 14:07:46 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-world-8217-s-biggest-mineral-producers",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The World&#8217;s Biggest Mineral Producers",
+      "url": "https://www.visualcapitalist.com/the-worlds-mineral-production-by-country/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/MineralProduction_Shareable-3.webp",
+      "asset": null,
+      "tags": [
+        "Mining",
+        "Oil and Gas",
+        "Uranium",
+        "mining",
+        "natural resources",
+        "minerals",
+        "fossil fuels",
+        "mineral production"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 30 Jul 2026 12:03:55 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:charted-the-world-8217-s-shift-to-cities-1950-2050",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Charted: The World&#8217;s Shift to Cities (1950–2050)",
+      "url": "https://www.visualcapitalist.com/worlds-shift-to-cities-1950-2050/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Urbanization_Shift-to-Cities_02-share.webp",
+      "asset": null,
+      "tags": [
+        "Demographics",
+        "population",
+        "Geography",
+        "cities",
+        "urbanization",
+        "urban",
+        "rural population",
+        "towns"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 29 Jul 2026 19:21:12 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-u-s-oil-production-by-state-in-2025",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: U.S. Oil Production by State in 2025",
+      "url": "https://www.visualcapitalist.com/mapped-us-crude-oil-production-by-state-2025/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/US_Crude_Oil_Production_by_State_SHARE.webp",
+      "asset": null,
+      "tags": [
+        "Energy",
+        "Oil and Gas",
+        "Maps",
+        "United States",
+        "oil",
+        "energy",
+        "texas",
+        "united states"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 29 Jul 2026 17:17:07 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-where-senior-populations-will-grow-fastest-by-2040",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: Where Senior Populations Will Grow Fastest by 2040",
+      "url": "https://www.visualcapitalist.com/how-much-will-senior-populations-grow-by-2040/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/senior-population-growth-2040-share.webp",
+      "asset": null,
+      "tags": [
+        "Demographics",
+        "Countries",
+        "demographics",
+        "population growth",
+        "retirement",
+        "aging population",
+        "median age",
+        "longevity"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 29 Jul 2026 14:11:04 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-world-8217-s-biggest-lumber-producers",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The World&#8217;s Biggest Lumber Producers",
+      "url": "https://www.visualcapitalist.com/ranked-the-worlds-biggest-lumber-producers/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/The-Worlds-Biggest-Lumber-Producers_Shareable3_07222026.webp",
+      "asset": null,
+      "tags": [
+        "Green",
+        "Economy",
+        "Commodities",
+        "china",
+        "canada",
+        "Russia",
+        "Real Estate",
+        "united states"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 29 Jul 2026 12:04:35 +0000",
+      "collectedAt": "2026-07-31T02:15:11.078Z"
     },
     {
       "id": "informationisbeautiful:information-is-beautiful",
@@ -75,7 +325,7 @@
       "license": "대부분 CC-BY-NC, 영감용 메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.169Z"
+      "collectedAt": "2026-07-31T02:15:10.826Z"
     },
     {
       "id": "visualcapitalist:ranked-which-brands-gained-the-most-from-the-fifa-world-cup",
@@ -175,31 +425,6 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Mon, 27 Jul 2026 14:01:12 +0000",
-      "collectedAt": "2026-07-29T02:15:07.662Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The Most Valuable Squads at the 2026 FIFA World Cup",
-      "url": "https://www.visualcapitalist.com/cp/ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/fifa-world-cup-squad-values.webp",
-      "asset": null,
-      "tags": [
-        "Misc",
-        "Money",
-        "Sports",
-        "football",
-        "soccer",
-        "FIFA world cup",
-        "FIFA World Cup 2026",
-        "squad values"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Tue, 28 Jul 2026 19:45:41 +0000",
       "collectedAt": "2026-07-29T02:15:07.662Z"
     },
     {

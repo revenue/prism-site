@@ -8,6 +8,24 @@
       "sourceName": "SlidesCarnival",
       "category": "presentation",
       "type": "template",
+      "title": "SlidesCarnival — 미니멀 템플릿",
+      "url": "https://www.slidescarnival.com/tag/minimalist",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "minimal"
+      ],
+      "license": "무료(CC-BY 유사)",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-07-31T02:16:19.229Z"
+    },
+    {
+      "id": "slidescarnival:slidescarnival",
+      "source": "slidescarnival",
+      "sourceName": "SlidesCarnival",
+      "category": "presentation",
+      "type": "template",
       "title": "SlidesCarnival — 무료 템플릿",
       "url": "https://www.slidescarnival.com/category/free-templates",
       "thumb": null,
@@ -19,25 +37,7 @@
       "license": "무료(CC-BY 유사)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.198Z"
-    },
-    {
-      "id": "slidescarnival:slidescarnival",
-      "source": "slidescarnival",
-      "sourceName": "SlidesCarnival",
-      "category": "presentation",
-      "type": "template",
-      "title": "SlidesCarnival — 미니멀 템플릿",
-      "url": "https://www.slidescarnival.com/tag/minimalist",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "minimal"
-      ],
-      "license": "무료(CC-BY 유사)",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.198Z"
+      "collectedAt": "2026-07-31T02:16:19.228Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -56,7 +56,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.198Z"
+      "collectedAt": "2026-07-31T02:16:19.228Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -74,7 +74,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.198Z"
+      "collectedAt": "2026-07-31T02:16:19.228Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -92,7 +92,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-30T02:25:39.198Z"
+      "collectedAt": "2026-07-31T02:16:19.228Z"
     }
   ]
 }
