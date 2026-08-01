@@ -1,6 +1,6 @@
 {
   "category": "infographic",
-  "count": 124,
+  "count": 127,
   "items": [
     {
       "id": "venngage:comparison",
@@ -18,7 +18,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "venngage:statistical",
@@ -37,7 +37,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "venngage:timeline",
@@ -56,32 +56,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-07-31T02:15:11.078Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The Most Valuable Squads at the 2026 FIFA World Cup",
-      "url": "https://www.visualcapitalist.com/cp/ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/fifa-world-cup-squad-values.webp",
-      "asset": null,
-      "tags": [
-        "Misc",
-        "Money",
-        "Sports",
-        "football",
-        "soccer",
-        "FIFA world cup",
-        "FIFA World Cup 2026",
-        "squad values"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Tue, 28 Jul 2026 19:45:41 +0000",
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "visualcapitalist:ranked-the-world-8217-s-most-livable-regions-in-2026",
@@ -106,7 +81,7 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Thu, 30 Jul 2026 17:23:47 +0000",
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "visualcapitalist:mapped-the-u-s-cities-hit-hardest-by-wildfire-smoke-in-2026",
@@ -131,7 +106,7 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Thu, 30 Jul 2026 16:57:51 +0000",
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "visualcapitalist:investing-through-financial-distress",
@@ -156,7 +131,7 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Thu, 30 Jul 2026 15:38:00 +0000",
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "visualcapitalist:mapped-the-states-with-the-most-empty-homes",
@@ -181,7 +156,7 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Thu, 30 Jul 2026 14:07:46 +0000",
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "visualcapitalist:ranked-the-world-8217-s-biggest-mineral-producers",
@@ -206,7 +181,7 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Thu, 30 Jul 2026 12:03:55 +0000",
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "visualcapitalist:charted-the-world-8217-s-shift-to-cities-1950-2050",
@@ -231,7 +206,7 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Wed, 29 Jul 2026 19:21:12 +0000",
-      "collectedAt": "2026-07-31T02:15:11.078Z"
+      "collectedAt": "2026-08-01T02:15:10.519Z"
     },
     {
       "id": "visualcapitalist:mapped-u-s-oil-production-by-state-in-2025",
@@ -256,6 +231,124 @@
       "license": "영감용 메타(출처표기 필수)",
       "seed": false,
       "publishedAt": "Wed, 29 Jul 2026 17:17:07 +0000",
+      "collectedAt": "2026-08-01T02:15:10.519Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-where-cars-eat-up-the-biggest-share-of-income",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: Where Cars Eat Up the Biggest Share of Income",
+      "url": "https://www.visualcapitalist.com/mapped-where-cars-eat-up-the-biggest-share-of-income/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/shareable-3.webp",
+      "asset": null,
+      "tags": [
+        "Automotive",
+        "Maps",
+        "personal finance",
+        "household income",
+        "car insurance",
+        "vehicle ownership",
+        "car ownership costs",
+        "car ownership costs by state"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Fri, 31 Jul 2026 16:58:26 +0000",
+      "collectedAt": "2026-08-01T02:15:10.519Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-america-8217-s-fastest-aging-states",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: America&#8217;s Fastest-Aging States",
+      "url": "https://www.visualcapitalist.com/ranked-where-americas-fastest-aging-states/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Americas-Fastest-Aging-States_shareable_Jul14.webp",
+      "asset": null,
+      "tags": [
+        "Demographics",
+        "demographics",
+        "retirement",
+        "population",
+        "states",
+        "society",
+        "aging"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Fri, 31 Jul 2026 13:47:00 +0000",
+      "collectedAt": "2026-08-01T02:15:10.519Z"
+    },
+    {
+      "id": "visualcapitalist:the-world-8217-s-most-powerful-passports-2016-vs-2026",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "The World&#8217;s Most Powerful Passports (2016 vs. 2026)",
+      "url": "https://www.visualcapitalist.com/the-worlds-most-powerful-passports-2016-vs-2026/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/powerfulpassports-shareable.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Globalization",
+        "Countries",
+        "Travel",
+        "Immigration",
+        "europe",
+        "asia",
+        "rankings"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Fri, 31 Jul 2026 12:06:45 +0000",
+      "collectedAt": "2026-08-01T02:15:10.519Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-01T02:15:09.985Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Most Valuable Squads at the 2026 FIFA World Cup",
+      "url": "https://www.visualcapitalist.com/cp/ranked-the-most-valuable-squads-at-the-2026-fifa-world-cup/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/fifa-world-cup-squad-values.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Money",
+        "Sports",
+        "football",
+        "soccer",
+        "FIFA world cup",
+        "FIFA World Cup 2026",
+        "squad values"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Tue, 28 Jul 2026 19:45:41 +0000",
       "collectedAt": "2026-07-31T02:15:11.078Z"
     },
     {
@@ -307,25 +400,6 @@
       "seed": false,
       "publishedAt": "Wed, 29 Jul 2026 12:04:35 +0000",
       "collectedAt": "2026-07-31T02:15:11.078Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-07-31T02:15:10.826Z"
     },
     {
       "id": "visualcapitalist:ranked-which-brands-gained-the-most-from-the-fifa-world-cup",
