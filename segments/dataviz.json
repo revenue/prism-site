@@ -16,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-11T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:population-tool-how-will-populations-across-the-world-change",
@@ -32,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:how-much-are-people-across-the-world-paying-for-their-carbon",
@@ -48,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-22T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:where-do-migrants-live-and-where-were-they-born",
@@ -64,7 +64,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-15T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:five-million-children-die-every-year-what-do-they-die-from",
@@ -80,7 +80,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-25T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:south-korea-s-population-is-set-to-shrink-what-would-it-take",
@@ -96,7 +96,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:how-does-food-get-traded-around-the-world",
@@ -112,7 +112,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-29T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:we-have-a-new-urbanization-topic-page",
@@ -128,7 +128,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:how-much-energy-do-data-centers-and-artificial-intelligence-",
@@ -144,7 +144,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-20T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "ourworldindata:we-published-a-new-topic-page-on-economic-inequality",
@@ -160,7 +160,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-08-01T02:15:09.472Z"
+      "collectedAt": "2026-08-02T02:34:04.805Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -179,7 +179,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-01T02:15:09.244Z"
+      "collectedAt": "2026-08-02T02:34:04.074Z"
     },
     {
       "id": "observable:d3-gallery",
@@ -198,7 +198,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-01T02:15:09.244Z"
+      "collectedAt": "2026-08-02T02:34:04.074Z"
     },
     {
       "id": "observable:zoomable-sunburst",
@@ -217,7 +217,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-01T02:15:09.244Z"
+      "collectedAt": "2026-08-02T02:34:04.074Z"
     },
     {
       "id": "rawgraphs:alluvial-diagram",
@@ -236,7 +236,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-01T02:15:09.244Z"
+      "collectedAt": "2026-08-02T02:34:04.073Z"
     },
     {
       "id": "rawgraphs:bump-chart",
@@ -255,7 +255,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-01T02:15:09.244Z"
+      "collectedAt": "2026-08-02T02:34:04.073Z"
     },
     {
       "id": "flourish:scatter-connected-scatter",
@@ -274,7 +274,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-01T02:15:09.244Z"
+      "collectedAt": "2026-08-02T02:34:04.072Z"
     },
     {
       "id": "flourish:survey-likert",
@@ -293,7 +293,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-01T02:15:09.244Z"
+      "collectedAt": "2026-08-02T02:34:04.072Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -313,7 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-01T02:15:09.244Z"
+      "collectedAt": "2026-08-02T02:34:04.072Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-16-the-swiss-population-cap-1-77-tril",
