@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated": "2026-08-03T02:16:27.086Z",
+  "generated": "2026-08-04T02:15:55.988Z",
   "categories": {
     "dataviz": "데이터 시각화 · 차트 · 그래프 · 지도",
     "infographic": "인포그래픽 · 데이터스토리텔링",
@@ -10,13 +10,13 @@
     "ui-reference": "UI/UX 레퍼런스 · 웹 디자인 영감"
   },
   "stats": {
-    "total": 575,
+    "total": 579,
     "byCategory": {
       "ui-reference": 17,
       "presentation": 5,
       "illustration": 6,
       "icon": 353,
-      "infographic": 134,
+      "infographic": 138,
       "dataviz": 60
     },
     "byType": {
@@ -24,7 +24,7 @@
       "template": 8,
       "illustration": 6,
       "icon": 353,
-      "infographic": 134,
+      "infographic": 138,
       "chart": 57
     },
     "bySource": {
@@ -48,7 +48,7 @@
       "nounproject": 1,
       "iconify": 350,
       "venngage": 3,
-      "visualcapitalist": 130,
+      "visualcapitalist": 134,
       "informationisbeautiful": 1,
       "ourworldindata": 14,
       "observable": 3,
@@ -75,7 +75,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.065Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "pinterest:pinterest-infographic",
@@ -93,7 +93,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.065Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "designus:designus",
@@ -113,7 +113,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.065Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "dbcut:",
@@ -133,7 +133,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.065Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "gdweb:",
@@ -153,7 +153,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.065Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "webjangi:",
@@ -173,7 +173,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "cssda:css-design-awards",
@@ -193,7 +193,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "uibowl:ui-bowl-ui",
@@ -213,7 +213,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "uibowl:ui-bowl",
@@ -231,7 +231,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "awwwards:awwwards-data-visualization",
@@ -250,7 +250,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "wwit:wwit-design",
@@ -270,7 +270,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "awwwards:awwwards",
@@ -289,7 +289,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "dribbble:dribbble-infographic",
@@ -308,7 +308,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "dribbble:dribbble-data-visualization",
@@ -327,7 +327,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "dribbble:dribbble-presentation",
@@ -345,7 +345,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "behance:behance-presentation-design",
@@ -364,7 +364,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "behance:behance-infographic",
@@ -382,7 +382,7 @@
       "license": "저작권 보유(영감·메타만)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "slidescarnival:slidescarnival",
@@ -400,7 +400,7 @@
       "license": "무료(CC-BY 유사)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "slidescarnival:slidescarnival",
@@ -419,7 +419,7 @@
       "license": "무료(CC-BY 유사)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -438,7 +438,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -456,7 +456,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "slidesgo:slidesgo",
@@ -474,7 +474,7 @@
       "license": "무료(출처표기) / 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.964Z"
     },
     {
       "id": "blush:blush",
@@ -493,7 +493,7 @@
       "license": "무료/유료 혼합(항목별)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.963Z"
     },
     {
       "id": "storyset:storyset-business",
@@ -512,7 +512,7 @@
       "license": "무료(출처표기) / Freepik 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.963Z"
     },
     {
       "id": "storyset:storyset-data",
@@ -531,7 +531,7 @@
       "license": "무료(출처표기) / Freepik 프리미엄",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.963Z"
     },
     {
       "id": "undraw:undraw",
@@ -550,7 +550,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.963Z"
     },
     {
       "id": "undraw:undraw-presentation",
@@ -568,7 +568,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.963Z"
     },
     {
       "id": "undraw:undraw-data-analytics",
@@ -587,7 +587,7 @@
       "license": "unDraw 오픈 라이선스 (출처표기 불필요·상업적 자유)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:27.064Z"
+      "collectedAt": "2026-08-04T02:15:55.963Z"
     },
     {
       "id": "svgrepo:svg-repo-monocolor",
@@ -606,7 +606,7 @@
       "license": "다수 CC0/MIT (항목별 확인)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.335Z"
+      "collectedAt": "2026-08-04T02:15:44.327Z"
     },
     {
       "id": "svgrepo:svg-repo-business",
@@ -625,7 +625,7 @@
       "license": "다수 CC0/MIT (항목별 확인)",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.335Z"
+      "collectedAt": "2026-08-04T02:15:44.327Z"
     },
     {
       "id": "nounproject:noun-project",
@@ -644,7 +644,7 @@
       "license": "CC-BY 또는 로열티, 다운로드시 확인",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:time-plot",
@@ -664,7 +664,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:array-time",
@@ -684,7 +684,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:train-time",
@@ -704,7 +704,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:server-time",
@@ -724,7 +724,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:delivery-time",
@@ -744,7 +744,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:array-date-time",
@@ -765,7 +765,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:server-time-usage",
@@ -786,7 +786,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:network-time-protocol",
@@ -807,7 +807,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:timer",
@@ -826,7 +826,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:timeline",
@@ -845,7 +845,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:container-runtime",
@@ -865,7 +865,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:container-runtime-monitor",
@@ -886,7 +886,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:data-check",
@@ -906,7 +906,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:spell-check",
@@ -926,7 +926,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:mobile-check",
@@ -946,7 +946,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:settings-check",
@@ -966,7 +966,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:calculator-check",
@@ -986,7 +986,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:certificate-check",
@@ -1006,7 +1006,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:punctuation-check",
@@ -1026,7 +1026,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:ai-financial-sustainability-check",
@@ -1047,7 +1047,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:checkbox",
@@ -1066,7 +1066,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:checkmark",
@@ -1085,7 +1085,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:checkmark-filled",
@@ -1105,7 +1105,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:checkmark-outline",
@@ -1125,7 +1125,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:list-checked",
@@ -1145,7 +1145,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-river",
@@ -1165,7 +1165,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-t-sne",
@@ -1186,7 +1186,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-bubble",
@@ -1206,7 +1206,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-bullet",
@@ -1226,7 +1226,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-column",
@@ -1246,7 +1246,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-custom",
@@ -1266,7 +1266,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-median",
@@ -1286,7 +1286,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-radial",
@@ -1306,7 +1306,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-spiral",
@@ -1326,7 +1326,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:report-chart",
@@ -1346,7 +1346,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-average",
@@ -1366,7 +1366,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-maximum",
@@ -1386,7 +1386,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-minimum",
@@ -1406,7 +1406,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-network",
@@ -1426,7 +1426,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-scatter",
@@ -1446,7 +1446,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-stacked",
@@ -1466,7 +1466,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-stepper",
@@ -1486,7 +1486,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-treemap",
@@ -1506,7 +1506,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-high-low",
@@ -1527,7 +1527,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-lollipop",
@@ -1547,7 +1547,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:growth",
@@ -1566,7 +1566,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:crop-growth",
@@ -1586,7 +1586,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:report-growth",
@@ -1606,7 +1606,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:target",
@@ -1625,7 +1625,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:connect-target",
@@ -1645,7 +1645,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-bar-target",
@@ -1666,7 +1666,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:cics-region-target",
@@ -1687,7 +1687,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-column-target",
@@ -1708,7 +1708,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:money",
@@ -1727,7 +1727,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket",
@@ -1746,7 +1746,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:idea",
@@ -1765,7 +1765,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:time",
@@ -1784,7 +1784,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:time-filled",
@@ -1804,7 +1804,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-rose",
@@ -1824,7 +1824,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-combo",
@@ -1844,7 +1844,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-donut",
@@ -1864,7 +1864,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-multi-line",
@@ -1885,7 +1885,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-point",
@@ -1905,7 +1905,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-radar",
@@ -1925,7 +1925,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-line",
@@ -1945,7 +1945,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-3d",
@@ -1965,7 +1965,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-bar",
@@ -1985,7 +1985,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-pie",
@@ -2005,7 +2005,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-area",
@@ -2025,7 +2025,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-ring",
@@ -2045,7 +2045,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:airplane-time",
@@ -2065,7 +2065,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:shop-time-outline",
@@ -2086,7 +2086,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:tool-time",
@@ -2106,7 +2106,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:phone-time",
@@ -2126,7 +2126,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:access-time",
@@ -2146,7 +2146,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:archive-time",
@@ -2166,7 +2166,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:archive-time-outline",
@@ -2187,7 +2187,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:weather-time",
@@ -2207,7 +2207,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:home-time-outline",
@@ -2228,7 +2228,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:shop-time",
@@ -2248,7 +2248,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:kettle-steam-outline",
@@ -2269,7 +2269,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:microsoft-teams",
@@ -2289,7 +2289,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bed-time",
@@ -2309,7 +2309,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:sun-time",
@@ -2329,7 +2329,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:sun-time-outline",
@@ -2350,7 +2350,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:book-time",
@@ -2370,7 +2370,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:home-time",
@@ -2390,7 +2390,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:pot-steam-outline",
@@ -2411,7 +2411,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:teamviewer",
@@ -2430,7 +2430,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:kettle-steam",
@@ -2450,7 +2450,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:file-chart-check",
@@ -2471,7 +2471,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:file-chart-check-outline",
@@ -2492,7 +2492,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-bar-stacked",
@@ -2513,7 +2513,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-box-multiple",
@@ -2534,7 +2534,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-box-multiple-outline",
@@ -2555,7 +2555,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-line-stacked",
@@ -2576,7 +2576,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:target",
@@ -2595,7 +2595,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:target-arrow",
@@ -2615,7 +2615,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:target-account",
@@ -2635,7 +2635,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:target-variant",
@@ -2655,7 +2655,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:money",
@@ -2674,7 +2674,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:money-100",
@@ -2694,7 +2694,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:money-off",
@@ -2714,7 +2714,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:attach-money",
@@ -2734,7 +2734,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket",
@@ -2753,7 +2753,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-outline",
@@ -2773,7 +2773,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bottle-rocket",
@@ -2793,7 +2793,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-launch",
@@ -2813,7 +2813,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-launch-outline",
@@ -2834,7 +2834,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:idea",
@@ -2853,7 +2853,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:head-idea",
@@ -2873,7 +2873,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:head-idea-outline",
@@ -2894,7 +2894,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:steam",
@@ -2913,7 +2913,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:pot-steam",
@@ -2933,7 +2933,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-multiline",
@@ -2953,7 +2953,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-waterfall",
@@ -2973,7 +2973,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-areaspline",
@@ -2993,7 +2993,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-bell-curve",
@@ -3014,7 +3014,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-bubble",
@@ -3034,7 +3034,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-sankey",
@@ -3054,7 +3054,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-finance",
@@ -3074,7 +3074,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-box-plus-outline",
@@ -3095,7 +3095,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-multiple",
@@ -3115,7 +3115,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-timeline",
@@ -3135,7 +3135,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-histogram",
@@ -3155,7 +3155,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:file-chart",
@@ -3175,7 +3175,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:file-chart-outline",
@@ -3196,7 +3196,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-home",
@@ -3216,7 +3216,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-donut",
@@ -3236,7 +3236,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-gantt",
@@ -3256,7 +3256,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-line",
@@ -3276,7 +3276,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-arc",
@@ -3296,7 +3296,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-bar",
@@ -3316,7 +3316,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-box",
@@ -3336,7 +3336,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-box-outline",
@@ -3357,7 +3357,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-pie",
@@ -3377,7 +3377,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-pie-outline",
@@ -3398,7 +3398,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-ppf",
@@ -3418,7 +3418,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bar-chart",
@@ -3438,7 +3438,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:chart-tree",
@@ -3458,7 +3458,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-launch-bold",
@@ -3479,7 +3479,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-launch-duotone",
@@ -3500,7 +3500,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-launch-fill",
@@ -3521,7 +3521,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-launch-light",
@@ -3542,7 +3542,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-launch-thin",
@@ -3563,7 +3563,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bowl-steam",
@@ -3583,7 +3583,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bowl-steam-bold",
@@ -3604,7 +3604,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bowl-steam-duotone",
@@ -3625,7 +3625,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bowl-steam-fill",
@@ -3646,7 +3646,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bowl-steam-light",
@@ -3667,7 +3667,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:bowl-steam-thin",
@@ -3688,7 +3688,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:steam-logo",
@@ -3708,7 +3708,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:steam-logo-bold",
@@ -3729,7 +3729,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-light",
@@ -3749,7 +3749,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-thin",
@@ -3769,7 +3769,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-launch",
@@ -3789,28 +3789,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
-    },
-    {
-      "id": "iconify:money-wavy-fill",
-      "source": "iconify",
-      "sourceName": "Iconify",
-      "category": "icon",
-      "type": "icon",
-      "title": "money wavy fill",
-      "url": "https://icon-sets.iconify.design/ph/money-wavy-fill/",
-      "thumb": "https://api.iconify.design/ph/money-wavy-fill.svg?height=48&color=%23555",
-      "asset": "assets/icons/ph/money-wavy-fill.svg",
-      "tags": [
-        "ph",
-        "money",
-        "wavy",
-        "fill"
-      ],
-      "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
-      "seed": false,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:money-wavy-light",
@@ -3831,7 +3810,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:money-wavy-thin",
@@ -3852,7 +3831,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket",
@@ -3871,7 +3850,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-bold",
@@ -3891,7 +3870,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-duotone",
@@ -3911,7 +3890,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
     },
     {
       "id": "iconify:rocket-fill",
@@ -3931,7 +3910,28 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.326Z"
+    },
+    {
+      "id": "iconify:money-wavy-fill",
+      "source": "iconify",
+      "sourceName": "Iconify",
+      "category": "icon",
+      "type": "icon",
+      "title": "money wavy fill",
+      "url": "https://icon-sets.iconify.design/ph/money-wavy-fill/",
+      "thumb": "https://api.iconify.design/ph/money-wavy-fill.svg?height=48&color=%23555",
+      "asset": "assets/icons/ph/money-wavy-fill.svg",
+      "tags": [
+        "ph",
+        "money",
+        "wavy",
+        "fill"
+      ],
+      "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
+      "seed": false,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-polar-bold",
@@ -3952,7 +3952,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-polar-duotone",
@@ -3973,7 +3973,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-polar-fill",
@@ -3994,7 +3994,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-polar-light",
@@ -4015,7 +4015,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-polar-thin",
@@ -4036,7 +4036,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line-up",
@@ -4057,7 +4057,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line-up-bold",
@@ -4078,7 +4078,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target",
@@ -4097,7 +4097,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target-bold",
@@ -4117,7 +4117,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target-duotone",
@@ -4137,7 +4137,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target-fill",
@@ -4157,7 +4157,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target-light",
@@ -4177,7 +4177,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target-thin",
@@ -4197,7 +4197,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money",
@@ -4216,7 +4216,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money-bold",
@@ -4236,7 +4236,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money-duotone",
@@ -4256,7 +4256,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money-fill",
@@ -4276,7 +4276,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money-light",
@@ -4296,7 +4296,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money-thin",
@@ -4316,7 +4316,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money-wavy",
@@ -4336,7 +4336,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money-wavy-bold",
@@ -4357,7 +4357,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:money-wavy-duotone",
@@ -4378,7 +4378,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line-thin",
@@ -4399,7 +4399,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-donut",
@@ -4419,7 +4419,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-donut-bold",
@@ -4440,7 +4440,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-donut-duotone",
@@ -4461,7 +4461,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-donut-fill",
@@ -4482,7 +4482,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-donut-light",
@@ -4503,7 +4503,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-donut-thin",
@@ -4524,7 +4524,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-polar",
@@ -4544,7 +4544,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line-duotone",
@@ -4565,7 +4565,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line-fill",
@@ -4586,7 +4586,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line-light",
@@ -4607,7 +4607,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-light",
@@ -4628,7 +4628,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-thin",
@@ -4649,7 +4649,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie",
@@ -4669,7 +4669,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-bold",
@@ -4690,7 +4690,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-duotone",
@@ -4711,7 +4711,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-fill",
@@ -4732,7 +4732,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-light",
@@ -4753,7 +4753,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-thin",
@@ -4774,7 +4774,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line-bold",
@@ -4795,7 +4795,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.334Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line",
@@ -4815,7 +4815,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar",
@@ -4835,7 +4835,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-bold",
@@ -4856,7 +4856,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-duotone",
@@ -4877,7 +4877,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-fill",
@@ -4898,7 +4898,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-45",
@@ -4919,7 +4919,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-60",
@@ -4940,7 +4940,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-90",
@@ -4961,7 +4961,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-off",
@@ -4982,7 +4982,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:report-money-filled",
@@ -5003,7 +5003,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:moneybag",
@@ -5022,7 +5022,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:moneybag-edit",
@@ -5042,7 +5042,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:moneybag-move",
@@ -5062,7 +5062,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:moneybag-plus",
@@ -5082,7 +5082,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:moneybag-heart",
@@ -5102,7 +5102,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:moneybag-minus",
@@ -5122,7 +5122,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:moneybag-move-back",
@@ -5143,7 +5143,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:rocket",
@@ -5162,7 +5162,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:rocket-off",
@@ -5182,7 +5182,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:steam",
@@ -5201,7 +5201,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:brand-teams",
@@ -5221,7 +5221,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:brand-steam",
@@ -5241,7 +5241,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:brand-steam-filled",
@@ -5262,7 +5262,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:ironing-steam",
@@ -5282,7 +5282,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:ironing-steam-filled",
@@ -5303,7 +5303,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:ironing-steam-off",
@@ -5324,7 +5324,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:file-time",
@@ -5344,7 +5344,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:file-time-filled",
@@ -5365,7 +5365,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:calendar-time",
@@ -5385,7 +5385,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-0",
@@ -5406,7 +5406,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-5",
@@ -5427,7 +5427,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-10",
@@ -5448,7 +5448,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-15",
@@ -5469,7 +5469,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:time-duration-30",
@@ -5490,7 +5490,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-no-axes-column-decreasing",
@@ -5511,7 +5511,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-no-axes-column-increasing",
@@ -5532,7 +5532,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target",
@@ -5551,7 +5551,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:rocket",
@@ -5570,7 +5570,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-column-decreasing",
@@ -5591,7 +5591,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-column-increasing",
@@ -5612,7 +5612,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:file-chart-column-increasing",
@@ -5633,7 +5633,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-decreasing",
@@ -5654,7 +5654,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-increasing",
@@ -5675,7 +5675,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-column-stacked",
@@ -5696,7 +5696,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-no-axes-column",
@@ -5717,7 +5717,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-no-axes-combined",
@@ -5738,7 +5738,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-dots-3",
@@ -5759,7 +5759,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:growth",
@@ -5778,7 +5778,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target",
@@ -5797,7 +5797,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target-2",
@@ -5817,7 +5817,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target-off",
@@ -5837,7 +5837,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:target-arrow",
@@ -5857,7 +5857,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:pig-money",
@@ -5877,7 +5877,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:zoom-money",
@@ -5897,7 +5897,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:zoom-money-filled",
@@ -5918,7 +5918,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:report-money",
@@ -5938,7 +5938,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-arrows",
@@ -5958,7 +5958,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bubble",
@@ -5978,7 +5978,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bubble-filled",
@@ -5999,7 +5999,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-candle",
@@ -6019,7 +6019,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-candle-filled",
@@ -6040,7 +6040,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-cohort",
@@ -6060,7 +6060,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-column",
@@ -6080,7 +6080,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-dots-2",
@@ -6101,7 +6101,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-dots-2-filled",
@@ -6122,7 +6122,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-area-line",
@@ -6143,7 +6143,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-dots",
@@ -6163,7 +6163,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-dots-filled",
@@ -6184,7 +6184,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:file-chart",
@@ -6204,7 +6204,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-donut",
@@ -6224,7 +6224,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-donut-filled",
@@ -6245,7 +6245,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-2",
@@ -6266,7 +6266,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-2-filled",
@@ -6287,7 +6287,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-3",
@@ -6308,7 +6308,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-3-filled",
@@ -6329,7 +6329,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-4",
@@ -6350,7 +6350,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-4-filled",
@@ -6371,7 +6371,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-radar",
@@ -6391,7 +6391,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-arcs-3",
@@ -6412,7 +6412,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-line",
@@ -6432,7 +6432,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar",
@@ -6452,7 +6452,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie",
@@ -6472,7 +6472,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-pie-filled",
@@ -6493,7 +6493,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-ppf",
@@ -6513,7 +6513,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-arcs",
@@ -6533,7 +6533,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-area",
@@ -6553,7 +6553,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-area-filled",
@@ -6574,7 +6574,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:folder-check",
@@ -6594,7 +6594,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:search-check",
@@ -6614,7 +6614,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:shield-check",
@@ -6634,7 +6634,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:square-check",
@@ -6654,7 +6654,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:ticket-check",
@@ -6674,7 +6674,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:map-pin-check",
@@ -6695,7 +6695,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:monitor-check",
@@ -6715,7 +6715,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:package-check",
@@ -6735,7 +6735,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:printer-check",
@@ -6755,7 +6755,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:spell-check-2",
@@ -6776,7 +6776,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:banknote-check",
@@ -6796,7 +6796,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:bookmark-check",
@@ -6816,7 +6816,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:calendar-check",
@@ -6836,7 +6836,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:database-check",
@@ -6856,7 +6856,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:mail-warning",
@@ -6876,7 +6876,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:battery-warning",
@@ -6896,7 +6896,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:message-circle-warning",
@@ -6917,7 +6917,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:message-square-warning",
@@ -6938,7 +6938,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:save-check",
@@ -6958,7 +6958,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:star-check",
@@ -6978,7 +6978,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:user-check",
@@ -6998,7 +6998,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:badge-check",
@@ -7018,7 +7018,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:check-check",
@@ -7038,7 +7038,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:clock-check",
@@ -7058,7 +7058,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:cloud-check",
@@ -7078,7 +7078,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:globe-check",
@@ -7098,7 +7098,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:spell-check",
@@ -7118,7 +7118,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:circle-check",
@@ -7138,7 +7138,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:timer",
@@ -7157,7 +7157,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:timeline",
@@ -7176,7 +7176,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:timer-off",
@@ -7196,7 +7196,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:timer-reset",
@@ -7216,7 +7216,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:check",
@@ -7235,7 +7235,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:check-line",
@@ -7255,7 +7255,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:bell-check",
@@ -7275,7 +7275,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:book-check",
@@ -7295,7 +7295,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:copy-check",
@@ -7315,7 +7315,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:file-check",
@@ -7335,7 +7335,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:list-check",
@@ -7355,7 +7355,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:mail-check",
@@ -7375,7 +7375,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-no-axes-gantt",
@@ -7396,7 +7396,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:square-chart-gantt",
@@ -7417,7 +7417,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-candlestick",
@@ -7437,7 +7437,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:file-chart-column",
@@ -7458,7 +7458,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-network",
@@ -7478,7 +7478,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-scatter",
@@ -7498,7 +7498,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:file-chart-pie",
@@ -7519,7 +7519,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-column-big",
@@ -7540,7 +7540,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-stacked",
@@ -7561,47 +7561,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
-    },
-    {
-      "id": "iconify:chart-gantt",
-      "source": "iconify",
-      "sourceName": "Iconify",
-      "category": "icon",
-      "type": "icon",
-      "title": "chart gantt",
-      "url": "https://icon-sets.iconify.design/lucide/chart-gantt/",
-      "thumb": "https://api.iconify.design/lucide/chart-gantt.svg?height=48&color=%23555",
-      "asset": "assets/icons/lucide/chart-gantt.svg",
-      "tags": [
-        "lucide",
-        "chart",
-        "gantt"
-      ],
-      "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
-      "seed": false,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
-    },
-    {
-      "id": "iconify:chart-column",
-      "source": "iconify",
-      "sourceName": "Iconify",
-      "category": "icon",
-      "type": "icon",
-      "title": "chart column",
-      "url": "https://icon-sets.iconify.design/lucide/chart-column/",
-      "thumb": "https://api.iconify.design/lucide/chart-column.svg?height=48&color=%23555",
-      "asset": "assets/icons/lucide/chart-column.svg",
-      "tags": [
-        "lucide",
-        "chart",
-        "column"
-      ],
-      "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
-      "seed": false,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-spline",
@@ -7621,7 +7581,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
     },
     {
       "id": "iconify:chart-bar-big",
@@ -7642,7 +7602,47 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.325Z"
+    },
+    {
+      "id": "iconify:chart-gantt",
+      "source": "iconify",
+      "sourceName": "Iconify",
+      "category": "icon",
+      "type": "icon",
+      "title": "chart gantt",
+      "url": "https://icon-sets.iconify.design/lucide/chart-gantt/",
+      "thumb": "https://api.iconify.design/lucide/chart-gantt.svg?height=48&color=%23555",
+      "asset": "assets/icons/lucide/chart-gantt.svg",
+      "tags": [
+        "lucide",
+        "chart",
+        "gantt"
+      ],
+      "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
+      "seed": false,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:44.324Z"
+    },
+    {
+      "id": "iconify:chart-column",
+      "source": "iconify",
+      "sourceName": "Iconify",
+      "category": "icon",
+      "type": "icon",
+      "title": "chart column",
+      "url": "https://icon-sets.iconify.design/lucide/chart-column/",
+      "thumb": "https://api.iconify.design/lucide/chart-column.svg?height=48&color=%23555",
+      "asset": "assets/icons/lucide/chart-column.svg",
+      "tags": [
+        "lucide",
+        "chart",
+        "column"
+      ],
+      "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
+      "seed": false,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:44.324Z"
     },
     {
       "id": "iconify:chart-area",
@@ -7662,7 +7662,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.324Z"
     },
     {
       "id": "iconify:file-chart-line",
@@ -7683,7 +7683,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.324Z"
     },
     {
       "id": "iconify:chart-bar",
@@ -7703,7 +7703,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.324Z"
     },
     {
       "id": "iconify:chart-pie",
@@ -7723,7 +7723,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.333Z"
+      "collectedAt": "2026-08-04T02:15:44.324Z"
     },
     {
       "id": "iconify:chart-line",
@@ -7743,7 +7743,7 @@
       "license": "셋별 상이(대부분 MIT/Apache/CC-BY) — 다운로드 시 세트 라이선스 기록",
       "seed": false,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:16:13.332Z"
+      "collectedAt": "2026-08-04T02:15:44.324Z"
     },
     {
       "id": "venngage:comparison",
@@ -7761,7 +7761,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:11.241Z"
+      "collectedAt": "2026-08-04T02:15:11.780Z"
     },
     {
       "id": "venngage:statistical",
@@ -7780,7 +7780,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:11.241Z"
+      "collectedAt": "2026-08-04T02:15:11.780Z"
     },
     {
       "id": "venngage:timeline",
@@ -7799,7 +7799,987 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:11.241Z"
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-which-income-group-is-your-country-in",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: Which Income Group Is Your Country In?",
+      "url": "https://www.visualcapitalist.com/cp/mapped-which-income-group-is-your-country-in/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/countries-by-income-groups-shareable.webp",
+      "asset": null,
+      "tags": [
+        "Money",
+        "Demographics",
+        "Economy",
+        "Countries",
+        "africa",
+        "countries",
+        "emerging markets",
+        "world map"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sat, 01 Aug 2026 16:44:31 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-countries-with-the-most-freshwater-per-person",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: Countries With the Most Freshwater Per Person",
+      "url": "https://www.visualcapitalist.com/mapped-the-countries-with-the-most-water-per-person/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Countries-With-the-Most-and-Least-Water_Shareable_07172026.webp",
+      "asset": null,
+      "tags": [
+        "Green",
+        "Maps",
+        "environment",
+        "Water",
+        "natural resources",
+        "sustainability",
+        "freshwater",
+        "climate"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sat, 01 Aug 2026 14:04:57 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-income-needed-to-be-happy-in-19-canadian-cities",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Income Needed to Be Happy in 19 Canadian Cities",
+      "url": "https://www.visualcapitalist.com/ranked-income-needed-to-be-happy-in-19-canadian-cities/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/price-of-happiness-canadian-cities-share.webp",
+      "asset": null,
+      "tags": [
+        "Money",
+        "Economy",
+        "Canada",
+        "canada",
+        "british columbia",
+        "vancouver",
+        "cities",
+        "cost of living"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 02 Aug 2026 18:55:06 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-imdb-8217-s-25-highest-rated-movies-ever",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: IMDb&#8217;s 25 Highest-Rated Movies Ever",
+      "url": "https://www.visualcapitalist.com/the-highest-rated-movies-in-imdb-history/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/IMDBs-Best-Films_02-share.webp",
+      "asset": null,
+      "tags": [
+        "Culture",
+        "Media",
+        "movies",
+        "cinema",
+        "most popular movies",
+        "film industry",
+        "films",
+        "imdb"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 02 Aug 2026 16:45:05 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:which-countries-think-they-8217-re-on-the-right-track",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Which Countries Think They&#8217;re on the Right Track?",
+      "url": "https://www.visualcapitalist.com/how-people-around-the-world-feel-about-their-countries-in-2026/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Country-Approval-Rating-Shareable-v2.1.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Public Opinion",
+        "public opinion",
+        "Ipsos",
+        "favorability",
+        "approval",
+        "global opinion",
+        "public survey"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 02 Aug 2026 14:04:51 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-countries-that-grow-the-world-8217-s-coffee",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Countries That Grow the World&#8217;s Coffee",
+      "url": "https://www.visualcapitalist.com/the-worlds-largest-coffee-producers/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/LargestCoffeePoducers-shareable.webp",
+      "asset": null,
+      "tags": [
+        "Agriculture",
+        "Green",
+        "coffee",
+        "Coffee production",
+        "coffee beans",
+        "arabica coffee",
+        "robusta coffee"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 02 Aug 2026 12:05:34 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-america-8217-s-most-ai-resistant-jobs",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: America&#8217;s Most AI-Resistant Jobs",
+      "url": "https://www.visualcapitalist.com/cp/ranked-americas-most-ai-resistant-jobs/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/ai-job-resilience-us-shareable.webp",
+      "asset": null,
+      "tags": [
+        "Business",
+        "Automation",
+        "Jobs",
+        "AI",
+        "technology",
+        "healthcare",
+        "artificial intelligence",
+        "ai"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 03 Aug 2026 18:49:55 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:americans-use-less-energy-than-50-years-ago",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Americans Use Less Energy Than 50 Years Ago",
+      "url": "https://www.visualcapitalist.com/americans-use-less-energy-per-capita-than-50-years-ago/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Americans-Use-Less-Energy-Than-50-Years-Ago-option1-2.webp",
+      "asset": null,
+      "tags": [
+        "Energy",
+        "United States",
+        "energy",
+        "transportation",
+        "united states",
+        "energy consumption",
+        "per capita",
+        "U.S. energy"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 03 Aug 2026 16:45:16 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-america-8217-s-highest-paid-mayors",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: America&#8217;s Highest-Paid Mayors",
+      "url": "https://www.visualcapitalist.com/ranked-americas-highest-paid-mayors/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/HighestPaidUSMayors_Shareable2.webp",
+      "asset": null,
+      "tags": [
+        "Politics",
+        "salary",
+        "u.s. politics",
+        "US politics",
+        "annual salary",
+        "highest paying",
+        "mayor"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 03 Aug 2026 14:06:36 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-world-8217-s-largest-agricultural-economies",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The World&#8217;s Largest Agricultural Economies",
+      "url": "https://www.visualcapitalist.com/ranked-worlds-largest-agricultural-economies/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Agriculture_Shareable.webp",
+      "asset": null,
+      "tags": [
+        "Agriculture",
+        "Economy",
+        "china",
+        "agriculture",
+        "india",
+        "united states",
+        "global economy",
+        "Farming"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 03 Aug 2026 12:06:33 +0000",
+      "collectedAt": "2026-08-04T02:15:11.780Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.562Z"
+    },
+    {
+      "id": "ourworldindata:population-tool-how-will-populations-across-the-world-change",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Population tool: How will populations across the world change in the 21st century?",
+      "url": "https://ourworldindata.org/population-simulation-tool",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/95c9945f-c253-4abe-cb79-a28adf7aea00/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:how-much-are-people-across-the-world-paying-for-their-carbon",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How much are people across the world paying for their carbon emissions?",
+      "url": "https://ourworldindata.org/how-much-are-people-across-the-world-paying-for-their-carbon-emissions",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0ea1f35f-dea2-4a58-61cb-bceb18a06900/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-06-22T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:where-do-migrants-live-and-where-were-they-born",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Where do migrants live, and where were they born?",
+      "url": "https://ourworldindata.org/where-do-migrants-live-and-where-were-they-born",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/4ef2a38d-e4fd-46c0-0f52-d8e5c7646d00/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-06-15T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:five-million-children-die-every-year-what-do-they-die-from",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Five million children die every year — what do they die from?",
+      "url": "https://ourworldindata.org/five-million-children-die-every-year-what-do-they-die-from",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/b8650845-1cae-4503-540d-d1c6681b4900/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-05-25T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:south-korea-s-population-is-set-to-shrink-what-would-it-take",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "South Korea’s population is set to shrink: what would it take to stop the decline?",
+      "url": "https://ourworldindata.org/south-koreas-population-is-set-to-shrink-what-would-it-take-to-stop-the-decline",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/133452ba-5209-482d-089c-c51f5b48b900/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-05-18T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:how-does-food-get-traded-around-the-world",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How does food get traded around the world?",
+      "url": "https://ourworldindata.org/how-does-food-get-traded-around-the-world",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/65dfb98e-8a6d-4318-59cd-d71a642a1000/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-06-29T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:we-have-a-new-urbanization-topic-page",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "We have a new Urbanization topic page",
+      "url": "https://ourworldindata.org/we-have-a-new-urbanization-topic-page",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/a57ed482-5955-4a15-01c2-fc5092c4ac00/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-07-13T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:how-much-energy-do-data-centers-and-artificial-intelligence-",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How much energy do data centers and artificial intelligence use?",
+      "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/1bda728d-dc32-4ca7-32f8-dcb5be9a4b00/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:we-published-a-new-topic-page-on-economic-inequality",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "We published a new topic page on economic inequality",
+      "url": "https://ourworldindata.org/we-published-a-new-topic-page-on-economic-inequality",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/8572fbf8-1c9c-4176-a865-12735e86a000/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-07-27T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "ourworldindata:what-has-driven-deforestation-in-the-21st-century",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "What has driven deforestation in the 21st century?",
+      "url": "https://ourworldindata.org/what-has-driven-deforestation-in-the-21st-century",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/b63c446f-e9a8-4eca-b979-4e1eafb5a500/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-08-03T00:00:00.000Z",
+      "collectedAt": "2026-08-04T02:15:10.218Z"
+    },
+    {
+      "id": "observable:sankey-diagram",
+      "source": "observable",
+      "sourceName": "Observable / D3 Gallery",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Sankey diagram",
+      "url": "https://observablehq.com/@d3/sankey",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "sankey",
+        "flow"
+      ],
+      "license": "ISC/CC 다양, 코드 예시",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.041Z"
+    },
+    {
+      "id": "observable:d3-gallery",
+      "source": "observable",
+      "sourceName": "Observable / D3 Gallery",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "D3 Gallery — 전체 예시 허브",
+      "url": "https://observablehq.com/@d3/gallery",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "d3",
+        "gallery"
+      ],
+      "license": "ISC/CC 다양, 코드 예시",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.041Z"
+    },
+    {
+      "id": "observable:zoomable-sunburst",
+      "source": "observable",
+      "sourceName": "Observable / D3 Gallery",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Zoomable sunburst",
+      "url": "https://observablehq.com/@d3/zoomable-sunburst",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "hierarchy",
+        "sunburst"
+      ],
+      "license": "ISC/CC 다양, 코드 예시",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.041Z"
+    },
+    {
+      "id": "rawgraphs:alluvial-diagram",
+      "source": "rawgraphs",
+      "sourceName": "RAWGraphs",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Alluvial diagram (흐름·전환)",
+      "url": "https://www.rawgraphs.io/learning/how-to-make-an-alluvial-diagram",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "alluvial",
+        "flow"
+      ],
+      "license": "Apache-2.0(툴), 갤러리=메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "rawgraphs:bump-chart",
+      "source": "rawgraphs",
+      "sourceName": "RAWGraphs",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Bump chart (순위 변화)",
+      "url": "https://www.rawgraphs.io/gallery",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "bump",
+        "ranking"
+      ],
+      "license": "Apache-2.0(툴), 갤러리=메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "flourish:scatter-connected-scatter",
+      "source": "flourish",
+      "sourceName": "Flourish",
+      "category": "dataviz",
+      "type": "template",
+      "title": "Scatter / connected scatter",
+      "url": "https://flourish.studio/visualisations/scatter-charts/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "scatter",
+        "correlation"
+      ],
+      "license": "예시 갤러리=영감용 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "flourish:survey-likert",
+      "source": "flourish",
+      "sourceName": "Flourish",
+      "category": "dataviz",
+      "type": "template",
+      "title": "Survey / Likert 시각화",
+      "url": "https://flourish.studio/visualisations/survey-data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "survey",
+        "likert"
+      ],
+      "license": "예시 갤러리=영감용 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "flourish:bar-chart-race",
+      "source": "flourish",
+      "sourceName": "Flourish",
+      "category": "dataviz",
+      "type": "template",
+      "title": "Bar chart race (인구·매출 순위 애니메이션)",
+      "url": "https://flourish.studio/visualisations/bar-chart-race/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "animated",
+        "ranking",
+        "bar"
+      ],
+      "license": "예시 갤러리=영감용 메타만",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-june-16-the-swiss-population-cap-1-77-tril",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, June 16: The Swiss population cap, $1.77 trillion, and El Ni&#241;o",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-16-2026-the-swiss-population-cap-1-77-trillion-and-el-nino",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-16-2026-the-swiss-population-cap-1-77-trillion-and-el-nino/22b4649beb-1781626658/june-16-1.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-16 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:in-which-stadiums-will-the-world-cup-favorites-play",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "In which stadiums will the World Cup favorites play?",
+      "url": "https://www.datawrapper.de/blog/fifa-world-cup-locator-map-arrows",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/fifa-world-cup-locator-map-arrows/436ac2a897-1781191456/feature-image.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-11 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:new-draw-arrows-in-locator-maps",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "New: Draw arrows in locator maps",
+      "url": "https://www.datawrapper.de/blog/arrows-in-locator-maps",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/arrows-in-locator-maps/814b53ed00-1781173382/image.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-11 16:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-june-9-the-world-cup-spacex-and-the-pope",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, June 9: The World Cup, SpaceX, and the pope",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-9-2026-the-world-cup-spacex-and-the-pope",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-9-2026-the-world-cup-spacex-and-the-pope/d998ba5629-1781006404/june-7.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-09 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:how-long-will-you-live",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How long will you live?",
+      "url": "https://www.datawrapper.de/blog/life-expectancy-beeswarm-plot",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/life-expectancy-beeswarm-plot/018f2ababa-1780591131/may_07-10.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-04 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-june-2-extreme-weather-gambling-and-the-sw",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, June 2: Extreme weather, gambling, and the Swiss Alps",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-2-2026-extreme-weather-gambling-and-the-swiss-alps",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-2-2026-extreme-weather-gambling-and-the-swiss-alps/a29a8a4b28-1780417604/june-3.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-02 17:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:eighty-percent-of-germans-will-benefit-from-a-blood-donation",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Eighty percent of Germans will benefit from a blood donation during their life &#8212; too few donate",
+      "url": "https://www.datawrapper.de/blog/blood-donations-germany",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/blood-donations-germany/0f5e0c727e-1779997355/may_28.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-05-28 19:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-june-23-heatwaves-the-world-cup-and-the-10",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, June 23: Heatwaves, the World Cup, and the 10th anniversary of the Brexit referendum",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-23-2026-heatwaves-the-world-cup-and-the-10th-anniversary-of-the-brexit-referendum",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-23-2026-heatwaves-the-world-cup-and-the-10th-anniversary-of-the-brexit-referendum/ba7d3c028f-1782215852/june-23-final.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-23 18:30:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:how-to-become-a-trillionaire",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How to become a trillionaire",
+      "url": "https://www.datawrapper.de/blog/elon-musk-trillionaire-wealth",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/elon-musk-trillionaire-wealth/885db65d12-1781803413/jun_18-4.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-18 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:where-europe-needs-cooling-and-heating",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Where Europe needs cooling (and heating)",
+      "url": "https://www.datawrapper.de/blog/cooling-heating-europe",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/cooling-heating-europe/8314c6c953-1783024391/coolheat3.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-02 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-june-30-venezuela-a-heat-dome-and-messi",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, June 30: Venezuela, a heat dome, and Messi",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-30-2026-venezuela-a-heat-dome-and-messi",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-30-2026-venezuela-a-heat-dome-and-messi/1915aa73a5-1782834670/june-30-1.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-30 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:found-in-translation",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Found in translation",
+      "url": "https://www.datawrapper.de/blog/international-booker-prize-finalists",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/international-booker-prize-finalists/11a45d0feb-1781194111/may_07-11.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-25 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-july-7-the-fourth-of-july-fifa-rankings-an",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, July 7: The Fourth of July, FIFA rankings, and squids",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-7-2026-the-fourth-of-july-fifa-rankings-and-squids",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-7-2026-the-fourth-of-july-fifa-rankings-and-squids/88d3a3fb3a-1783429641/july-7.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-07 17:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:how-to-score-goals-statistically",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How to score goals, statistically",
+      "url": "https://www.datawrapper.de/blog/football-goals-analysis",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/football-goals-analysis/db3e03756c-1783629449/jul_9.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-09 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-july-14-fifa-world-cup-heat-in-europe-and-",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, July 14: FIFA World Cup, heat in Europe, and Middle East alliances",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-14-2026",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-14-2026/e333bb1bb7-1784021786/july-9.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-14 12:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:fatal-police-interventions-8220-no-prosecution-or-fine-can-e",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Fatal police interventions: &#8220;No prosecution or fine can ever justify ruining a life&#8221;",
+      "url": "https://www.datawrapper.de/blog/police-deaths-france",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/police-deaths-france/239d0884dd-1784225813/jul_16-2.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-16 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-july-21-2026-world-cup-champions-wildfire-",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, July 21: 2026 World Cup champions, wildfire smoke, and humanoid robots",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-21-2026-world-cup-champions-wildfire-smoke-and-humanoid-robots",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-21-2026-world-cup-champions-wildfire-smoke-and-humanoid-robots/afbb40b855-1784643862/july-12.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-21 18:00:00",
+      "collectedAt": "2026-08-04T02:15:10.040Z"
+    },
+    {
+      "id": "datawrapper:why-i-changed-my-mind-on-dual-axis-charts",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Why I changed my mind on dual-axis charts",
+      "url": "https://www.datawrapper.de/blog/why-i-changed-my-mind-on-dual-axis-charts",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/why-i-changed-my-mind-on-dual-axis-charts/eb9771c5d6-1784814353/jul_23.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-23 19:00:00",
+      "collectedAt": "2026-08-04T02:15:10.039Z"
+    },
+    {
+      "id": "datawrapper:introducing-new-pro-38-business-plans",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Introducing new Pro &#38; Business plans",
+      "url": "https://www.datawrapper.de/blog/pro-and-business-plans",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/pro-and-business-plans/cb7a6a981e-1784796913/image.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-23 11:00:00",
+      "collectedAt": "2026-08-04T02:15:10.039Z"
+    },
+    {
+      "id": "datawrapper:new-dual-axis-charts-in-datawrapper",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "New: Dual-axis charts in Datawrapper",
+      "url": "https://www.datawrapper.de/blog/dual-axis-charts",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/dual-axis-charts/e47abb1a06-1784713693/dual-axis-draft-18.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-23 09:00:00",
+      "collectedAt": "2026-08-04T02:15:10.039Z"
+    },
+    {
+      "id": "datawrapper:what-to-consider-when-creating-dual-axis-charts",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "What to consider when creating dual-axis charts",
+      "url": "https://www.datawrapper.de/blog/dual-axis-charts-guide",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/dual-axis-charts-guide/499baa6f6b-1784728937/colorblind-f2-copy-14.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-23 09:00:00",
+      "collectedAt": "2026-08-04T02:15:10.039Z"
+    },
+    {
+      "id": "datawrapper:new-waterfall-charts-in-datawrapper",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "New: Waterfall charts in Datawrapper",
+      "url": "https://www.datawrapper.de/blog/waterfall-charts",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/waterfall-charts/5e66bda2fd-1784738552/feature-image-waterfall-chart.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-23 09:00:00",
+      "collectedAt": "2026-08-04T02:15:10.039Z"
+    },
+    {
+      "id": "datawrapper:what-to-consider-when-creating-waterfall-charts",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "What to consider when creating waterfall charts",
+      "url": "https://www.datawrapper.de/blog/waterfall-charts-guide",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/waterfall-charts-guide/33bc631836-1784634105/feature-image.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-23 09:00:00",
+      "collectedAt": "2026-08-04T02:15:10.039Z"
+    },
+    {
+      "id": "datawrapper:data-vis-dispatch-july-28-trump-s-crypto-empire-tariffs-and-",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Data Vis Dispatch, July 28: Trump's crypto empire, tariffs, and tattoos",
+      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-28-2026-trump-s-crypto-empire-tariffs-and-tattoos",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-28-2026-trump-s-crypto-empire-tariffs-and-tattoos/a9b500a391-1785245232/july-22.png",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-28 17:00:00",
+      "collectedAt": "2026-08-04T02:15:10.039Z"
+    },
+    {
+      "id": "datawrapper:give-me-a-flashing-sign-how-to-make-animated-visualizations",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Give me a (flashing) sign: How to make animated visualizations",
+      "url": "https://www.datawrapper.de/blog/how-to-make-animated-charts",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/how-to-make-animated-charts/d4d0fca21e-1785445820/july_30.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-07-30 22:00:00",
+      "collectedAt": "2026-08-04T02:15:10.039Z"
     },
     {
       "id": "visualcapitalist:mapped-where-cars-eat-up-the-biggest-share-of-income",
@@ -7876,56 +8856,6 @@
       "collectedAt": "2026-08-03T02:15:11.240Z"
     },
     {
-      "id": "visualcapitalist:mapped-which-income-group-is-your-country-in",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Mapped: Which Income Group Is Your Country In?",
-      "url": "https://www.visualcapitalist.com/cp/mapped-which-income-group-is-your-country-in/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/countries-by-income-groups-shareable.webp",
-      "asset": null,
-      "tags": [
-        "Money",
-        "Demographics",
-        "Economy",
-        "Countries",
-        "africa",
-        "countries",
-        "emerging markets",
-        "world map"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sat, 01 Aug 2026 16:44:31 +0000",
-      "collectedAt": "2026-08-03T02:15:11.240Z"
-    },
-    {
-      "id": "visualcapitalist:mapped-countries-with-the-most-freshwater-per-person",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Mapped: Countries With the Most Freshwater Per Person",
-      "url": "https://www.visualcapitalist.com/mapped-the-countries-with-the-most-water-per-person/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Countries-With-the-Most-and-Least-Water_Shareable_07172026.webp",
-      "asset": null,
-      "tags": [
-        "Green",
-        "Maps",
-        "environment",
-        "Water",
-        "natural resources",
-        "sustainability",
-        "freshwater",
-        "climate"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sat, 01 Aug 2026 14:04:57 +0000",
-      "collectedAt": "2026-08-03T02:15:11.240Z"
-    },
-    {
       "id": "visualcapitalist:ranked-where-the-iphone-costs-the-most-in-2026",
       "source": "visualcapitalist",
       "sourceName": "Visual Capitalist",
@@ -7949,837 +8879,6 @@
       "seed": false,
       "publishedAt": "Sat, 01 Aug 2026 12:04:13 +0000",
       "collectedAt": "2026-08-03T02:15:11.240Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-income-needed-to-be-happy-in-19-canadian-cities",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The Income Needed to Be Happy in 19 Canadian Cities",
-      "url": "https://www.visualcapitalist.com/ranked-income-needed-to-be-happy-in-19-canadian-cities/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/price-of-happiness-canadian-cities-share.webp",
-      "asset": null,
-      "tags": [
-        "Money",
-        "Economy",
-        "Canada",
-        "canada",
-        "british columbia",
-        "vancouver",
-        "cities",
-        "cost of living"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 02 Aug 2026 18:55:06 +0000",
-      "collectedAt": "2026-08-03T02:15:11.240Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-imdb-8217-s-25-highest-rated-movies-ever",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: IMDb&#8217;s 25 Highest-Rated Movies Ever",
-      "url": "https://www.visualcapitalist.com/the-highest-rated-movies-in-imdb-history/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/IMDBs-Best-Films_02-share.webp",
-      "asset": null,
-      "tags": [
-        "Culture",
-        "Media",
-        "movies",
-        "cinema",
-        "most popular movies",
-        "film industry",
-        "films",
-        "imdb"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 02 Aug 2026 16:45:05 +0000",
-      "collectedAt": "2026-08-03T02:15:11.240Z"
-    },
-    {
-      "id": "visualcapitalist:which-countries-think-they-8217-re-on-the-right-track",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Which Countries Think They&#8217;re on the Right Track?",
-      "url": "https://www.visualcapitalist.com/how-people-around-the-world-feel-about-their-countries-in-2026/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/Country-Approval-Rating-Shareable-v2.1.webp",
-      "asset": null,
-      "tags": [
-        "Misc",
-        "Public Opinion",
-        "public opinion",
-        "Ipsos",
-        "favorability",
-        "approval",
-        "global opinion",
-        "public survey"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 02 Aug 2026 14:04:51 +0000",
-      "collectedAt": "2026-08-03T02:15:11.240Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-countries-that-grow-the-world-8217-s-coffee",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The Countries That Grow the World&#8217;s Coffee",
-      "url": "https://www.visualcapitalist.com/the-worlds-largest-coffee-producers/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/07/LargestCoffeePoducers-shareable.webp",
-      "asset": null,
-      "tags": [
-        "Agriculture",
-        "Green",
-        "coffee",
-        "Coffee production",
-        "coffee beans",
-        "arabica coffee",
-        "robusta coffee"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 02 Aug 2026 12:05:34 +0000",
-      "collectedAt": "2026-08-03T02:15:11.240Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:09.885Z"
-    },
-    {
-      "id": "ourworldindata:population-tool-how-will-populations-across-the-world-change",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Population tool: How will populations across the world change in the 21st century?",
-      "url": "https://ourworldindata.org/population-simulation-tool",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/95c9945f-c253-4abe-cb79-a28adf7aea00/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:how-much-are-people-across-the-world-paying-for-their-carbon",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How much are people across the world paying for their carbon emissions?",
-      "url": "https://ourworldindata.org/how-much-are-people-across-the-world-paying-for-their-carbon-emissions",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/0ea1f35f-dea2-4a58-61cb-bceb18a06900/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-06-22T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:where-do-migrants-live-and-where-were-they-born",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Where do migrants live, and where were they born?",
-      "url": "https://ourworldindata.org/where-do-migrants-live-and-where-were-they-born",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/4ef2a38d-e4fd-46c0-0f52-d8e5c7646d00/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-06-15T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:five-million-children-die-every-year-what-do-they-die-from",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Five million children die every year — what do they die from?",
-      "url": "https://ourworldindata.org/five-million-children-die-every-year-what-do-they-die-from",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/b8650845-1cae-4503-540d-d1c6681b4900/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-05-25T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:south-korea-s-population-is-set-to-shrink-what-would-it-take",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "South Korea’s population is set to shrink: what would it take to stop the decline?",
-      "url": "https://ourworldindata.org/south-koreas-population-is-set-to-shrink-what-would-it-take-to-stop-the-decline",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/133452ba-5209-482d-089c-c51f5b48b900/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-05-18T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:how-does-food-get-traded-around-the-world",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How does food get traded around the world?",
-      "url": "https://ourworldindata.org/how-does-food-get-traded-around-the-world",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/65dfb98e-8a6d-4318-59cd-d71a642a1000/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:we-have-a-new-urbanization-topic-page",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "We have a new Urbanization topic page",
-      "url": "https://ourworldindata.org/we-have-a-new-urbanization-topic-page",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/a57ed482-5955-4a15-01c2-fc5092c4ac00/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-07-13T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:how-much-energy-do-data-centers-and-artificial-intelligence-",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How much energy do data centers and artificial intelligence use?",
-      "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/1bda728d-dc32-4ca7-32f8-dcb5be9a4b00/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-07-20T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:we-published-a-new-topic-page-on-economic-inequality",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "We published a new topic page on economic inequality",
-      "url": "https://ourworldindata.org/we-published-a-new-topic-page-on-economic-inequality",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/8572fbf8-1c9c-4176-a865-12735e86a000/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "ourworldindata:what-has-driven-deforestation-in-the-21st-century",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "What has driven deforestation in the 21st century?",
-      "url": "https://ourworldindata.org/what-has-driven-deforestation-in-the-21st-century",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/b63c446f-e9a8-4eca-b979-4e1eafb5a500/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-08-03T00:00:00.000Z",
-      "collectedAt": "2026-08-03T02:15:09.226Z"
-    },
-    {
-      "id": "observable:sankey-diagram",
-      "source": "observable",
-      "sourceName": "Observable / D3 Gallery",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Sankey diagram",
-      "url": "https://observablehq.com/@d3/sankey",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "sankey",
-        "flow"
-      ],
-      "license": "ISC/CC 다양, 코드 예시",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:08.854Z"
-    },
-    {
-      "id": "observable:d3-gallery",
-      "source": "observable",
-      "sourceName": "Observable / D3 Gallery",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "D3 Gallery — 전체 예시 허브",
-      "url": "https://observablehq.com/@d3/gallery",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "d3",
-        "gallery"
-      ],
-      "license": "ISC/CC 다양, 코드 예시",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:08.854Z"
-    },
-    {
-      "id": "observable:zoomable-sunburst",
-      "source": "observable",
-      "sourceName": "Observable / D3 Gallery",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Zoomable sunburst",
-      "url": "https://observablehq.com/@d3/zoomable-sunburst",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "hierarchy",
-        "sunburst"
-      ],
-      "license": "ISC/CC 다양, 코드 예시",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:08.854Z"
-    },
-    {
-      "id": "rawgraphs:alluvial-diagram",
-      "source": "rawgraphs",
-      "sourceName": "RAWGraphs",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Alluvial diagram (흐름·전환)",
-      "url": "https://www.rawgraphs.io/learning/how-to-make-an-alluvial-diagram",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "alluvial",
-        "flow"
-      ],
-      "license": "Apache-2.0(툴), 갤러리=메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:08.854Z"
-    },
-    {
-      "id": "rawgraphs:bump-chart",
-      "source": "rawgraphs",
-      "sourceName": "RAWGraphs",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Bump chart (순위 변화)",
-      "url": "https://www.rawgraphs.io/gallery",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "bump",
-        "ranking"
-      ],
-      "license": "Apache-2.0(툴), 갤러리=메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:08.854Z"
-    },
-    {
-      "id": "flourish:scatter-connected-scatter",
-      "source": "flourish",
-      "sourceName": "Flourish",
-      "category": "dataviz",
-      "type": "template",
-      "title": "Scatter / connected scatter",
-      "url": "https://flourish.studio/visualisations/scatter-charts/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "scatter",
-        "correlation"
-      ],
-      "license": "예시 갤러리=영감용 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:08.854Z"
-    },
-    {
-      "id": "flourish:survey-likert",
-      "source": "flourish",
-      "sourceName": "Flourish",
-      "category": "dataviz",
-      "type": "template",
-      "title": "Survey / Likert 시각화",
-      "url": "https://flourish.studio/visualisations/survey-data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "survey",
-        "likert"
-      ],
-      "license": "예시 갤러리=영감용 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:08.854Z"
-    },
-    {
-      "id": "flourish:bar-chart-race",
-      "source": "flourish",
-      "sourceName": "Flourish",
-      "category": "dataviz",
-      "type": "template",
-      "title": "Bar chart race (인구·매출 순위 애니메이션)",
-      "url": "https://flourish.studio/visualisations/bar-chart-race/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "animated",
-        "ranking",
-        "bar"
-      ],
-      "license": "예시 갤러리=영감용 메타만",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-08-03T02:15:08.854Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-june-16-the-swiss-population-cap-1-77-tril",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, June 16: The Swiss population cap, $1.77 trillion, and El Ni&#241;o",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-16-2026-the-swiss-population-cap-1-77-trillion-and-el-nino",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-16-2026-the-swiss-population-cap-1-77-trillion-and-el-nino/22b4649beb-1781626658/june-16-1.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-16 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:in-which-stadiums-will-the-world-cup-favorites-play",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "In which stadiums will the World Cup favorites play?",
-      "url": "https://www.datawrapper.de/blog/fifa-world-cup-locator-map-arrows",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/fifa-world-cup-locator-map-arrows/436ac2a897-1781191456/feature-image.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-11 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:new-draw-arrows-in-locator-maps",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "New: Draw arrows in locator maps",
-      "url": "https://www.datawrapper.de/blog/arrows-in-locator-maps",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/arrows-in-locator-maps/814b53ed00-1781173382/image.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-11 16:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-june-9-the-world-cup-spacex-and-the-pope",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, June 9: The World Cup, SpaceX, and the pope",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-9-2026-the-world-cup-spacex-and-the-pope",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-9-2026-the-world-cup-spacex-and-the-pope/d998ba5629-1781006404/june-7.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-09 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:how-long-will-you-live",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How long will you live?",
-      "url": "https://www.datawrapper.de/blog/life-expectancy-beeswarm-plot",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/life-expectancy-beeswarm-plot/018f2ababa-1780591131/may_07-10.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-04 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-june-2-extreme-weather-gambling-and-the-sw",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, June 2: Extreme weather, gambling, and the Swiss Alps",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-2-2026-extreme-weather-gambling-and-the-swiss-alps",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-2-2026-extreme-weather-gambling-and-the-swiss-alps/a29a8a4b28-1780417604/june-3.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-02 17:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:eighty-percent-of-germans-will-benefit-from-a-blood-donation",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Eighty percent of Germans will benefit from a blood donation during their life &#8212; too few donate",
-      "url": "https://www.datawrapper.de/blog/blood-donations-germany",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/blood-donations-germany/0f5e0c727e-1779997355/may_28.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-05-28 19:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-june-23-heatwaves-the-world-cup-and-the-10",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, June 23: Heatwaves, the World Cup, and the 10th anniversary of the Brexit referendum",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-23-2026-heatwaves-the-world-cup-and-the-10th-anniversary-of-the-brexit-referendum",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-23-2026-heatwaves-the-world-cup-and-the-10th-anniversary-of-the-brexit-referendum/ba7d3c028f-1782215852/june-23-final.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-23 18:30:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:how-to-become-a-trillionaire",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How to become a trillionaire",
-      "url": "https://www.datawrapper.de/blog/elon-musk-trillionaire-wealth",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/elon-musk-trillionaire-wealth/885db65d12-1781803413/jun_18-4.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-18 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:where-europe-needs-cooling-and-heating",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Where Europe needs cooling (and heating)",
-      "url": "https://www.datawrapper.de/blog/cooling-heating-europe",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/cooling-heating-europe/8314c6c953-1783024391/coolheat3.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-02 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-june-30-venezuela-a-heat-dome-and-messi",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, June 30: Venezuela, a heat dome, and Messi",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-june-30-2026-venezuela-a-heat-dome-and-messi",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-june-30-2026-venezuela-a-heat-dome-and-messi/1915aa73a5-1782834670/june-30-1.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-30 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:found-in-translation",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Found in translation",
-      "url": "https://www.datawrapper.de/blog/international-booker-prize-finalists",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/international-booker-prize-finalists/11a45d0feb-1781194111/may_07-11.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-25 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-july-7-the-fourth-of-july-fifa-rankings-an",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, July 7: The Fourth of July, FIFA rankings, and squids",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-7-2026-the-fourth-of-july-fifa-rankings-and-squids",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-7-2026-the-fourth-of-july-fifa-rankings-and-squids/88d3a3fb3a-1783429641/july-7.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-07 17:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:how-to-score-goals-statistically",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How to score goals, statistically",
-      "url": "https://www.datawrapper.de/blog/football-goals-analysis",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/football-goals-analysis/db3e03756c-1783629449/jul_9.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-09 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-july-14-fifa-world-cup-heat-in-europe-and-",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, July 14: FIFA World Cup, heat in Europe, and Middle East alliances",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-14-2026",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-14-2026/e333bb1bb7-1784021786/july-9.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-14 12:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:fatal-police-interventions-8220-no-prosecution-or-fine-can-e",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Fatal police interventions: &#8220;No prosecution or fine can ever justify ruining a life&#8221;",
-      "url": "https://www.datawrapper.de/blog/police-deaths-france",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/police-deaths-france/239d0884dd-1784225813/jul_16-2.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-16 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-july-21-2026-world-cup-champions-wildfire-",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, July 21: 2026 World Cup champions, wildfire smoke, and humanoid robots",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-21-2026-world-cup-champions-wildfire-smoke-and-humanoid-robots",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-21-2026-world-cup-champions-wildfire-smoke-and-humanoid-robots/afbb40b855-1784643862/july-12.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-21 18:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:why-i-changed-my-mind-on-dual-axis-charts",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Why I changed my mind on dual-axis charts",
-      "url": "https://www.datawrapper.de/blog/why-i-changed-my-mind-on-dual-axis-charts",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/why-i-changed-my-mind-on-dual-axis-charts/eb9771c5d6-1784814353/jul_23.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-23 19:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:introducing-new-pro-38-business-plans",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Introducing new Pro &#38; Business plans",
-      "url": "https://www.datawrapper.de/blog/pro-and-business-plans",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/pro-and-business-plans/cb7a6a981e-1784796913/image.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-23 11:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:new-dual-axis-charts-in-datawrapper",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "New: Dual-axis charts in Datawrapper",
-      "url": "https://www.datawrapper.de/blog/dual-axis-charts",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/dual-axis-charts/e47abb1a06-1784713693/dual-axis-draft-18.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:what-to-consider-when-creating-dual-axis-charts",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "What to consider when creating dual-axis charts",
-      "url": "https://www.datawrapper.de/blog/dual-axis-charts-guide",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/dual-axis-charts-guide/499baa6f6b-1784728937/colorblind-f2-copy-14.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:new-waterfall-charts-in-datawrapper",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "New: Waterfall charts in Datawrapper",
-      "url": "https://www.datawrapper.de/blog/waterfall-charts",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/waterfall-charts/5e66bda2fd-1784738552/feature-image-waterfall-chart.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:what-to-consider-when-creating-waterfall-charts",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "What to consider when creating waterfall charts",
-      "url": "https://www.datawrapper.de/blog/waterfall-charts-guide",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/waterfall-charts-guide/33bc631836-1784634105/feature-image.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:data-vis-dispatch-july-28-trump-s-crypto-empire-tariffs-and-",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Data Vis Dispatch, July 28: Trump's crypto empire, tariffs, and tattoos",
-      "url": "https://www.datawrapper.de/blog/data-vis-dispatch-july-28-2026-trump-s-crypto-empire-tariffs-and-tattoos",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/data-vis-dispatch-july-28-2026-trump-s-crypto-empire-tariffs-and-tattoos/a9b500a391-1785245232/july-22.png",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-28 17:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
-    },
-    {
-      "id": "datawrapper:give-me-a-flashing-sign-how-to-make-animated-visualizations",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Give me a (flashing) sign: How to make animated visualizations",
-      "url": "https://www.datawrapper.de/blog/how-to-make-animated-charts",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/how-to-make-animated-charts/d4d0fca21e-1785445820/july_30.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-07-30 22:00:00",
-      "collectedAt": "2026-08-03T02:15:08.853Z"
     },
     {
       "id": "visualcapitalist:ranked-the-world-8217-s-most-livable-regions-in-2026",
