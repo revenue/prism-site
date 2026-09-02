@@ -1,6 +1,6 @@
 {
   "category": "infographic",
-  "count": 256,
+  "count": 260,
   "items": [
     {
       "id": "venngage:statistical",
@@ -19,7 +19,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-01T02:15:14.217Z"
+      "collectedAt": "2026-09-02T02:15:08.665Z"
     },
     {
       "id": "venngage:comparison",
@@ -37,7 +37,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-01T02:15:14.216Z"
+      "collectedAt": "2026-09-02T02:15:08.665Z"
     },
     {
       "id": "venngage:timeline",
@@ -56,7 +56,456 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-01T02:15:14.216Z"
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:which-nfl-teams-have-won-the-most-super-bowls",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Which NFL Teams Have Won the Most Super Bowls?",
+      "url": "https://www.visualcapitalist.com/which-nfl-teams-have-won-the-most-super-bowls/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Superbowl-Wins_02-share.webp",
+      "asset": null,
+      "tags": [
+        "Sports",
+        "dallas cowboys",
+        "sports",
+        "football",
+        "NFL",
+        "patriots",
+        "Super Bowl",
+        "san francisco 49ers"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 30 Aug 2026 16:44:21 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-world-s-largest-countries-by-land-area",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The World’s Largest Countries by Land Area",
+      "url": "https://www.visualcapitalist.com/ranked-the-worlds-largest-countries-by-land-area/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/largest-Countries-by-Total-Area-share-1.webp",
+      "asset": null,
+      "tags": [
+        "Misc",
+        "Geography",
+        "china",
+        "canada",
+        "Russia",
+        "united states",
+        "geography",
+        "land area"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Sun, 30 Aug 2026 14:11:47 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-countries-with-the-highest-household-net-worth",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Countries With the Highest Household Net Worth",
+      "url": "https://www.visualcapitalist.com/ranked-the-countries-with-the-highest-household-net-worth/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Household-Net-Worth-by-Country_shareable1_Aug26.webp",
+      "asset": null,
+      "tags": [
+        "Economy",
+        "Wealth",
+        "equity",
+        "Finance",
+        "assets",
+        "household debt",
+        "asset",
+        "economy"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 31 Aug 2026 16:49:30 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:college-costs-the-cost-of-raising-a-graduate",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "College Costs: The Cost of Raising a Graduate",
+      "url": "https://www.visualcapitalist.com/sp/college-costs-the-cost-of-raising-a-graduate/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/SHAREABLE-The-Cost-of-Raising-a-College-Graduate-20260818.webp",
+      "asset": null,
+      "tags": [
+        "Economy",
+        "investing",
+        "investment",
+        "investors",
+        "US",
+        "college",
+        "tuition",
+        "NYLI"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 31 Aug 2026 15:42:00 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:the-ai-cold-war-which-countries-are-on-each-side",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "The AI Cold War: Which Countries Are on Each Side?",
+      "url": "https://www.visualcapitalist.com/cp/the-ai-cold-war-which-countries-are-on-each-side/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/the-ai-cold-war-shareable.webp",
+      "asset": null,
+      "tags": [
+        "Technology",
+        "Politics",
+        "War",
+        "Maps",
+        "AI",
+        "china",
+        "technology",
+        "united states"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 31 Aug 2026 14:12:45 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-how-the-american-population-map-will-shift-by-2050",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: How the American Population Map Will Shift by 2050",
+      "url": "https://www.visualcapitalist.com/mapped-how-the-american-population-map-will-shift-by-2050/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/U.S.-Population-Change-Projections-2025-2050_shareable_Aug24.webp",
+      "asset": null,
+      "tags": [
+        "Demographics",
+        "Maps",
+        "texas",
+        "demographics",
+        "population growth",
+        "california",
+        "migration",
+        "u.s. population"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Mon, 31 Aug 2026 12:08:43 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-world-s-top-fuel-producers-by-weight",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The World’s Top Fuel Producers by Weight",
+      "url": "https://www.visualcapitalist.com/ranked-the-worlds-top-fuel-producers-by-weight/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Mineral-Fuel-Production_02-share.webp",
+      "asset": null,
+      "tags": [
+        "Energy",
+        "Oil and Gas",
+        "Coal",
+        "oil",
+        "natural gas",
+        "coal",
+        "commodities",
+        "crude oil"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Tue, 01 Sep 2026 17:12:16 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-how-much-pensions-replace-your-salary-by-country",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: How Much Pensions Replace Your Salary by Country",
+      "url": "https://www.visualcapitalist.com/ranked-how-much-of-your-income-pensions-replace-in-retirement/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Countries-With-the-Most-Generous-Pensions_0831_SHARE-2.webp",
+      "asset": null,
+      "tags": [
+        "Personal Finance",
+        "Money",
+        "Pensions",
+        "united states",
+        "retirement",
+        "personal finance",
+        "greece",
+        "oecd"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Tue, 01 Sep 2026 14:09:00 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-the-cost-of-living-in-every-u-s-state-2026",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: The Cost of Living in Every U.S. State (2026)",
+      "url": "https://www.visualcapitalist.com/mapped-cost-of-living-by-state-2026/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Cost-of-Living_US_02-share-1.webp",
+      "asset": null,
+      "tags": [
+        "Money",
+        "Maps",
+        "United States",
+        "texas",
+        "united states",
+        "cost of living",
+        "personal finance",
+        "housing"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Tue, 01 Sep 2026 12:05:05 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-world-8217-s-20-most-valuable-football-clubs",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The World&#8217;s 20 Most Valuable Football Clubs",
+      "url": "https://www.visualcapitalist.com/ranked-the-worlds-most-valuable-football-clubs/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/The-Worlds-Most-Valuable-Soccer-Teams_Shareble_08272026-1.webp",
+      "asset": null,
+      "tags": [
+        "Business",
+        "Sports",
+        "real madrid",
+        "football club",
+        "champions league",
+        "la liga",
+        "UEFA",
+        "football clubs"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Tue, 01 Sep 2026 04:09:41 +0000",
+      "collectedAt": "2026-09-02T02:15:08.665Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:new-an-unofficial-dictionary-of-ai-induced-mental-habits-038",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "NEW: An Unofficial Dictionary of AI-Induced Mental Habits &#038; Disorders",
+      "url": "https://informationisbeautiful.net/2026/new-an-unofficial-dictionary-of-ai-induced-mental-habits-disorders/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Tue, 28 Jul 2026 14:48:56 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:we-8217-re-hiring-editorial-producer-for-beautiful-news",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "We&#8217;re hiring! Editorial Producer for Beautiful News",
+      "url": "https://informationisbeautiful.net/2026/were-hiring-editorial-producer-for-beautiful-news/",
+      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Tue, 07 Jul 2026 13:23:32 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:new-dates-learn-to-create-impactful-infographics-data-visual",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "NEW DATES: Learn to create impactful infographics, data visuals &#038; stories",
+      "url": "https://informationisbeautiful.net/2026/learn-to-create-impactful-infographics-workshops-2026/",
+      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ec-1f1e7.png",
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Tue, 23 Jun 2026 13:50:23 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:who-8217-s-suing-whom-in-ai",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Who&#8217;s Suing Whom in AI?",
+      "url": "https://informationisbeautiful.net/2026/whos-suing-whom-in-ai/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Mon, 22 Jun 2026 15:01:14 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:billions",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "$$$Billions",
+      "url": "https://informationisbeautiful.net/2026/billions-2/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Sun, 12 Apr 2026 08:15:49 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:new-8216-create-impactful-infographics-8217-seminars-for-202",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "New &#8216;Create Impactful Infographics&#8217; seminars for 2026",
+      "url": "https://informationisbeautiful.net/2026/new-create-impactful-infographics-seminars-for-2026/",
+      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ec-1f1e7.png",
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Thu, 29 Jan 2026 15:55:40 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:most-beautiful-news-of-the-year-2025",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Most Beautiful News of The Year 2025",
+      "url": "https://informationisbeautiful.net/2026/most-beautiful-news-of-the-year-2025/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Wed, 28 Jan 2026 18:46:05 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:peak-ages-of-productivity-for-authors-painters-musicians-038",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Peak Ages of Productivity for Authors, Painters, Musicians &#038; Scientists",
+      "url": "https://informationisbeautiful.net/2025/peak-ages-of-productivity-for-authors-painters-musicians-scientists/",
+      "thumb": "https://infobeautiful4.s3.amazonaws.com/2025/07/SM-IIB-Peak-Age-Writers-SQ.png",
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Fri, 04 Jul 2025 13:41:44 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful-live-london-30th-june",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful LIVE: London 30th June",
+      "url": "https://informationisbeautiful.net/2025/information-is-beautiful-live-london-30th-june/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Thu, 19 Jun 2025 09:25:22 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful-awards-winners",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful Awards: Winners!",
+      "url": "https://informationisbeautiful.net/2025/information-is-beautiful-awards-winners/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Tue, 17 Jun 2025 08:56:52 +0000",
+      "collectedAt": "2026-09-02T02:15:07.747Z"
     },
     {
       "id": "visualcapitalist:mapped-lake-america-and-60-years-of-u-s-renamings",
@@ -134,56 +583,6 @@
       "collectedAt": "2026-09-01T02:15:14.216Z"
     },
     {
-      "id": "visualcapitalist:which-nfl-teams-have-won-the-most-super-bowls",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Which NFL Teams Have Won the Most Super Bowls?",
-      "url": "https://www.visualcapitalist.com/which-nfl-teams-have-won-the-most-super-bowls/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Superbowl-Wins_02-share.webp",
-      "asset": null,
-      "tags": [
-        "Sports",
-        "dallas cowboys",
-        "sports",
-        "football",
-        "NFL",
-        "patriots",
-        "Super Bowl",
-        "san francisco 49ers"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 30 Aug 2026 16:44:21 +0000",
-      "collectedAt": "2026-09-01T02:15:14.216Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-world-s-largest-countries-by-land-area",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The World’s Largest Countries by Land Area",
-      "url": "https://www.visualcapitalist.com/ranked-the-worlds-largest-countries-by-land-area/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/largest-Countries-by-Total-Area-share-1.webp",
-      "asset": null,
-      "tags": [
-        "Misc",
-        "Geography",
-        "china",
-        "canada",
-        "Russia",
-        "united states",
-        "geography",
-        "land area"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Sun, 30 Aug 2026 14:11:47 +0000",
-      "collectedAt": "2026-09-01T02:15:14.216Z"
-    },
-    {
       "id": "visualcapitalist:mapped-the-largest-religion-in-every-country",
       "source": "visualcapitalist",
       "sourceName": "Visual Capitalist",
@@ -207,305 +606,6 @@
       "seed": false,
       "publishedAt": "Sun, 30 Aug 2026 12:04:04 +0000",
       "collectedAt": "2026-09-01T02:15:14.216Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-countries-with-the-highest-household-net-worth",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The Countries With the Highest Household Net Worth",
-      "url": "https://www.visualcapitalist.com/ranked-the-countries-with-the-highest-household-net-worth/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Household-Net-Worth-by-Country_shareable1_Aug26.webp",
-      "asset": null,
-      "tags": [
-        "Economy",
-        "Wealth",
-        "equity",
-        "Finance",
-        "assets",
-        "household debt",
-        "asset",
-        "economy"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Mon, 31 Aug 2026 16:49:30 +0000",
-      "collectedAt": "2026-09-01T02:15:14.216Z"
-    },
-    {
-      "id": "visualcapitalist:college-costs-the-cost-of-raising-a-graduate",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "College Costs: The Cost of Raising a Graduate",
-      "url": "https://www.visualcapitalist.com/sp/college-costs-the-cost-of-raising-a-graduate/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/SHAREABLE-The-Cost-of-Raising-a-College-Graduate-20260818.webp",
-      "asset": null,
-      "tags": [
-        "Economy",
-        "investing",
-        "investment",
-        "investors",
-        "US",
-        "college",
-        "tuition",
-        "NYLI"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Mon, 31 Aug 2026 15:42:00 +0000",
-      "collectedAt": "2026-09-01T02:15:14.216Z"
-    },
-    {
-      "id": "visualcapitalist:the-ai-cold-war-which-countries-are-on-each-side",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "The AI Cold War: Which Countries Are on Each Side?",
-      "url": "https://www.visualcapitalist.com/cp/the-ai-cold-war-which-countries-are-on-each-side/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/the-ai-cold-war-shareable.webp",
-      "asset": null,
-      "tags": [
-        "Technology",
-        "Politics",
-        "War",
-        "Maps",
-        "AI",
-        "china",
-        "technology",
-        "united states"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Mon, 31 Aug 2026 14:12:45 +0000",
-      "collectedAt": "2026-09-01T02:15:14.216Z"
-    },
-    {
-      "id": "visualcapitalist:mapped-how-the-american-population-map-will-shift-by-2050",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Mapped: How the American Population Map Will Shift by 2050",
-      "url": "https://www.visualcapitalist.com/mapped-how-the-american-population-map-will-shift-by-2050/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/U.S.-Population-Change-Projections-2025-2050_shareable_Aug24.webp",
-      "asset": null,
-      "tags": [
-        "Demographics",
-        "Maps",
-        "texas",
-        "demographics",
-        "population growth",
-        "california",
-        "migration",
-        "u.s. population"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Mon, 31 Aug 2026 12:08:43 +0000",
-      "collectedAt": "2026-09-01T02:15:14.216Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-09-01T02:15:13.477Z"
-    },
-    {
-      "id": "informationisbeautiful:new-an-unofficial-dictionary-of-ai-induced-mental-habits-038",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "NEW: An Unofficial Dictionary of AI-Induced Mental Habits &#038; Disorders",
-      "url": "https://informationisbeautiful.net/2026/new-an-unofficial-dictionary-of-ai-induced-mental-habits-disorders/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Tue, 28 Jul 2026 14:48:56 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:we-8217-re-hiring-editorial-producer-for-beautiful-news",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "We&#8217;re hiring! Editorial Producer for Beautiful News",
-      "url": "https://informationisbeautiful.net/2026/were-hiring-editorial-producer-for-beautiful-news/",
-      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Tue, 07 Jul 2026 13:23:32 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:new-dates-learn-to-create-impactful-infographics-data-visual",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "NEW DATES: Learn to create impactful infographics, data visuals &#038; stories",
-      "url": "https://informationisbeautiful.net/2026/learn-to-create-impactful-infographics-workshops-2026/",
-      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ec-1f1e7.png",
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Tue, 23 Jun 2026 13:50:23 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:who-8217-s-suing-whom-in-ai",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Who&#8217;s Suing Whom in AI?",
-      "url": "https://informationisbeautiful.net/2026/whos-suing-whom-in-ai/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Mon, 22 Jun 2026 15:01:14 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:billions",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "$$$Billions",
-      "url": "https://informationisbeautiful.net/2026/billions-2/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Sun, 12 Apr 2026 08:15:49 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:new-8216-create-impactful-infographics-8217-seminars-for-202",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "New &#8216;Create Impactful Infographics&#8217; seminars for 2026",
-      "url": "https://informationisbeautiful.net/2026/new-create-impactful-infographics-seminars-for-2026/",
-      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ec-1f1e7.png",
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Thu, 29 Jan 2026 15:55:40 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:most-beautiful-news-of-the-year-2025",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Most Beautiful News of The Year 2025",
-      "url": "https://informationisbeautiful.net/2026/most-beautiful-news-of-the-year-2025/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Wed, 28 Jan 2026 18:46:05 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:peak-ages-of-productivity-for-authors-painters-musicians-038",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Peak Ages of Productivity for Authors, Painters, Musicians &#038; Scientists",
-      "url": "https://informationisbeautiful.net/2025/peak-ages-of-productivity-for-authors-painters-musicians-scientists/",
-      "thumb": "https://infobeautiful4.s3.amazonaws.com/2025/07/SM-IIB-Peak-Age-Writers-SQ.png",
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Fri, 04 Jul 2025 13:41:44 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful-live-london-30th-june",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful LIVE: London 30th June",
-      "url": "https://informationisbeautiful.net/2025/information-is-beautiful-live-london-30th-june/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Thu, 19 Jun 2025 09:25:22 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful-awards-winners",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful Awards: Winners!",
-      "url": "https://informationisbeautiful.net/2025/information-is-beautiful-awards-winners/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Tue, 17 Jun 2025 08:56:52 +0000",
-      "collectedAt": "2026-09-01T02:15:13.476Z"
     },
     {
       "id": "visualcapitalist:mapped-how-much-gas-prices-have-risen-since-the-iran-war",
