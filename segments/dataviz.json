@@ -1,6 +1,6 @@
 {
   "category": "dataviz",
-  "count": 74,
+  "count": 75,
   "items": [
     {
       "id": "ourworldindata:how-does-food-get-traded-around-the-world",
@@ -16,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-29T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:we-have-a-new-urbanization-topic-page",
@@ -32,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:how-much-energy-do-data-centers-and-artificial-intelligence-",
@@ -48,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-20T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:we-published-a-new-topic-page-on-economic-inequality",
@@ -64,7 +64,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:what-has-driven-deforestation-in-the-21st-century",
@@ -80,7 +80,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:how-primary-energy-is-measured-has-changed-across-our-charts",
@@ -96,7 +96,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-07T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:138-million-children-are-in-child-labor-what-does-this-actua",
@@ -112,7 +112,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-10T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:which-countries-have-already-passed-peak-population-and-when",
@@ -128,7 +128,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-17T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:the-rise-of-electoral-democracy",
@@ -144,7 +144,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-24T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "ourworldindata:beef-production-in-brazil-has-been-the-largest-driver-of-glo",
@@ -160,7 +160,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "collectedAt": "2026-09-03T02:15:11.756Z"
+      "collectedAt": "2026-09-04T02:15:07.241Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -179,7 +179,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-03T02:15:10.518Z"
+      "collectedAt": "2026-09-04T02:15:07.053Z"
     },
     {
       "id": "observable:zoomable-sunburst",
@@ -198,7 +198,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-03T02:15:10.518Z"
+      "collectedAt": "2026-09-04T02:15:07.053Z"
     },
     {
       "id": "observable:d3-gallery",
@@ -217,7 +217,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-03T02:15:10.518Z"
+      "collectedAt": "2026-09-04T02:15:07.053Z"
     },
     {
       "id": "rawgraphs:bump-chart",
@@ -236,7 +236,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-03T02:15:10.517Z"
+      "collectedAt": "2026-09-04T02:15:07.053Z"
     },
     {
       "id": "rawgraphs:alluvial-diagram",
@@ -255,7 +255,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-03T02:15:10.517Z"
+      "collectedAt": "2026-09-04T02:15:07.053Z"
     },
     {
       "id": "flourish:scatter-connected-scatter",
@@ -274,7 +274,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-03T02:15:10.514Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "flourish:survey-likert",
@@ -293,7 +293,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-03T02:15:10.514Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -313,7 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-03T02:15:10.514Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:where-europe-needs-cooling-and-heating",
@@ -329,7 +329,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-02 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-june-30-venezuela-a-heat-dome-and-messi",
@@ -345,23 +345,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-06-30 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
-    },
-    {
-      "id": "datawrapper:found-in-translation",
-      "source": "datawrapper",
-      "sourceName": "Datawrapper",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "Found in translation",
-      "url": "https://www.datawrapper.de/blog/international-booker-prize-finalists",
-      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/international-booker-prize-finalists/11a45d0feb-1781194111/may_07-11.jpg",
-      "asset": null,
-      "tags": [],
-      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
-      "seed": false,
-      "publishedAt": "2026-06-25 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-july-7-the-fourth-of-july-fifa-rankings-an",
@@ -377,7 +361,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-07 17:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:how-to-score-goals-statistically",
@@ -393,7 +377,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-09 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-july-14-fifa-world-cup-heat-in-europe-and-",
@@ -409,7 +393,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-14 12:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:fatal-police-interventions-8220-no-prosecution-or-fine-can-e",
@@ -425,7 +409,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-16 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-july-21-2026-world-cup-champions-wildfire-",
@@ -441,7 +425,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-21 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:what-to-consider-when-creating-dual-axis-charts",
@@ -457,7 +441,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:new-waterfall-charts-in-datawrapper",
@@ -473,7 +457,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:what-to-consider-when-creating-waterfall-charts",
@@ -489,7 +473,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:new-dual-axis-charts-in-datawrapper",
@@ -505,7 +489,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:why-i-changed-my-mind-on-dual-axis-charts",
@@ -521,7 +505,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 19:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:introducing-new-pro-38-business-plans",
@@ -537,7 +521,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 11:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-july-28-trump-s-crypto-empire-tariffs-and-",
@@ -553,7 +537,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-28 17:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:give-me-a-flashing-sign-how-to-make-animated-visualizations",
@@ -569,7 +553,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-30 22:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-august-4-fake-news-summer-and-a-total-sola",
@@ -585,7 +569,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-04 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:a-global-history-of-pride",
@@ -601,7 +585,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-06 22:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-august-11-solar-eclipses-chatgpt-and-ticks",
@@ -617,7 +601,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-11 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:what-makes-a-country-successful",
@@ -633,7 +617,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-13 22:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-august-18-data-art-low-water-levels-and",
@@ -649,7 +633,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-18 14:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:why-you-can-8217-t-afford-that-new-gadget",
@@ -665,7 +649,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-20 22:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-august-25-ai-the-premier-league-and-clouds",
@@ -681,7 +665,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-25 14:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:electric-cars-are-heavy-suvs-are-heavier",
@@ -697,7 +681,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-27 18:00:00",
-      "collectedAt": "2026-09-03T02:15:10.512Z"
+      "collectedAt": "2026-09-04T02:15:07.052Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-september-1-flash-floods-ice-arrests-and-t",
@@ -713,6 +697,38 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-09-01 18:00:00",
+      "collectedAt": "2026-09-04T02:15:07.052Z"
+    },
+    {
+      "id": "datawrapper:from-berlin-to-the-world-the-history-of-streetnames",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "From Berlin to the world: The history of streetnames",
+      "url": "https://www.datawrapper.de/blog/berlin-streetnames",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/berlin-streetnames/9d2fa626c9-1788475847/aug_27.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-09-03 23:00:00",
+      "collectedAt": "2026-09-04T02:15:07.052Z"
+    },
+    {
+      "id": "datawrapper:found-in-translation",
+      "source": "datawrapper",
+      "sourceName": "Datawrapper",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "Found in translation",
+      "url": "https://www.datawrapper.de/blog/international-booker-prize-finalists",
+      "thumb": "https://datawrapper.de/cdn-cgi/image/width=1280/https://kirby.datawrapper.de/media/pages/blog/international-booker-prize-finalists/11a45d0feb-1781194111/may_07-11.jpg",
+      "asset": null,
+      "tags": [],
+      "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
+      "seed": false,
+      "publishedAt": "2026-06-25 18:00:00",
       "collectedAt": "2026-09-03T02:15:10.512Z"
     },
     {
