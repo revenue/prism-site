@@ -16,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-06-29T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.971Z"
     },
     {
       "id": "ourworldindata:we-have-a-new-urbanization-topic-page",
@@ -32,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-13T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.971Z"
     },
     {
       "id": "ourworldindata:how-much-energy-do-data-centers-and-artificial-intelligence-",
@@ -48,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-20T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.971Z"
     },
     {
       "id": "ourworldindata:we-published-a-new-topic-page-on-economic-inequality",
@@ -64,7 +64,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.970Z"
     },
     {
       "id": "ourworldindata:what-has-driven-deforestation-in-the-21st-century",
@@ -80,7 +80,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.951Z"
     },
     {
       "id": "ourworldindata:how-primary-energy-is-measured-has-changed-across-our-charts",
@@ -96,7 +96,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-07T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.951Z"
     },
     {
       "id": "ourworldindata:138-million-children-are-in-child-labor-what-does-this-actua",
@@ -112,7 +112,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-10T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.951Z"
     },
     {
       "id": "ourworldindata:which-countries-have-already-passed-peak-population-and-when",
@@ -128,7 +128,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-17T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.951Z"
     },
     {
       "id": "ourworldindata:the-rise-of-electoral-democracy",
@@ -144,7 +144,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-24T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.950Z"
     },
     {
       "id": "ourworldindata:beef-production-in-brazil-has-been-the-largest-driver-of-glo",
@@ -160,7 +160,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "collectedAt": "2026-09-04T02:15:07.241Z"
+      "collectedAt": "2026-09-05T02:29:29.950Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -179,7 +179,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-04T02:15:07.053Z"
+      "collectedAt": "2026-09-05T02:29:29.108Z"
     },
     {
       "id": "observable:zoomable-sunburst",
@@ -198,7 +198,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-04T02:15:07.053Z"
+      "collectedAt": "2026-09-05T02:29:29.108Z"
     },
     {
       "id": "observable:d3-gallery",
@@ -217,7 +217,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-04T02:15:07.053Z"
+      "collectedAt": "2026-09-05T02:29:29.108Z"
     },
     {
       "id": "rawgraphs:bump-chart",
@@ -236,7 +236,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-04T02:15:07.053Z"
+      "collectedAt": "2026-09-05T02:29:29.108Z"
     },
     {
       "id": "rawgraphs:alluvial-diagram",
@@ -255,7 +255,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-04T02:15:07.053Z"
+      "collectedAt": "2026-09-05T02:29:29.108Z"
     },
     {
       "id": "flourish:scatter-connected-scatter",
@@ -274,7 +274,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-04T02:15:07.052Z"
+      "collectedAt": "2026-09-05T02:29:29.107Z"
     },
     {
       "id": "flourish:survey-likert",
@@ -293,7 +293,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-04T02:15:07.052Z"
+      "collectedAt": "2026-09-05T02:29:29.107Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -313,7 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-04T02:15:07.052Z"
+      "collectedAt": "2026-09-05T02:29:29.107Z"
     },
     {
       "id": "datawrapper:where-europe-needs-cooling-and-heating",
