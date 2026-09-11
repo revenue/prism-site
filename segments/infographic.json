@@ -1,6 +1,6 @@
 {
   "category": "infographic",
-  "count": 293,
+  "count": 299,
   "items": [
     {
       "id": "venngage:statistical",
@@ -19,7 +19,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-10T02:22:27.065Z"
+      "collectedAt": "2026-09-11T02:19:04.783Z"
     },
     {
       "id": "venngage:comparison",
@@ -37,7 +37,7 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-10T02:22:27.065Z"
+      "collectedAt": "2026-09-11T02:19:04.783Z"
     },
     {
       "id": "venngage:timeline",
@@ -56,7 +56,456 @@
       "license": "템플릿 서비스, 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-10T02:22:27.065Z"
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:charted-global-trade-by-continent-and-country-in-2025",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Charted: Global Trade by Continent and Country in 2025",
+      "url": "https://www.visualcapitalist.com/global-trade-by-continent-and-country-2025/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/global-trade-by-continent-country.webp",
+      "asset": null,
+      "tags": [
+        "Economy",
+        "Globalization",
+        "Commodities",
+        "Countries",
+        "Trade",
+        "china",
+        "united states",
+        "trade"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 09 Sep 2026 17:32:52 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-the-most-expensive-u-s-states-for-utilities-in-2026",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: The Most Expensive U.S. States for Utilities in 2026",
+      "url": "https://www.visualcapitalist.com/mapped-most-expensive-u-s-states-utilities-2026/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/shareable-1.webp",
+      "asset": null,
+      "tags": [
+        "Energy",
+        "Maps",
+        "energy",
+        "texas",
+        "united states",
+        "electricity",
+        "cost of living",
+        "hawaii"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 09 Sep 2026 15:39:24 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-countries-winning-the-tech-startup-funding-race",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Countries Winning the Tech Startup Funding Race",
+      "url": "https://www.visualcapitalist.com/sp/adb02-ranked-the-countries-winning-the-tech-startup-funding-race/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Viz-1_AdobeThe-Countries-Winning-the-Tech-Start-Up-Funding-Race_publishing-prep_shareable_email_400x240.webp",
+      "asset": null,
+      "tags": [
+        "Technology",
+        "india",
+        "tech",
+        "startup",
+        "countries",
+        "ai",
+        "funding",
+        "productivity"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 09 Sep 2026 14:10:00 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:mapped-america-s-top-employment-sector-by-state-1990-vs-2025",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Mapped: America’s Top Employment Sector by State (1990 vs. 2025)",
+      "url": "https://www.visualcapitalist.com/mapped-americas-top-employment-sector-by-state-1990-2025/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/top-employer-usa-1990-vs-2025-share2.webp",
+      "asset": null,
+      "tags": [
+        "Maps",
+        "Economy",
+        "United States",
+        "Jobs",
+        "maps",
+        "healthcare",
+        "manufacturing",
+        "usa"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Wed, 09 Sep 2026 12:39:16 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:is-plant-based-meat-healthier-than-real-meat",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Is Plant-Based Meat Healthier Than Real Meat?",
+      "url": "https://www.visualcapitalist.com/cp/is-plant-based-meat-healthier-than-real-meat/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/fake-meat-bad-for-you.webp",
+      "asset": null,
+      "tags": [
+        "Green",
+        "Misc",
+        "Plant-based alternatives",
+        "food",
+        "diet",
+        "meat alternatives",
+        "plant-based meat",
+        "nutrition"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 10 Sep 2026 19:27:20 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:charted-how-global-trade-has-changed-2000-2025",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Charted: How Global Trade Has Changed (2000-2025)",
+      "url": "https://www.visualcapitalist.com/global-trade-flows-chart-2000-2025/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/Part-2-Trade-A-11-shareable.webp",
+      "asset": null,
+      "tags": [
+        "Economy",
+        "Trade",
+        "world trade",
+        "international trade",
+        "global trade",
+        "global exports",
+        "world exports",
+        "global trade 2025"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 10 Sep 2026 16:25:47 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:visualized-the-5-000-year-history-of-salt",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Visualized: The 5,000 Year History of Salt",
+      "url": "https://www.visualcapitalist.com/sp/ats01-visualized-the-5000-year-history-of-salt/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/Atlas-salt_Viz-2_publishing-prep-shareable_1200x675px.webp",
+      "asset": null,
+      "tags": [
+        "History",
+        "mining",
+        "investing",
+        "resource investing",
+        "critical minerals",
+        "Canadian Mining",
+        "ESG",
+        "GHG emissions"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 10 Sep 2026 14:40:00 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-the-countries-using-ai-tools-the-most",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: The Countries Using AI Tools the Most",
+      "url": "https://www.visualcapitalist.com/ranked-countries-using-ai-tools-the-most/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/ai-usage-by-country-2025-share-final.webp",
+      "asset": null,
+      "tags": [
+        "Technology",
+        "AI",
+        "china",
+        "technology",
+        "india",
+        "Brazil",
+        "united states",
+        "artificial intelligence"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 10 Sep 2026 13:11:14 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:ranked-real-estate-returns-across-57-countries-since-2008",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Ranked: Real Estate Returns Across 57 Countries Since 2008",
+      "url": "https://www.visualcapitalist.com/cp/ranked-real-estate-returns-across-57-countries-since-2008/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/real-estate-share.webp",
+      "asset": null,
+      "tags": [
+        "Real Estate",
+        "Economy",
+        "Inflation",
+        "Housing",
+        "Housing Market",
+        "inflation",
+        "interest rates",
+        "home prices"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 10 Sep 2026 11:22:24 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "visualcapitalist:charted-how-europe-generates-its-electricity",
+      "source": "visualcapitalist",
+      "sourceName": "Visual Capitalist",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Charted: How Europe Generates Its Electricity",
+      "url": "https://www.visualcapitalist.com/electricity-generation-across-europe/",
+      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/electricity-prod-share-1.webp",
+      "asset": null,
+      "tags": [
+        "Energy",
+        "Green",
+        "Oil and Gas",
+        "electricity",
+        "europe",
+        "solar power",
+        "fossil fuels",
+        "hydropower"
+      ],
+      "license": "영감용 메타(출처표기 필수)",
+      "seed": false,
+      "publishedAt": "Thu, 10 Sep 2026 04:21:07 +0000",
+      "collectedAt": "2026-09-11T02:19:04.783Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful — 전체 작품",
+      "url": "https://informationisbeautiful.net/data/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "award",
+        "dataviz"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": true,
+      "publishedAt": null,
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:new-an-unofficial-dictionary-of-ai-induced-mental-habits-038",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "NEW: An Unofficial Dictionary of AI-Induced Mental Habits &#038; Disorders",
+      "url": "https://informationisbeautiful.net/2026/new-an-unofficial-dictionary-of-ai-induced-mental-habits-disorders/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Tue, 28 Jul 2026 14:48:56 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:we-8217-re-hiring-editorial-producer-for-beautiful-news",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "We&#8217;re hiring! Editorial Producer for Beautiful News",
+      "url": "https://informationisbeautiful.net/2026/were-hiring-editorial-producer-for-beautiful-news/",
+      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Tue, 07 Jul 2026 13:23:32 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:new-dates-learn-to-create-impactful-infographics-data-visual",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "NEW DATES: Learn to create impactful infographics, data visuals &#038; stories",
+      "url": "https://informationisbeautiful.net/2026/learn-to-create-impactful-infographics-workshops-2026/",
+      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ec-1f1e7.png",
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Tue, 23 Jun 2026 13:50:23 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:who-8217-s-suing-whom-in-ai",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Who&#8217;s Suing Whom in AI?",
+      "url": "https://informationisbeautiful.net/2026/whos-suing-whom-in-ai/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Mon, 22 Jun 2026 15:01:14 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:billions",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "$$$Billions",
+      "url": "https://informationisbeautiful.net/2026/billions-2/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Sun, 12 Apr 2026 08:15:49 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:new-8216-create-impactful-infographics-8217-seminars-for-202",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "New &#8216;Create Impactful Infographics&#8217; seminars for 2026",
+      "url": "https://informationisbeautiful.net/2026/new-create-impactful-infographics-seminars-for-2026/",
+      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ec-1f1e7.png",
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Thu, 29 Jan 2026 15:55:40 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:most-beautiful-news-of-the-year-2025",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Most Beautiful News of The Year 2025",
+      "url": "https://informationisbeautiful.net/2026/most-beautiful-news-of-the-year-2025/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Wed, 28 Jan 2026 18:46:05 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:peak-ages-of-productivity-for-authors-painters-musicians-038",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Peak Ages of Productivity for Authors, Painters, Musicians &#038; Scientists",
+      "url": "https://informationisbeautiful.net/2025/peak-ages-of-productivity-for-authors-painters-musicians-scientists/",
+      "thumb": "https://infobeautiful4.s3.amazonaws.com/2025/07/SM-IIB-Peak-Age-Writers-SQ.png",
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Fri, 04 Jul 2025 13:41:44 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful-live-london-30th-june",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful LIVE: London 30th June",
+      "url": "https://informationisbeautiful.net/2025/information-is-beautiful-live-london-30th-june/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Thu, 19 Jun 2025 09:25:22 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
+    },
+    {
+      "id": "informationisbeautiful:information-is-beautiful-awards-winners",
+      "source": "informationisbeautiful",
+      "sourceName": "Information is Beautiful",
+      "category": "infographic",
+      "type": "infographic",
+      "title": "Information is Beautiful Awards: Winners!",
+      "url": "https://informationisbeautiful.net/2025/information-is-beautiful-awards-winners/",
+      "thumb": null,
+      "asset": null,
+      "tags": [
+        "General Blog"
+      ],
+      "license": "대부분 CC-BY-NC, 영감용 메타",
+      "seed": false,
+      "publishedAt": "Tue, 17 Jun 2025 08:56:52 +0000",
+      "collectedAt": "2026-09-11T02:19:04.584Z"
     },
     {
       "id": "visualcapitalist:ranked-countries-with-the-toughest-driving-tests",
@@ -184,106 +633,6 @@
       "collectedAt": "2026-09-10T02:22:27.064Z"
     },
     {
-      "id": "visualcapitalist:charted-global-trade-by-continent-and-country-in-2025",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Charted: Global Trade by Continent and Country in 2025",
-      "url": "https://www.visualcapitalist.com/global-trade-by-continent-and-country-2025/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/global-trade-by-continent-country.webp",
-      "asset": null,
-      "tags": [
-        "Economy",
-        "Globalization",
-        "Commodities",
-        "Countries",
-        "Trade",
-        "china",
-        "united states",
-        "trade"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Wed, 09 Sep 2026 17:32:52 +0000",
-      "collectedAt": "2026-09-10T02:22:27.064Z"
-    },
-    {
-      "id": "visualcapitalist:mapped-the-most-expensive-u-s-states-for-utilities-in-2026",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Mapped: The Most Expensive U.S. States for Utilities in 2026",
-      "url": "https://www.visualcapitalist.com/mapped-most-expensive-u-s-states-utilities-2026/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/shareable-1.webp",
-      "asset": null,
-      "tags": [
-        "Energy",
-        "Maps",
-        "energy",
-        "texas",
-        "united states",
-        "electricity",
-        "cost of living",
-        "hawaii"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Wed, 09 Sep 2026 15:39:24 +0000",
-      "collectedAt": "2026-09-10T02:22:27.064Z"
-    },
-    {
-      "id": "visualcapitalist:ranked-the-countries-winning-the-tech-startup-funding-race",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Ranked: The Countries Winning the Tech Startup Funding Race",
-      "url": "https://www.visualcapitalist.com/sp/adb02-ranked-the-countries-winning-the-tech-startup-funding-race/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/08/Viz-1_AdobeThe-Countries-Winning-the-Tech-Start-Up-Funding-Race_publishing-prep_shareable_email_400x240.webp",
-      "asset": null,
-      "tags": [
-        "Technology",
-        "india",
-        "tech",
-        "startup",
-        "countries",
-        "ai",
-        "funding",
-        "productivity"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Wed, 09 Sep 2026 14:10:00 +0000",
-      "collectedAt": "2026-09-10T02:22:27.064Z"
-    },
-    {
-      "id": "visualcapitalist:mapped-america-s-top-employment-sector-by-state-1990-vs-2025",
-      "source": "visualcapitalist",
-      "sourceName": "Visual Capitalist",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Mapped: America’s Top Employment Sector by State (1990 vs. 2025)",
-      "url": "https://www.visualcapitalist.com/mapped-americas-top-employment-sector-by-state-1990-2025/",
-      "thumb": "https://www.visualcapitalist.com/wp-content/uploads/2026/09/top-employer-usa-1990-vs-2025-share2.webp",
-      "asset": null,
-      "tags": [
-        "Maps",
-        "Economy",
-        "United States",
-        "Jobs",
-        "maps",
-        "healthcare",
-        "manufacturing",
-        "usa"
-      ],
-      "license": "영감용 메타(출처표기 필수)",
-      "seed": false,
-      "publishedAt": "Wed, 09 Sep 2026 12:39:16 +0000",
-      "collectedAt": "2026-09-10T02:22:27.064Z"
-    },
-    {
       "id": "visualcapitalist:ranked-100-global-cities-by-quality-of-life-and-cost",
       "source": "visualcapitalist",
       "sourceName": "Visual Capitalist",
@@ -307,205 +656,6 @@
       "seed": false,
       "publishedAt": "Wed, 09 Sep 2026 11:09:38 +0000",
       "collectedAt": "2026-09-10T02:22:27.064Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful — 전체 작품",
-      "url": "https://informationisbeautiful.net/data/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "award",
-        "dataviz"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": true,
-      "publishedAt": null,
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:new-an-unofficial-dictionary-of-ai-induced-mental-habits-038",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "NEW: An Unofficial Dictionary of AI-Induced Mental Habits &#038; Disorders",
-      "url": "https://informationisbeautiful.net/2026/new-an-unofficial-dictionary-of-ai-induced-mental-habits-disorders/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Tue, 28 Jul 2026 14:48:56 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:we-8217-re-hiring-editorial-producer-for-beautiful-news",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "We&#8217;re hiring! Editorial Producer for Beautiful News",
-      "url": "https://informationisbeautiful.net/2026/were-hiring-editorial-producer-for-beautiful-news/",
-      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f449.png",
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Tue, 07 Jul 2026 13:23:32 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:new-dates-learn-to-create-impactful-infographics-data-visual",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "NEW DATES: Learn to create impactful infographics, data visuals &#038; stories",
-      "url": "https://informationisbeautiful.net/2026/learn-to-create-impactful-infographics-workshops-2026/",
-      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ec-1f1e7.png",
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Tue, 23 Jun 2026 13:50:23 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:who-8217-s-suing-whom-in-ai",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Who&#8217;s Suing Whom in AI?",
-      "url": "https://informationisbeautiful.net/2026/whos-suing-whom-in-ai/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Mon, 22 Jun 2026 15:01:14 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:billions",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "$$$Billions",
-      "url": "https://informationisbeautiful.net/2026/billions-2/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Sun, 12 Apr 2026 08:15:49 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:new-8216-create-impactful-infographics-8217-seminars-for-202",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "New &#8216;Create Impactful Infographics&#8217; seminars for 2026",
-      "url": "https://informationisbeautiful.net/2026/new-create-impactful-infographics-seminars-for-2026/",
-      "thumb": "https://s.w.org/images/core/emoji/17.0.2/72x72/1f1ec-1f1e7.png",
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Thu, 29 Jan 2026 15:55:40 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:most-beautiful-news-of-the-year-2025",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Most Beautiful News of The Year 2025",
-      "url": "https://informationisbeautiful.net/2026/most-beautiful-news-of-the-year-2025/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Wed, 28 Jan 2026 18:46:05 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:peak-ages-of-productivity-for-authors-painters-musicians-038",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Peak Ages of Productivity for Authors, Painters, Musicians &#038; Scientists",
-      "url": "https://informationisbeautiful.net/2025/peak-ages-of-productivity-for-authors-painters-musicians-scientists/",
-      "thumb": "https://infobeautiful4.s3.amazonaws.com/2025/07/SM-IIB-Peak-Age-Writers-SQ.png",
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Fri, 04 Jul 2025 13:41:44 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful-live-london-30th-june",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful LIVE: London 30th June",
-      "url": "https://informationisbeautiful.net/2025/information-is-beautiful-live-london-30th-june/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Thu, 19 Jun 2025 09:25:22 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
-    },
-    {
-      "id": "informationisbeautiful:information-is-beautiful-awards-winners",
-      "source": "informationisbeautiful",
-      "sourceName": "Information is Beautiful",
-      "category": "infographic",
-      "type": "infographic",
-      "title": "Information is Beautiful Awards: Winners!",
-      "url": "https://informationisbeautiful.net/2025/information-is-beautiful-awards-winners/",
-      "thumb": null,
-      "asset": null,
-      "tags": [
-        "General Blog"
-      ],
-      "license": "대부분 CC-BY-NC, 영감용 메타",
-      "seed": false,
-      "publishedAt": "Tue, 17 Jun 2025 08:56:52 +0000",
-      "collectedAt": "2026-09-10T02:22:26.583Z"
     },
     {
       "id": "visualcapitalist:ranked-countries-with-the-most-serial-killers",
