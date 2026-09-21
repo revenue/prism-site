@@ -1,23 +1,7 @@
 {
   "category": "dataviz",
-  "count": 81,
+  "count": 82,
   "items": [
-    {
-      "id": "ourworldindata:how-much-energy-do-data-centers-and-artificial-intelligence-",
-      "source": "ourworldindata",
-      "sourceName": "Our World in Data",
-      "category": "dataviz",
-      "type": "chart",
-      "title": "How much energy do data centers and artificial intelligence use?",
-      "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
-      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/1bda728d-dc32-4ca7-32f8-dcb5be9a4b00/w=1024",
-      "asset": null,
-      "tags": [],
-      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
-      "seed": false,
-      "publishedAt": "2026-07-20T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
-    },
     {
       "id": "ourworldindata:we-published-a-new-topic-page-on-economic-inequality",
       "source": "ourworldindata",
@@ -32,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "ourworldindata:what-has-driven-deforestation-in-the-21st-century",
@@ -48,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "ourworldindata:how-primary-energy-is-measured-has-changed-across-our-charts",
@@ -64,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-07T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "ourworldindata:138-million-children-are-in-child-labor-what-does-this-actua",
@@ -80,7 +64,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-10T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "ourworldindata:which-countries-have-already-passed-peak-population-and-when",
@@ -96,7 +80,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-17T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "ourworldindata:the-rise-of-electoral-democracy",
@@ -112,7 +96,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-24T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "ourworldindata:beef-production-in-brazil-has-been-the-largest-driver-of-glo",
@@ -128,7 +112,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "ourworldindata:a-never-ending-childhood-of-malaria",
@@ -144,7 +128,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-09-07T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "ourworldindata:is-organic-farming-better-for-the-environment-than-conventio",
@@ -160,7 +144,23 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "collectedAt": "2026-09-20T02:22:29.577Z"
+      "collectedAt": "2026-09-21T02:15:12.052Z"
+    },
+    {
+      "id": "ourworldindata:how-high-is-current-immigration-to-the-united-states-in-hist",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How high is current immigration to the United States, in historical perspective?",
+      "url": "https://ourworldindata.org/how-high-is-current-immigration-to-the-united-states-in-historical-perspective",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/62f7240d-9892-4f63-792f-233662d7e800/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-09-21T00:00:00.000Z",
+      "collectedAt": "2026-09-21T02:15:12.052Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -179,7 +179,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-20T02:22:29.042Z"
+      "collectedAt": "2026-09-21T02:15:11.844Z"
     },
     {
       "id": "observable:zoomable-sunburst",
@@ -198,7 +198,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-20T02:22:29.042Z"
+      "collectedAt": "2026-09-21T02:15:11.844Z"
     },
     {
       "id": "observable:d3-gallery",
@@ -217,7 +217,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-20T02:22:29.042Z"
+      "collectedAt": "2026-09-21T02:15:11.844Z"
     },
     {
       "id": "rawgraphs:bump-chart",
@@ -236,7 +236,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-20T02:22:29.042Z"
+      "collectedAt": "2026-09-21T02:15:11.844Z"
     },
     {
       "id": "rawgraphs:alluvial-diagram",
@@ -255,7 +255,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-20T02:22:29.042Z"
+      "collectedAt": "2026-09-21T02:15:11.844Z"
     },
     {
       "id": "flourish:scatter-connected-scatter",
@@ -274,7 +274,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-20T02:22:29.042Z"
+      "collectedAt": "2026-09-21T02:15:11.844Z"
     },
     {
       "id": "flourish:survey-likert",
@@ -293,7 +293,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-20T02:22:29.042Z"
+      "collectedAt": "2026-09-21T02:15:11.844Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -313,7 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-20T02:22:29.042Z"
+      "collectedAt": "2026-09-21T02:15:11.844Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-july-14-fifa-world-cup-heat-in-europe-and-",
@@ -329,7 +329,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-14 12:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:fatal-police-interventions-8220-no-prosecution-or-fine-can-e",
@@ -345,7 +345,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-16 18:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-july-21-2026-world-cup-champions-wildfire-",
@@ -361,7 +361,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-21 18:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:what-to-consider-when-creating-dual-axis-charts",
@@ -377,7 +377,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:new-waterfall-charts-in-datawrapper",
@@ -393,7 +393,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:what-to-consider-when-creating-waterfall-charts",
@@ -409,7 +409,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:new-dual-axis-charts-in-datawrapper",
@@ -425,7 +425,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 09:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:why-i-changed-my-mind-on-dual-axis-charts",
@@ -441,7 +441,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 19:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:introducing-new-pro-38-business-plans",
@@ -457,7 +457,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-23 11:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-july-28-trump-s-crypto-empire-tariffs-and-",
@@ -473,7 +473,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-28 17:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:give-me-a-flashing-sign-how-to-make-animated-visualizations",
@@ -489,7 +489,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-07-30 22:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-august-4-fake-news-summer-and-a-total-sola",
@@ -505,7 +505,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-04 18:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:a-global-history-of-pride",
@@ -521,7 +521,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-06 22:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-august-11-solar-eclipses-chatgpt-and-ticks",
@@ -537,7 +537,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-11 18:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:what-makes-a-country-successful",
@@ -553,7 +553,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-13 22:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-august-18-data-art-low-water-levels-and",
@@ -569,7 +569,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-18 14:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:why-you-can-8217-t-afford-that-new-gadget",
@@ -585,7 +585,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-20 22:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-august-25-ai-the-premier-league-and-clouds",
@@ -601,7 +601,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-25 14:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:electric-cars-are-heavy-suvs-are-heavier",
@@ -617,7 +617,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-08-27 18:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-september-1-flash-floods-ice-arrests-and-t",
@@ -633,7 +633,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-09-01 18:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:from-berlin-to-the-world-the-history-behind-street-names",
@@ -649,7 +649,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-09-03 23:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-september-8-german-politics-hollywood-8217",
@@ -665,7 +665,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-09-08 18:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:not-a-drop-to-drink",
@@ -681,7 +681,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-09-10 19:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:data-vis-dispatch-september-15-9-11-iphone-launches-and-8220",
@@ -697,7 +697,7 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-09-15 18:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
     },
     {
       "id": "datawrapper:where-cash-is-and-isn-t-king",
@@ -713,7 +713,23 @@
       "license": "블로그 텍스트/이미지=출처표기, 차트는 직접 제작 도구",
       "seed": false,
       "publishedAt": "2026-09-17 23:00:00",
-      "collectedAt": "2026-09-20T02:22:29.041Z"
+      "collectedAt": "2026-09-21T02:15:11.843Z"
+    },
+    {
+      "id": "ourworldindata:how-much-energy-do-data-centers-and-artificial-intelligence-",
+      "source": "ourworldindata",
+      "sourceName": "Our World in Data",
+      "category": "dataviz",
+      "type": "chart",
+      "title": "How much energy do data centers and artificial intelligence use?",
+      "url": "https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use",
+      "thumb": "https://ourworldindata.org/cdn-cgi/imagedelivery/qLq-8BTgXU8yG0N6HnOy8g/1bda728d-dc32-4ca7-32f8-dcb5be9a4b00/w=1024",
+      "asset": null,
+      "tags": [],
+      "license": "CC-BY 4.0 (재사용 자유·출처표기)",
+      "seed": false,
+      "publishedAt": "2026-07-20T00:00:00.000Z",
+      "collectedAt": "2026-09-20T02:22:29.577Z"
     },
     {
       "id": "datawrapper:how-to-score-goals-statistically",
