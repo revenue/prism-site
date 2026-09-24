@@ -16,7 +16,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-07-27T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.552Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:what-has-driven-deforestation-in-the-21st-century",
@@ -32,7 +32,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-03T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.552Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:how-primary-energy-is-measured-has-changed-across-our-charts",
@@ -48,7 +48,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-07T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.552Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:138-million-children-are-in-child-labor-what-does-this-actua",
@@ -64,7 +64,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-10T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.552Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:which-countries-have-already-passed-peak-population-and-when",
@@ -80,7 +80,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-17T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.552Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:the-rise-of-electoral-democracy",
@@ -96,7 +96,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-24T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.552Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:beef-production-in-brazil-has-been-the-largest-driver-of-glo",
@@ -112,7 +112,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-08-31T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.551Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:a-never-ending-childhood-of-malaria",
@@ -128,7 +128,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-09-07T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.551Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:is-organic-farming-better-for-the-environment-than-conventio",
@@ -144,7 +144,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-09-14T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.551Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "ourworldindata:how-high-is-current-immigration-to-the-united-states-in-hist",
@@ -160,7 +160,7 @@
       "license": "CC-BY 4.0 (재사용 자유·출처표기)",
       "seed": false,
       "publishedAt": "2026-09-21T00:00:00.000Z",
-      "collectedAt": "2026-09-23T02:15:10.551Z"
+      "collectedAt": "2026-09-24T02:42:06.137Z"
     },
     {
       "id": "observable:sankey-diagram",
@@ -179,7 +179,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-23T02:15:10.286Z"
+      "collectedAt": "2026-09-24T02:42:05.208Z"
     },
     {
       "id": "observable:zoomable-sunburst",
@@ -198,7 +198,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-23T02:15:10.286Z"
+      "collectedAt": "2026-09-24T02:42:05.208Z"
     },
     {
       "id": "observable:d3-gallery",
@@ -217,7 +217,7 @@
       "license": "ISC/CC 다양, 코드 예시",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-23T02:15:10.286Z"
+      "collectedAt": "2026-09-24T02:42:05.208Z"
     },
     {
       "id": "rawgraphs:bump-chart",
@@ -236,7 +236,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-23T02:15:10.286Z"
+      "collectedAt": "2026-09-24T02:42:05.208Z"
     },
     {
       "id": "rawgraphs:alluvial-diagram",
@@ -255,7 +255,7 @@
       "license": "Apache-2.0(툴), 갤러리=메타",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-23T02:15:10.286Z"
+      "collectedAt": "2026-09-24T02:42:05.207Z"
     },
     {
       "id": "flourish:scatter-connected-scatter",
@@ -274,7 +274,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-23T02:15:10.286Z"
+      "collectedAt": "2026-09-24T02:42:05.207Z"
     },
     {
       "id": "flourish:survey-likert",
@@ -293,7 +293,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-23T02:15:10.286Z"
+      "collectedAt": "2026-09-24T02:42:05.207Z"
     },
     {
       "id": "flourish:bar-chart-race",
@@ -313,7 +313,7 @@
       "license": "예시 갤러리=영감용 메타만",
       "seed": true,
       "publishedAt": null,
-      "collectedAt": "2026-09-23T02:15:10.286Z"
+      "collectedAt": "2026-09-24T02:42:05.207Z"
     },
     {
       "id": "datawrapper:fatal-police-interventions-8220-no-prosecution-or-fine-can-e",
